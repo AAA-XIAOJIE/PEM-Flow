@@ -1,0 +1,1469 @@
+{
+  "status": "REVISED_TRAJECTORY_PLOTS_COMPLETE",
+  "created_china": "2026-10-06T13:49:56.507126+08:00",
+  "segments": 19,
+  "total_rows": 6887738,
+  "rendered_vertices": 6887738,
+  "source_release": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05",
+  "source_version": "revised",
+  "source_version_status": "VERIFIED_READY_FOR_DOWNSTREAM",
+  "visualization_origin": "CSV-based visualization of frozen revised output",
+  "coordinate_sources": [
+    {
+      "version": "automatic",
+      "segment": "G3-1",
+      "csv_sha256": "F0640EC06FB25380C821E75CA04CFBBC9C6C559A38903486066C0680BDE75FB9"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-2",
+      "csv_sha256": "26A58D13FDE7D0461444C28E2A8CC29838F0FD5BD80752EA06FBCA83FA5C1F85"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-3",
+      "csv_sha256": "9D53F63A88EE8D2207F4856B879CE16A3A5EBB24904B8F3514C11CBDD7E13BCD"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-4",
+      "csv_sha256": "0B26C031FDBDAD266D54B9E1226876958C9E89DF13DCBCAE5999A756FB007725"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-5",
+      "csv_sha256": "E7F312F26F559C67359F8ED47606D5F402005166C2E634DFAD748995703E1049"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-6",
+      "csv_sha256": "20772FE077116ED7C6640FA0E7D2B69388D1D078A08A48909E9B65E01646A7C5"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-7-1",
+      "csv_sha256": "75EC75034C082FCF008A6C21460095281D162EBF2DCF5E77E86B73A3683F79D7"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-7-2",
+      "csv_sha256": "2D6B1F1B29E0A5542E9DFF70FA171B6B811A1D3EE8CD9A6C74DD35A43E86F7D5"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-8",
+      "csv_sha256": "67573E0DAE2A52A471BC8210D96B003A2FC7B08156E12602CC7339767D07FD38"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-9",
+      "csv_sha256": "D1269D098D091BB0C0302AD17C24A8D93181734343D01F61CB6298E971B1AA5D"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-10",
+      "csv_sha256": "09B6FED8A9B5810F748D6C4623C33B99BF2E389D5EB80E74BA65E51F22D6521A"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-11",
+      "csv_sha256": "C6B867323888EA9BC486CDF2D27F08FBD8A553589B4DE7467B6E488E3DB73A1B"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-12",
+      "csv_sha256": "BCCBF4FF1E6345D26F23AD52B18ABEE53BB0CB1199D46C79FCB7B14365B53E97"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-13",
+      "csv_sha256": "359CE4E911ADAB0EDE30D42D6CAE8DE72E00EF0FCDEB3F531D8D59A0BC90BB25"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-14",
+      "csv_sha256": "1C90B900DBFE6F49A3F39306C48CC422BA632CDE5B838EA833D854BF581A8AB9"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-15",
+      "csv_sha256": "AB80DD9A745C3F4829FE10BE0AE21524155E969F9510E16D11A639DA2E9D441F"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-16",
+      "csv_sha256": "0155AC8AB06E1F19891EA5CF6E80D7F60F316690F46D00212DD08209DD62E9EB"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-17",
+      "csv_sha256": "B38892379487E96A5E7A84086492D81A9474E756F27347C87D48BBF172BA033C"
+    },
+    {
+      "version": "automatic",
+      "segment": "G3-18",
+      "csv_sha256": "6F058E1FB7A0681DFFEBEEB374776AC5B00404D99DEDE68930995BBA153D6F98"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-1",
+      "csv_sha256": "19983DB2E59B5BA6DD32CF7716BF1782F6F0FF4087DA6ACE3D909C68EFB9486C"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-2",
+      "csv_sha256": "BC6F1D891BD75B8CF96F7C10811B2E5AABCD6979D31DD8F9A11DFA53BD25981E"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-3",
+      "csv_sha256": "A4EF6B74925383E592FDED431D65A9F0D0D859DC6E721402D776D94A37F6BFEA"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-4",
+      "csv_sha256": "77E25BFDAED4210509FDE4C556B11AE7D7AA2373E58BA627FB75FDC16BD92E99"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-5",
+      "csv_sha256": "82ABB3E5D0ACEC2AB98E1F46D186FACCAEC5F5ADAAD6AAFA4B7C7CAD76EE09ED"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-6",
+      "csv_sha256": "2378D86D820C3981B05C84C60E7F83227357A949B0B985F41A881CA0ECF79C96"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-7-1",
+      "csv_sha256": "CAB9D03F7CC4AF796A536AC4E734BCA22CF1556D231E98ACFE9BB709D0D16D23"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-7-2",
+      "csv_sha256": "4BC22056997253B27068BBF2B2690E479190E8FB6E46A889D114B1D6EE9F48F4"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-8",
+      "csv_sha256": "928682035A379FEC14E3C10751C82CCFB5BFD465258E39C1D904008C332171B8"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-9",
+      "csv_sha256": "BCA4C80BBCCA4D8A37A40F0275C45374D15609B3EED52CDD116914DC8FC165E5"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-10",
+      "csv_sha256": "B9C17880EB4CFEFC253D86E562E37565E8E893403FF2E0223018FFADBDDDDE39"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-11",
+      "csv_sha256": "F23CFD407A8D0D02D1E3ECB2FF60902F013D808BA1AFAA200EC921529AA17B27"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-12",
+      "csv_sha256": "68709BBC9EE5BCC4CAC04F2EDB7B6CA6DCCE699E4923888AD4275E881C42B719"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-13",
+      "csv_sha256": "2F1DA9E84CFEF107F7E55894D382588B4BCC93363144577C7CFE13FF44874494"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-14",
+      "csv_sha256": "0877A5F11D1CDB75B192CACD059FF24946B418C75E1D9C87CD2B19179DA560AF"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-15",
+      "csv_sha256": "5874AB2B4A2DD65CAB736A3DF0244704366990CBF495B049EC4538BF7D7EC01D"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-16",
+      "csv_sha256": "AE495727F9FE9B75E8A61F522FDBB67CE05F12747239A45F9FB6614606DD5AD0"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-17",
+      "csv_sha256": "076666D0763E0FE24278F241671845E31C15B01549FF084C77F89EFBD4FF8625"
+    },
+    {
+      "version": "revised",
+      "segment": "G3-18",
+      "csv_sha256": "CD479713D1699C37C55F22283381FD5938953D6E9D2EC855F2DA607570F06F20"
+    }
+  ],
+  "shared_plot_limits_m": [
+    [
+      -34.6889738947215,
+      17.2899814884215
+    ],
+    [
+      -8.020031099352,
+      9.347810376152
+    ]
+  ],
+  "shared_plot_ticks_m": [
+    [
+      -32.0,
+      -24.0,
+      -16.0,
+      -8.0,
+      0.0,
+      8.0,
+      16.0
+    ],
+    [
+      -7.5,
+      -5.0,
+      -2.5,
+      0.0,
+      2.5,
+      5.0,
+      7.5
+    ]
+  ],
+  "source_version_manifest_sha256": "EA91D5DA7CCC643291B61BC1F5540973C9337215A702649049595BB40046C9F1",
+  "script_sha256": "F27DEE9DF097DEAD48C15531516C9F69411A78F347790956B5984393702CE666",
+  "gap_rule": "Connect only adjacent frames of the same ID and class within one source segment",
+  "coordinates": "Saved real_x/real_y in metres at the original world-coordinate origin; equal aspect, identical limits and ticks across all segments, and full finite-position extent",
+  "category_colours": {
+    "0": "#0072B2",
+    "9": "#E69F00",
+    "3": "#D55E00"
+  },
+  "category_names": {
+    "0": "Pedestrian",
+    "9": "E-bike",
+    "3": "Motor vehicle"
+  },
+  "roi_reference_sha256": "D9E1918C183C4528061787310A73C07C2DE0A752AD0DA0651F1E8F24A3FFA8C7",
+  "csv_modified": false,
+  "sampled_points": false,
+  "added_points": 0,
+  "outputs": [
+    {
+      "segment": "G3-1",
+      "label": "G1",
+      "image": "G1_trajectories.png",
+      "preview": "G1_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-1.csv",
+      "source_sha256": "19983DB2E59B5BA6DD32CF7716BF1782F6F0FF4087DA6ACE3D909C68EFB9486C",
+      "statistics": {
+        "rows": 109896,
+        "finite_positions": 109896,
+        "nonfinite_positions": 0,
+        "ids": 28,
+        "adjacent_pairs": 109868,
+        "one_point_runs": 0,
+        "class_rows": {
+          "0": 105840,
+          "3": 4056
+        },
+        "extent_m": [
+          -32.2150515489,
+          9.8383169791,
+          -3.0994222348,
+          3.1687843938
+        ],
+        "rendered_vertices": 109896
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-2",
+      "label": "G2",
+      "image": "G2_trajectories.png",
+      "preview": "G2_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-2.csv",
+      "source_sha256": "BC6F1D891BD75B8CF96F7C10811B2E5AABCD6979D31DD8F9A11DFA53BD25981E",
+      "statistics": {
+        "rows": 110771,
+        "finite_positions": 110771,
+        "nonfinite_positions": 0,
+        "ids": 28,
+        "adjacent_pairs": 110743,
+        "one_point_runs": 0,
+        "class_rows": {
+          "0": 105864,
+          "3": 4907
+        },
+        "extent_m": [
+          -31.9890661867,
+          10.0967103343,
+          -2.9197524502,
+          3.2010424141
+        ],
+        "rendered_vertices": 110771
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-3",
+      "label": "G3",
+      "image": "G3_trajectories.png",
+      "preview": "G3_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-3.csv",
+      "source_sha256": "A4EF6B74925383E592FDED431D65A9F0D0D859DC6E721402D776D94A37F6BFEA",
+      "statistics": {
+        "rows": 222370,
+        "finite_positions": 222370,
+        "nonfinite_positions": 0,
+        "ids": 26,
+        "adjacent_pairs": 222344,
+        "one_point_runs": 0,
+        "class_rows": {
+          "9": 210584,
+          "3": 11786
+        },
+        "extent_m": [
+          -31.6881368584,
+          14.7146376325,
+          -3.2092213587,
+          3.5097449209
+        ],
+        "rendered_vertices": 222370
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-4",
+      "label": "G4",
+      "image": "G4_trajectories.png",
+      "preview": "G4_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-4.csv",
+      "source_sha256": "77E25BFDAED4210509FDE4C556B11AE7D7AA2373E58BA627FB75FDC16BD92E99",
+      "statistics": {
+        "rows": 119783,
+        "finite_positions": 119783,
+        "nonfinite_positions": 0,
+        "ids": 29,
+        "adjacent_pairs": 119752,
+        "one_point_runs": 1,
+        "class_rows": {
+          "9": 116094,
+          "3": 3672,
+          "0": 17
+        },
+        "extent_m": [
+          -31.7223113238,
+          14.1382749581,
+          -3.2706531145,
+          3.4333307097
+        ],
+        "rendered_vertices": 119783
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-5",
+      "label": "G5",
+      "image": "G5_trajectories.png",
+      "preview": "G5_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-5.csv",
+      "source_sha256": "82ABB3E5D0ACEC2AB98E1F46D186FACCAEC5F5ADAAD6AAFA4B7C7CAD76EE09ED",
+      "statistics": {
+        "rows": 102830,
+        "finite_positions": 102830,
+        "nonfinite_positions": 0,
+        "ids": 30,
+        "adjacent_pairs": 102799,
+        "one_point_runs": 1,
+        "class_rows": {
+          "0": 53818,
+          "9": 45540,
+          "3": 3472
+        },
+        "extent_m": [
+          -31.9135498092,
+          11.1186727834,
+          -3.2177360083,
+          3.4244829686
+        ],
+        "rendered_vertices": 102830
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-6",
+      "label": "G6",
+      "image": "G6_trajectories.png",
+      "preview": "G6_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-6.csv",
+      "source_sha256": "2378D86D820C3981B05C84C60E7F83227357A949B0B985F41A881CA0ECF79C96",
+      "statistics": {
+        "rows": 141191,
+        "finite_positions": 141191,
+        "nonfinite_positions": 0,
+        "ids": 28,
+        "adjacent_pairs": 141156,
+        "one_point_runs": 0,
+        "class_rows": {
+          "0": 72532,
+          "9": 61391,
+          "3": 7268
+        },
+        "extent_m": [
+          -31.8457210548,
+          10.6055664272,
+          -3.4069561025,
+          3.4252633899
+        ],
+        "rendered_vertices": 141191
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-7-1",
+      "label": "G7-1",
+      "image": "G7_1_trajectories.png",
+      "preview": "G7_1_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-7.csv",
+      "source_sha256": "CAB9D03F7CC4AF796A536AC4E734BCA22CF1556D231E98ACFE9BB709D0D16D23",
+      "statistics": {
+        "rows": 408736,
+        "finite_positions": 408736,
+        "nonfinite_positions": 0,
+        "ids": 53,
+        "adjacent_pairs": 408662,
+        "one_point_runs": 1,
+        "class_rows": {
+          "0": 208732,
+          "9": 192079,
+          "3": 7925
+        },
+        "extent_m": [
+          -30.8768268858,
+          11.7014171842,
+          -3.2897888369,
+          6.0103905921
+        ],
+        "rendered_vertices": 408736
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-7-2",
+      "label": "G7-2",
+      "image": "G7_2_trajectories.png",
+      "preview": "G7_2_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-7_hmi.csv",
+      "source_sha256": "4BC22056997253B27068BBF2B2690E479190E8FB6E46A889D114B1D6EE9F48F4",
+      "statistics": {
+        "rows": 175020,
+        "finite_positions": 175020,
+        "nonfinite_positions": 0,
+        "ids": 52,
+        "adjacent_pairs": 174960,
+        "one_point_runs": 1,
+        "class_rows": {
+          "0": 89084,
+          "9": 82105,
+          "3": 3831
+        },
+        "extent_m": [
+          -31.3655419894,
+          12.7468881816,
+          -3.3556612257,
+          6.0317738308
+        ],
+        "rendered_vertices": 175020
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-8",
+      "label": "G8",
+      "image": "G8_trajectories.png",
+      "preview": "G8_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-8.csv",
+      "source_sha256": "928682035A379FEC14E3C10751C82CCFB5BFD465258E39C1D904008C332171B8",
+      "statistics": {
+        "rows": 244243,
+        "finite_positions": 244243,
+        "nonfinite_positions": 0,
+        "ids": 53,
+        "adjacent_pairs": 244186,
+        "one_point_runs": 2,
+        "class_rows": {
+          "0": 125236,
+          "9": 115230,
+          "3": 3777
+        },
+        "extent_m": [
+          -30.6813012975,
+          11.8952777831,
+          -3.2694449032,
+          6.0013352962
+        ],
+        "rendered_vertices": 244243
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-9",
+      "label": "G9",
+      "image": "G9_trajectories.png",
+      "preview": "G9_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-9.csv",
+      "source_sha256": "BCA4C80BBCCA4D8A37A40F0275C45374D15609B3EED52CDD116914DC8FC165E5",
+      "statistics": {
+        "rows": 218052,
+        "finite_positions": 218052,
+        "nonfinite_positions": 0,
+        "ids": 57,
+        "adjacent_pairs": 217987,
+        "one_point_runs": 3,
+        "class_rows": {
+          "0": 214006,
+          "3": 4046
+        },
+        "extent_m": [
+          -31.6378239778,
+          13.6212689776,
+          -3.1822976013,
+          6.6200611126
+        ],
+        "rendered_vertices": 218052
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-10",
+      "label": "G10",
+      "image": "G10_trajectories.png",
+      "preview": "G10_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-10.csv",
+      "source_sha256": "B9C17880EB4CFEFC253D86E562E37565E8E893403FF2E0223018FFADBDDDDE39",
+      "statistics": {
+        "rows": 233760,
+        "finite_positions": 233760,
+        "nonfinite_positions": 0,
+        "ids": 54,
+        "adjacent_pairs": 233693,
+        "one_point_runs": 2,
+        "class_rows": {
+          "0": 227845,
+          "3": 5915
+        },
+        "extent_m": [
+          -31.5067196383,
+          13.5762591096,
+          -3.1812250573,
+          3.3694747615
+        ],
+        "rendered_vertices": 233760
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-11",
+      "label": "G11",
+      "image": "G11_trajectories.png",
+      "preview": "G11_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-11.csv",
+      "source_sha256": "F23CFD407A8D0D02D1E3ECB2FF60902F013D808BA1AFAA200EC921529AA17B27",
+      "statistics": {
+        "rows": 505692,
+        "finite_positions": 505692,
+        "nonfinite_positions": 0,
+        "ids": 55,
+        "adjacent_pairs": 505637,
+        "one_point_runs": 0,
+        "class_rows": {
+          "9": 493815,
+          "3": 11877
+        },
+        "extent_m": [
+          -32.2208006102,
+          10.0226128959,
+          -3.5080740304,
+          6.0369247339
+        ],
+        "rendered_vertices": 505692
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-12",
+      "label": "G12",
+      "image": "G12_trajectories.png",
+      "preview": "G12_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-12.csv",
+      "source_sha256": "68709BBC9EE5BCC4CAC04F2EDB7B6CA6DCCE699E4923888AD4275E881C42B719",
+      "statistics": {
+        "rows": 231937,
+        "finite_positions": 231937,
+        "nonfinite_positions": 0,
+        "ids": 50,
+        "adjacent_pairs": 231887,
+        "one_point_runs": 3,
+        "class_rows": {
+          "9": 227691,
+          "3": 4246
+        },
+        "extent_m": [
+          -30.5937142442,
+          11.2126829607,
+          -3.3223549057,
+          5.9693381666
+        ],
+        "rendered_vertices": 231937
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-13",
+      "label": "G13",
+      "image": "G13_trajectories.png",
+      "preview": "G13_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-13.csv",
+      "source_sha256": "2F1DA9E84CFEF107F7E55894D382588B4BCC93363144577C7CFE13FF44874494",
+      "statistics": {
+        "rows": 490492,
+        "finite_positions": 490492,
+        "nonfinite_positions": 0,
+        "ids": 76,
+        "adjacent_pairs": 490416,
+        "one_point_runs": 1,
+        "class_rows": {
+          "9": 484362,
+          "3": 6130
+        },
+        "extent_m": [
+          -32.3993127608,
+          15.0687724687,
+          -3.3744032499,
+          6.2156243821
+        ],
+        "rendered_vertices": 490492
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-14",
+      "label": "G14",
+      "image": "G14_trajectories.png",
+      "preview": "G14_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-14.csv",
+      "source_sha256": "0877A5F11D1CDB75B192CACD059FF24946B418C75E1D9C87CD2B19179DA560AF",
+      "statistics": {
+        "rows": 1165496,
+        "finite_positions": 1165496,
+        "nonfinite_positions": 0,
+        "ids": 97,
+        "adjacent_pairs": 1165396,
+        "one_point_runs": 3,
+        "class_rows": {
+          "9": 1145532,
+          "3": 19952,
+          "0": 12
+        },
+        "extent_m": [
+          -32.9887276906,
+          15.5897352843,
+          -3.4436704475,
+          6.752687022
+        ],
+        "rendered_vertices": 1165496
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-15",
+      "label": "G15",
+      "image": "G15_trajectories.png",
+      "preview": "G15_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-15.csv",
+      "source_sha256": "5874AB2B4A2DD65CAB736A3DF0244704366990CBF495B049EC4538BF7D7EC01D",
+      "statistics": {
+        "rows": 1065373,
+        "finite_positions": 1065373,
+        "nonfinite_positions": 0,
+        "ids": 88,
+        "adjacent_pairs": 1065265,
+        "one_point_runs": 1,
+        "class_rows": {
+          "9": 554771,
+          "0": 494086,
+          "3": 16516
+        },
+        "extent_m": [
+          -31.9643723258,
+          12.3007558341,
+          -3.8049027664,
+          6.2527811647
+        ],
+        "rendered_vertices": 1065373
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-16",
+      "label": "G16",
+      "image": "G16_trajectories.png",
+      "preview": "G16_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-16.csv",
+      "source_sha256": "AE495727F9FE9B75E8A61F522FDBB67CE05F12747239A45F9FB6614606DD5AD0",
+      "statistics": {
+        "rows": 521892,
+        "finite_positions": 521892,
+        "nonfinite_positions": 0,
+        "ids": 84,
+        "adjacent_pairs": 521763,
+        "one_point_runs": 8,
+        "class_rows": {
+          "9": 275876,
+          "0": 239675,
+          "3": 6341
+        },
+        "extent_m": [
+          -32.1300953956,
+          12.3318678226,
+          -4.7183936715,
+          6.0871399366
+        ],
+        "rendered_vertices": 521892
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-17",
+      "label": "G17",
+      "image": "G17_trajectories.png",
+      "preview": "G17_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-17.csv",
+      "source_sha256": "076666D0763E0FE24278F241671845E31C15B01549FF084C77F89EFBD4FF8625",
+      "statistics": {
+        "rows": 396484,
+        "finite_positions": 396484,
+        "nonfinite_positions": 0,
+        "ids": 76,
+        "adjacent_pairs": 396395,
+        "one_point_runs": 3,
+        "class_rows": {
+          "0": 390280,
+          "3": 6204
+        },
+        "extent_m": [
+          -31.334360452,
+          11.5685541909,
+          -3.7223467212,
+          3.5375214729
+        ],
+        "rendered_vertices": 396484
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    },
+    {
+      "segment": "G3-18",
+      "label": "G18",
+      "image": "G18_trajectories.png",
+      "preview": "G18_preview.jpg",
+      "source_csv": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_release\\PEMFlow_csv_20261006_user05\\revised\\trajectory\\G3-18.csv",
+      "source_sha256": "CD479713D1699C37C55F22283381FD5938953D6E9D2EC855F2DA607570F06F20",
+      "statistics": {
+        "rows": 423720,
+        "finite_positions": 423720,
+        "nonfinite_positions": 0,
+        "ids": 80,
+        "adjacent_pairs": 423636,
+        "one_point_runs": 1,
+        "class_rows": {
+          "0": 417052,
+          "3": 6668
+        },
+        "extent_m": [
+          -31.0328305584,
+          11.7871068539,
+          -3.1945066701,
+          4.5996444555
+        ],
+        "rendered_vertices": 423720
+      },
+      "plot_limits_m": [
+        [
+          -34.6889738947215,
+          17.2899814884215
+        ],
+        [
+          -8.020031099352,
+          9.347810376152
+        ]
+      ],
+      "plot_ticks_m": [
+        [
+          -32.0,
+          -24.0,
+          -16.0,
+          -8.0,
+          0.0,
+          8.0,
+          16.0
+        ],
+        [
+          -7.5,
+          -5.0,
+          -2.5,
+          0.0,
+          2.5,
+          5.0,
+          7.5
+        ]
+      ],
+      "image_pixels": [
+        3664,
+        1633
+      ]
+    }
+  ],
+  "overview": "trajectory_overview_19.png",
+  "page": "index.html",
+  "products_sha256": {
+    "G10_preview.jpg": "7FE06A4095ACAAB7EA628CAFAAF61337B78327A9BDB36F428821EEC24135706A",
+    "G10_trajectories.png": "D978EFD850B4F86C918426E3D12DAF94C5D26BA74CE0F5DE111ABA7F11A6A335",
+    "G11_preview.jpg": "00E8B9F63C357EC438C4B8C5D9CF7DBCE53EA5A621C6B330C26E840F8C49F542",
+    "G11_trajectories.png": "7E3159AF3499DC5F4E0244764E5167F3E570FA11BE1BE791C589D8FB6EDDBA71",
+    "G12_preview.jpg": "44155D5ED4B056BBD1EA90F57BC8A8E3A136D77B789D8E124D80DD217139FBFA",
+    "G12_trajectories.png": "1E3434E25EBD136D14F7A297F1DDB2B39A6980F3D9458924DD0AAC6551805EF6",
+    "G13_preview.jpg": "D8A644973C263816E85E3C1CFB725B2FC9CD0614E0D419D98E0BFF39A73CAA59",
+    "G13_trajectories.png": "44FEBC138735EC0635FD0666327DF6FEF3BCECD5C324F6BCBB9EDA6F534ABE94",
+    "G14_preview.jpg": "FDD506412653786D66DDE312F20163446B525DA60BA7C432425B713793631327",
+    "G14_trajectories.png": "B2B7B2D7AC0403B6B7697B13B93BEBC35B50D4BE146E67BB0779BA0905DBD79A",
+    "G15_preview.jpg": "EC1266BF7568DE0E7C61DEBBFEFDE1B1B98EEEE116B56C61BE1801A265DB80F4",
+    "G15_trajectories.png": "9BF97F951DE411F13601A2CCE3FDF53DCA30793CC590E40D36FEC2A40CBE0544",
+    "G16_preview.jpg": "19572B837A6427964E35F8BBC757775F04FB1A8B5A86E3C370AAF3DC1E1D214E",
+    "G16_trajectories.png": "2D654CDA0A0059D5EE17009468E77FD6503FC7AC9D887010082DB6B116F508E6",
+    "G17_preview.jpg": "98E69E37864E9FD3F62516FCB6D0CFA0AA1D95CF5A8A20D4370E8860F1B78426",
+    "G17_trajectories.png": "83FEB41DFAD8896F2D0BC6D015683217D2F90A300940EF7E77119908DFF49002",
+    "G18_preview.jpg": "F8ED7060CB0AA91F9112DBBA87745A8DD00F94CB81DEB479B50ACA48D8A268E0",
+    "G18_trajectories.png": "E2E6179F5E2A8279434D2A74501DE0083F4AE0E17336C45F98CF8F187E36774C",
+    "G1_preview.jpg": "FD4895C3FD3EA164F7B637F4B9AEDD8C732837D95E1BAF606B3FF84EE17A9A9D",
+    "G1_trajectories.png": "70338AB3DA9201C265ED988E1062AD8C0FDDD029C0DED79FFFCB79223E355C28",
+    "G2_preview.jpg": "E682FB07929479659E45F35518DB5E8FC5FDC277A7CEDCD57C4331F45330DBED",
+    "G2_trajectories.png": "2EDD28B5006E26C63099A25DB43D090F9F10F12CCD9B0E277D6370C01EDA125B",
+    "G3_preview.jpg": "F740FBF9BBEC2178AF9437A7B06E19083E4007CD28AF0F772CC865DDB3272A41",
+    "G3_trajectories.png": "E901255C5085DFB0FCE33A5F2F5A92D1B6AF2F86EF4D852F669FEDECECD95A9C",
+    "G4_preview.jpg": "2681890AE598ED0E1FECD24C8AE0A51BAE41869898E73811803FD82F5DA32B87",
+    "G4_trajectories.png": "98C78533D64C169290C9CD5A7450F2CA7AD8B3D5A9660600C0DB91FE7A63EEF2",
+    "G5_preview.jpg": "3D75644518516AE13BA68A7DC9371E7BC3F6234CE923D5EF1F2E2D3223CE1773",
+    "G5_trajectories.png": "A7FCDAAEE324DEEA8DB92C83B533D6B7B03F874B0B80A74FEDC98B6E756FCF3E",
+    "G6_preview.jpg": "A27AB0523FB37743A2B308FE9ED7D38FDC05FF890169F9610D9F315ECB0407D7",
+    "G6_trajectories.png": "1310DD7909E335077E291E050ACD62D4C0D180DBDCDF48EF51484FA222EF86DB",
+    "G7_1_preview.jpg": "4EFF822D812632341B48C2A81464AA3565343496FEF6B9C32E6D16FADA399269",
+    "G7_1_trajectories.png": "EAFE69046171159118EE14C8699FAC3FC38D1502401A8CD38102CABCB1F99C18",
+    "G7_2_preview.jpg": "B16E91E2C474706EA8026246EC87BD3E9A89F3E7CF10C19AFF741C6AC996B8E1",
+    "G7_2_trajectories.png": "C1F17B01D579456BDF0773C34E86BAA8D0C41A2ABEEAE99644557922D8DEA985",
+    "G8_preview.jpg": "FA58CD6C5778ED28DDCDFA1FABAE81CF2464C6E98DCA2BCA6C5000CC7E4CACCD",
+    "G8_trajectories.png": "34711669249518DE962A45564AB7ACBD276D18328AA486B02E19C74E7870999B",
+    "G9_preview.jpg": "79A22642E938B5B3C6B189CAAD2E04204BF7713305D48E81107112F64F7FB359",
+    "G9_trajectories.png": "7D7A87D7361A4A8A6548158DBD89F990AA7C4F3E4924F2490B640D1241302D5D",
+    "index.html": "5BA96E8BAB997434FCBBBDDC2FAF39051BEAC14D917F70A96159107F5644CB4A",
+    "trajectory_overview_19.png": "40CBF69F24DB45A84A5C37501B32B9542CF6BDEBB5FD1621332B3EEA2D481AD2",
+    "trajectory_overview_19_preview.jpg": "CF84BA63074C1D9BC2B8F05A3D42035DC3D76CE796368501C40738C01323EFD9"
+  },
+  "source_plot_manifest_sha256": "07B9B08B81C628A3C1B3906279636671853DE3E046A7B8663838DE67300D850F",
+  "source_plot_directory": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\revised_trajectory_visualization_20261006_user05",
+  "gallery_csv_links": "Relative to ../trajectory for a movable CSV delivery package"
+}

@@ -1,0 +1,6 @@
+{
+  "model": "train12",
+  "filename": "best.pt",
+  "sha256": "E8766BC961929FD9FB27885C6A1B8B1F5FAC632EE24F6F76D18AE0F6F9B140CA",
+  "source_run": "video_chain_20261004_repro19"
+}

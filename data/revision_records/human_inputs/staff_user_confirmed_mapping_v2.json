@@ -1,0 +1,5069 @@
+{
+  "schema_version": 2,
+  "created_date": "2026-10-06",
+  "status": "MAPPING_VERIFIED_PENDING_BATCH_EXECUTION",
+  "decision_source": "Explicit user judgments recorded in the referenced original and remaining-user decision JSON; no staff-role inference by code.",
+  "operation_executed": false,
+  "edits_made": [],
+  "scope": "Only a pending staff-removal mapping; original automatic CSV retained. G1 external-person role mark and G6 human-box/identity corrections are separate pending actions and do not alter these counts.",
+  "run": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19",
+  "snapshot_manifest": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\staff_video_snapshots\\manifest.json",
+  "snapshot_manifest_sha256": "8e9028065bd1188850f9c43a3f41d8421981faa1016eb67a0f52e0dfc02c9a87",
+  "user_confirmed_final_ids": {
+    "G3-1": [
+      20,
+      27
+    ],
+    "G3-2": [
+      21,
+      22,
+      27
+    ],
+    "G3-3": [
+      23,
+      26
+    ],
+    "G3-4": [
+      23,
+      24
+    ],
+    "G3-5": [
+      22,
+      24
+    ],
+    "G3-6": [
+      22
+    ],
+    "G3-7-1": [
+      48,
+      55
+    ],
+    "G3-7-2": [
+      40,
+      53,
+      54,
+      56
+    ],
+    "G3-8": [
+      43,
+      50
+    ],
+    "G3-9": [
+      48,
+      41
+    ],
+    "G3-10": [
+      30,
+      54
+    ],
+    "G3-11": [
+      43
+    ],
+    "G3-12": [
+      44,
+      49
+    ],
+    "G3-13": [
+      73,
+      68
+    ],
+    "G3-14": [
+      73,
+      80
+    ],
+    "G3-15": [
+      81,
+      74
+    ],
+    "G3-16": [
+      73,
+      71
+    ],
+    "G3-17": [
+      54
+    ],
+    "G3-18": [
+      63,
+      64
+    ]
+  },
+  "frame_convention": "One-based local segment frame; G3-7-1 and G3-7-2 are separate ID/frame namespaces.",
+  "segments": [
+    {
+      "segment": "G3-1",
+      "snapshot_frame": 2205,
+      "user_final_ids": [
+        20,
+        27
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-1\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "f0640ec06fb25380c821e75ca04cfbbc9c6c559a38903486066c0680bde75fb9",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-1\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "9d0b6cd14b701db65c0ade50ce05d76afec273674bd1e0f6c7e37e129ffb93b2",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-1.mp4",
+        "sha256": "101A226D785D02B55EF2CC5C940EAE8A84F99B9F525CD321E767CF195F67A43E",
+        "frames": 4410.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 123874,
+      "input_total_final_ids": 38,
+      "expected_removed_rows": 8820,
+      "expected_remaining_rows": 115054,
+      "tracks": [
+        {
+          "user_final_id": 20,
+          "snapshot": {
+            "frame": 2205,
+            "display_label": "20",
+            "source_track_id": 20,
+            "final_ids": [
+              20
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            20
+          ],
+          "raw_inference_source_track_ids": [
+            20
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 4410,
+            "expected_rows": 4410,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 4410
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 4410,
+                "rows": 4410
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 20,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 20,
+                  "start_frame": 1,
+                  "end_frame": 4410,
+                  "rows": 4410,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 4410,
+                      "rows": 4410
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 4410,
+                "rows": 4410,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 4410,
+                    "rows": 4410
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 20,
+              "start_frame": 1,
+              "end_frame": 4410,
+              "rows": 4410
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 4410
+          },
+          "recovery_actions": {
+            "none": 4410
+          },
+          "future_selector": {
+            "segment": "G3-1",
+            "id": 20,
+            "start_frame": 1,
+            "end_frame": 4410,
+            "expected_rows": 4410
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 27,
+          "snapshot": {
+            "frame": 2205,
+            "display_label": "27",
+            "source_track_id": 27,
+            "final_ids": [
+              27
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            27
+          ],
+          "raw_inference_source_track_ids": [
+            27
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 4410,
+            "expected_rows": 4410,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 4410
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 4410,
+                "rows": 4410
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 27,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 27,
+                  "start_frame": 1,
+                  "end_frame": 4410,
+                  "rows": 4410,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 4410,
+                      "rows": 4410
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 4410,
+                "rows": 4410,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 4410,
+                    "rows": 4410
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 27,
+              "start_frame": 1,
+              "end_frame": 4410,
+              "rows": 4410
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 4410
+          },
+          "recovery_actions": {
+            "none": 4410
+          },
+          "future_selector": {
+            "segment": "G3-1",
+            "id": 27,
+            "start_frame": 1,
+            "end_frame": 4410,
+            "expected_rows": 4410
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-2",
+      "snapshot_frame": 2206,
+      "user_final_ids": [
+        21,
+        22,
+        27
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-2\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "26a58d13fde7d0461444c28e2a8cc29838f0fd5bd80752ea06fbca83fa5c1f85",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-2\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "99e42d5bbb1f2292e1b7d1a35c6c8f208dd0d8511e1a2343e5b7262aef46faaa",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-2.mp4",
+        "sha256": "6E261B3B8796E624659B4F5209685E57D914E4E3F29C1493E9852BD22FBA785E",
+        "frames": 4411.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 125112,
+      "input_total_final_ids": 32,
+      "expected_removed_rows": 12994,
+      "expected_remaining_rows": 112118,
+      "tracks": [
+        {
+          "user_final_id": 21,
+          "snapshot": {
+            "frame": 2206,
+            "display_label": "21",
+            "source_track_id": 21,
+            "final_ids": [
+              21
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            21
+          ],
+          "raw_inference_source_track_ids": [
+            21
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 4411,
+            "expected_rows": 4411,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 4411
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 4411,
+                "rows": 4411
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 21,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 21,
+                  "start_frame": 1,
+                  "end_frame": 4411,
+                  "rows": 4411,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 4411,
+                      "rows": 4411
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 4411,
+                "rows": 4411,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 4411,
+                    "rows": 4411
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 21,
+              "start_frame": 1,
+              "end_frame": 4411,
+              "rows": 4411
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 4411
+          },
+          "recovery_actions": {
+            "none": 4411
+          },
+          "future_selector": {
+            "segment": "G3-2",
+            "id": 21,
+            "start_frame": 1,
+            "end_frame": 4411,
+            "expected_rows": 4411
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 22,
+          "snapshot": {
+            "frame": 2206,
+            "display_label": "22",
+            "source_track_id": 22,
+            "final_ids": [
+              22
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            22
+          ],
+          "raw_inference_source_track_ids": [
+            22
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 4411,
+            "expected_rows": 4411,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 4411
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 4411,
+                "rows": 4411
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 22,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 22,
+                  "start_frame": 1,
+                  "end_frame": 4411,
+                  "rows": 4411,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 4411,
+                      "rows": 4411
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 4411,
+                "rows": 4411,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 4411,
+                    "rows": 4411
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 22,
+              "start_frame": 1,
+              "end_frame": 4411,
+              "rows": 4411
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 4411
+          },
+          "recovery_actions": {
+            "none": 4411
+          },
+          "future_selector": {
+            "segment": "G3-2",
+            "id": 22,
+            "start_frame": 1,
+            "end_frame": 4411,
+            "expected_rows": 4411
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 27,
+          "snapshot": {
+            "frame": 2206,
+            "display_label": "27",
+            "source_track_id": 27,
+            "final_ids": [
+              27
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            27
+          ],
+          "raw_inference_source_track_ids": [
+            27
+          ],
+          "whole_track": {
+            "start_frame": 11,
+            "end_frame": 4411,
+            "expected_rows": 4172,
+            "missing_frames_inside_range": 229,
+            "classes": {
+              "0": 4172
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 11,
+                "end_frame": 919,
+                "rows": 909
+              },
+              {
+                "start_frame": 960,
+                "end_frame": 1170,
+                "rows": 211
+              },
+              {
+                "start_frame": 1178,
+                "end_frame": 1377,
+                "rows": 200
+              },
+              {
+                "start_frame": 1403,
+                "end_frame": 1455,
+                "rows": 53
+              },
+              {
+                "start_frame": 1466,
+                "end_frame": 1492,
+                "rows": 27
+              },
+              {
+                "start_frame": 1556,
+                "end_frame": 1569,
+                "rows": 14
+              },
+              {
+                "start_frame": 1576,
+                "end_frame": 1605,
+                "rows": 30
+              },
+              {
+                "start_frame": 1633,
+                "end_frame": 1638,
+                "rows": 6
+              },
+              {
+                "start_frame": 1690,
+                "end_frame": 4411,
+                "rows": 2722
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 27,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 27,
+                  "start_frame": 11,
+                  "end_frame": 4411,
+                  "rows": 4172,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 11,
+                      "end_frame": 919,
+                      "rows": 909
+                    },
+                    {
+                      "start_frame": 960,
+                      "end_frame": 1170,
+                      "rows": 211
+                    },
+                    {
+                      "start_frame": 1178,
+                      "end_frame": 1377,
+                      "rows": 200
+                    },
+                    {
+                      "start_frame": 1403,
+                      "end_frame": 1455,
+                      "rows": 53
+                    },
+                    {
+                      "start_frame": 1466,
+                      "end_frame": 1492,
+                      "rows": 27
+                    },
+                    {
+                      "start_frame": 1556,
+                      "end_frame": 1569,
+                      "rows": 14
+                    },
+                    {
+                      "start_frame": 1576,
+                      "end_frame": 1605,
+                      "rows": 30
+                    },
+                    {
+                      "start_frame": 1633,
+                      "end_frame": 1638,
+                      "rows": 6
+                    },
+                    {
+                      "start_frame": 1690,
+                      "end_frame": 4411,
+                      "rows": 2722
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 11,
+                "end_frame": 4411,
+                "rows": 4172,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 11,
+                    "end_frame": 919,
+                    "rows": 909
+                  },
+                  {
+                    "start_frame": 960,
+                    "end_frame": 1170,
+                    "rows": 211
+                  },
+                  {
+                    "start_frame": 1178,
+                    "end_frame": 1377,
+                    "rows": 200
+                  },
+                  {
+                    "start_frame": 1403,
+                    "end_frame": 1455,
+                    "rows": 53
+                  },
+                  {
+                    "start_frame": 1466,
+                    "end_frame": 1492,
+                    "rows": 27
+                  },
+                  {
+                    "start_frame": 1556,
+                    "end_frame": 1569,
+                    "rows": 14
+                  },
+                  {
+                    "start_frame": 1576,
+                    "end_frame": 1605,
+                    "rows": 30
+                  },
+                  {
+                    "start_frame": 1633,
+                    "end_frame": 1638,
+                    "rows": 6
+                  },
+                  {
+                    "start_frame": 1690,
+                    "end_frame": 4411,
+                    "rows": 2722
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 27,
+              "start_frame": 11,
+              "end_frame": 4411,
+              "rows": 4172
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 4172
+          },
+          "recovery_actions": {
+            "none": 4172
+          },
+          "future_selector": {
+            "segment": "G3-2",
+            "id": 27,
+            "start_frame": 11,
+            "end_frame": 4411,
+            "expected_rows": 4172
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-3",
+      "snapshot_frame": 4786,
+      "user_final_ids": [
+        23,
+        26
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-3\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "9d53f63a88ee8d2207f4856b879ce16a3a5ebb24904b8f3514c11cbdd7e13bcd",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-3\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "1af0e453365b14de7ac3a4e636ce7e08747764d829a6afb12ed246663468e8aa",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-3.mp4",
+        "sha256": "BDCC3D999176BFA4DF5C279724A39F193BB68E84740EAE51F9F46CF14AAFB9E0",
+        "frames": 9572.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 243559,
+      "input_total_final_ids": 39,
+      "expected_removed_rows": 15230,
+      "expected_remaining_rows": 228329,
+      "tracks": [
+        {
+          "user_final_id": 23,
+          "snapshot": {
+            "frame": 4786,
+            "display_label": "23",
+            "source_track_id": 23,
+            "final_ids": [
+              23
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            23
+          ],
+          "raw_inference_source_track_ids": [
+            23
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 9572,
+            "expected_rows": 9572,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 9572
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 9572,
+                "rows": 9572
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 23,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 23,
+                  "start_frame": 1,
+                  "end_frame": 9572,
+                  "rows": 9572,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 9572,
+                      "rows": 9572
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 9572,
+                "rows": 9572,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 9572,
+                    "rows": 9572
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 23,
+              "start_frame": 1,
+              "end_frame": 9572,
+              "rows": 9572
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 9572
+          },
+          "recovery_actions": {
+            "none": 9572
+          },
+          "future_selector": {
+            "segment": "G3-3",
+            "id": 23,
+            "start_frame": 1,
+            "end_frame": 9572,
+            "expected_rows": 9572
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 26,
+          "snapshot": {
+            "frame": 4786,
+            "display_label": "26",
+            "source_track_id": 26,
+            "final_ids": [
+              26
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            26
+          ],
+          "raw_inference_source_track_ids": [
+            26
+          ],
+          "whole_track": {
+            "start_frame": 251,
+            "end_frame": 5929,
+            "expected_rows": 5658,
+            "missing_frames_inside_range": 21,
+            "classes": {
+              "0": 5658
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 251,
+                "end_frame": 3583,
+                "rows": 3333
+              },
+              {
+                "start_frame": 3585,
+                "end_frame": 5678,
+                "rows": 2094
+              },
+              {
+                "start_frame": 5691,
+                "end_frame": 5735,
+                "rows": 45
+              },
+              {
+                "start_frame": 5743,
+                "end_frame": 5777,
+                "rows": 35
+              },
+              {
+                "start_frame": 5779,
+                "end_frame": 5929,
+                "rows": 151
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 26,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 26,
+                  "start_frame": 251,
+                  "end_frame": 5929,
+                  "rows": 5658,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 251,
+                      "end_frame": 3583,
+                      "rows": 3333
+                    },
+                    {
+                      "start_frame": 3585,
+                      "end_frame": 5678,
+                      "rows": 2094
+                    },
+                    {
+                      "start_frame": 5691,
+                      "end_frame": 5735,
+                      "rows": 45
+                    },
+                    {
+                      "start_frame": 5743,
+                      "end_frame": 5777,
+                      "rows": 35
+                    },
+                    {
+                      "start_frame": 5779,
+                      "end_frame": 5929,
+                      "rows": 151
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 251,
+                "end_frame": 5929,
+                "rows": 5658,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 251,
+                    "end_frame": 3583,
+                    "rows": 3333
+                  },
+                  {
+                    "start_frame": 3585,
+                    "end_frame": 5678,
+                    "rows": 2094
+                  },
+                  {
+                    "start_frame": 5691,
+                    "end_frame": 5735,
+                    "rows": 45
+                  },
+                  {
+                    "start_frame": 5743,
+                    "end_frame": 5777,
+                    "rows": 35
+                  },
+                  {
+                    "start_frame": 5779,
+                    "end_frame": 5929,
+                    "rows": 151
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 26,
+              "start_frame": 251,
+              "end_frame": 5929,
+              "rows": 5658
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 5658
+          },
+          "recovery_actions": {
+            "none": 5658
+          },
+          "future_selector": {
+            "segment": "G3-3",
+            "id": 26,
+            "start_frame": 251,
+            "end_frame": 5929,
+            "expected_rows": 5658
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-4",
+      "snapshot_frame": 2639,
+      "user_final_ids": [
+        23,
+        24
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-4\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "0b26c031fdbdad266d54b9e1226876958c9e89df13dcbcae5999a756fb007725",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-4\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "d26874fe891f194d883c563e3c2673b2323f83edb83afa756d77d2c3fffb31c2",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-4.mp4",
+        "sha256": "BE47B52AC3FF5E6A936FEDEF914A32AED6A3D8E06C1650B78AA77DC4944182D2",
+        "frames": 5277.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 130330,
+      "input_total_final_ids": 31,
+      "expected_removed_rows": 10547,
+      "expected_remaining_rows": 119783,
+      "tracks": [
+        {
+          "user_final_id": 23,
+          "snapshot": {
+            "frame": 2639,
+            "display_label": "23",
+            "source_track_id": 23,
+            "final_ids": [
+              23
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            23
+          ],
+          "raw_inference_source_track_ids": [
+            23
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 5277,
+            "expected_rows": 5277,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 5277
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 5277,
+                "rows": 5277
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 23,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 23,
+                  "start_frame": 1,
+                  "end_frame": 5277,
+                  "rows": 5277,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 5277,
+                      "rows": 5277
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 5277,
+                "rows": 5277,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 5277,
+                    "rows": 5277
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 23,
+              "start_frame": 1,
+              "end_frame": 5277,
+              "rows": 5277
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 5277
+          },
+          "recovery_actions": {
+            "none": 5277
+          },
+          "future_selector": {
+            "segment": "G3-4",
+            "id": 23,
+            "start_frame": 1,
+            "end_frame": 5277,
+            "expected_rows": 5277
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 24,
+          "snapshot": {
+            "frame": 2639,
+            "display_label": "24",
+            "source_track_id": 24,
+            "final_ids": [
+              24
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            24
+          ],
+          "raw_inference_source_track_ids": [
+            24
+          ],
+          "whole_track": {
+            "start_frame": 8,
+            "end_frame": 5277,
+            "expected_rows": 5270,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 5270
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 8,
+                "end_frame": 5277,
+                "rows": 5270
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 24,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 24,
+                  "start_frame": 8,
+                  "end_frame": 5277,
+                  "rows": 5270,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 8,
+                      "end_frame": 5277,
+                      "rows": 5270
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 8,
+                "end_frame": 5277,
+                "rows": 5270,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 8,
+                    "end_frame": 5277,
+                    "rows": 5270
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 24,
+              "start_frame": 8,
+              "end_frame": 5277,
+              "rows": 5270
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 5270
+          },
+          "recovery_actions": {
+            "none": 5270
+          },
+          "future_selector": {
+            "segment": "G3-4",
+            "id": 24,
+            "start_frame": 8,
+            "end_frame": 5277,
+            "expected_rows": 5270
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-5",
+      "snapshot_frame": 2070,
+      "user_final_ids": [
+        22,
+        24
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-5\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "e7f312f26f559c67359f8ed47606d5f402005166c2e634dfad748995703e1049",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-5\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "ccc040d9137b0091816c7a6e1c6fd3f2f23f5ead2a27f4594c460c1bcea1a619",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-5.mp4",
+        "sha256": "4C8C69E23614F751A2758FECE9408A1EF37A23469C1D30BDBF203E45021459EF",
+        "frames": 4140.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 110152,
+      "input_total_final_ids": 32,
+      "expected_removed_rows": 7322,
+      "expected_remaining_rows": 102830,
+      "tracks": [
+        {
+          "user_final_id": 22,
+          "snapshot": {
+            "frame": 2070,
+            "display_label": "22",
+            "source_track_id": 22,
+            "final_ids": [
+              22
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            22
+          ],
+          "raw_inference_source_track_ids": [
+            22
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 4140,
+            "expected_rows": 4135,
+            "missing_frames_inside_range": 5,
+            "classes": {
+              "0": 4135
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 2375,
+                "rows": 2375
+              },
+              {
+                "start_frame": 2381,
+                "end_frame": 4140,
+                "rows": 1760
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 22,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 22,
+                  "start_frame": 1,
+                  "end_frame": 4140,
+                  "rows": 4135,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 2375,
+                      "rows": 2375
+                    },
+                    {
+                      "start_frame": 2381,
+                      "end_frame": 4140,
+                      "rows": 1760
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 4140,
+                "rows": 4135,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 2375,
+                    "rows": 2375
+                  },
+                  {
+                    "start_frame": 2381,
+                    "end_frame": 4140,
+                    "rows": 1760
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 22,
+              "start_frame": 1,
+              "end_frame": 4140,
+              "rows": 4135
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 4116,
+            "bidirectional_image_optical_flow": 19
+          },
+          "recovery_actions": {
+            "none": 4107,
+            "replace_common": 19,
+            "preserve_existing": 9
+          },
+          "future_selector": {
+            "segment": "G3-5",
+            "id": 22,
+            "start_frame": 1,
+            "end_frame": 4140,
+            "expected_rows": 4135
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 24,
+          "snapshot": {
+            "frame": 2070,
+            "display_label": "24",
+            "source_track_id": 24,
+            "final_ids": [
+              24
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            24
+          ],
+          "raw_inference_source_track_ids": [
+            24
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 3283,
+            "expected_rows": 3187,
+            "missing_frames_inside_range": 96,
+            "classes": {
+              "0": 3187
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 272,
+                "rows": 272
+              },
+              {
+                "start_frame": 300,
+                "end_frame": 479,
+                "rows": 180
+              },
+              {
+                "start_frame": 483,
+                "end_frame": 602,
+                "rows": 120
+              },
+              {
+                "start_frame": 605,
+                "end_frame": 1317,
+                "rows": 713
+              },
+              {
+                "start_frame": 1320,
+                "end_frame": 1488,
+                "rows": 169
+              },
+              {
+                "start_frame": 1517,
+                "end_frame": 1597,
+                "rows": 81
+              },
+              {
+                "start_frame": 1632,
+                "end_frame": 3283,
+                "rows": 1652
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 24,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 24,
+                  "start_frame": 1,
+                  "end_frame": 3283,
+                  "rows": 3187,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 272,
+                      "rows": 272
+                    },
+                    {
+                      "start_frame": 300,
+                      "end_frame": 479,
+                      "rows": 180
+                    },
+                    {
+                      "start_frame": 483,
+                      "end_frame": 602,
+                      "rows": 120
+                    },
+                    {
+                      "start_frame": 605,
+                      "end_frame": 1317,
+                      "rows": 713
+                    },
+                    {
+                      "start_frame": 1320,
+                      "end_frame": 1488,
+                      "rows": 169
+                    },
+                    {
+                      "start_frame": 1517,
+                      "end_frame": 1597,
+                      "rows": 81
+                    },
+                    {
+                      "start_frame": 1632,
+                      "end_frame": 3283,
+                      "rows": 1652
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 3283,
+                "rows": 3187,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 272,
+                    "rows": 272
+                  },
+                  {
+                    "start_frame": 300,
+                    "end_frame": 479,
+                    "rows": 180
+                  },
+                  {
+                    "start_frame": 483,
+                    "end_frame": 602,
+                    "rows": 120
+                  },
+                  {
+                    "start_frame": 605,
+                    "end_frame": 1317,
+                    "rows": 713
+                  },
+                  {
+                    "start_frame": 1320,
+                    "end_frame": 1488,
+                    "rows": 169
+                  },
+                  {
+                    "start_frame": 1517,
+                    "end_frame": 1597,
+                    "rows": 81
+                  },
+                  {
+                    "start_frame": 1632,
+                    "end_frame": 3283,
+                    "rows": 1652
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 24,
+              "start_frame": 1,
+              "end_frame": 3283,
+              "rows": 3187
+            }
+          ],
+          "observations_without_raw_inference_key": 21,
+          "observation_origins": {
+            "detector_tracker": 3166,
+            "bidirectional_image_optical_flow": 21
+          },
+          "recovery_actions": {
+            "none": 3159,
+            "add_missing": 21,
+            "preserve_existing": 7
+          },
+          "future_selector": {
+            "segment": "G3-5",
+            "id": 24,
+            "start_frame": 1,
+            "end_frame": 3283,
+            "expected_rows": 3187
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-6",
+      "snapshot_frame": 2791,
+      "user_final_ids": [
+        22
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-6\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "20772fe077116ed7c6640fa0e7d2b69388d1d078a08a48909e9b65e01646a7c5",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-6\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "244b612452452bb3b7de9c34d4ab383fe81a8e8453f9f6da75748c33050813f9",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-6.mp4",
+        "sha256": "B75AD224520557218AC4B8EF219B94FE8E745AA218EFF95D187D230684637E8E",
+        "frames": 5581.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 146761,
+      "input_total_final_ids": 29,
+      "expected_removed_rows": 5581,
+      "expected_remaining_rows": 141180,
+      "tracks": [
+        {
+          "user_final_id": 22,
+          "snapshot": {
+            "frame": 2791,
+            "display_label": "22",
+            "source_track_id": 22,
+            "final_ids": [
+              22
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            22
+          ],
+          "raw_inference_source_track_ids": [
+            22
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 5581,
+            "expected_rows": 5581,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 5581
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 5581,
+                "rows": 5581
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 22,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 22,
+                  "start_frame": 1,
+                  "end_frame": 5581,
+                  "rows": 5581,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 5581,
+                      "rows": 5581
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 5581,
+                "rows": 5581,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 5581,
+                    "rows": 5581
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 22,
+              "start_frame": 1,
+              "end_frame": 5581,
+              "rows": 5581
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 5581
+          },
+          "recovery_actions": {
+            "none": 5581
+          },
+          "future_selector": {
+            "segment": "G3-6",
+            "id": 22,
+            "start_frame": 1,
+            "end_frame": 5581,
+            "expected_rows": 5581
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-7-1",
+      "snapshot_frame": 4177,
+      "user_final_ids": [
+        48,
+        55
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-7-1\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "75ec75034c082fcf008a6c21460095281d162ebf2dcf5e77e86b73a3683f79d7",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-7-1\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "8cc6d45d61d20cba8d5a69366cb7264d2c9af4453de979963102bb56d90f5891",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-7.mp4",
+        "sha256": "4D5819E806E8A9DDA056C119D6F72D1C3ECA5433CD375F0C7E2C6769940C9E37",
+        "frames": 8354.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 425059,
+      "input_total_final_ids": 56,
+      "expected_removed_rows": 13371,
+      "expected_remaining_rows": 411688,
+      "tracks": [
+        {
+          "user_final_id": 48,
+          "snapshot": {
+            "frame": 4177,
+            "display_label": "48",
+            "source_track_id": 48,
+            "final_ids": [
+              48
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            48
+          ],
+          "raw_inference_source_track_ids": [
+            48
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 8354,
+            "expected_rows": 8283,
+            "missing_frames_inside_range": 71,
+            "classes": {
+              "0": 8283
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 3676,
+                "rows": 3676
+              },
+              {
+                "start_frame": 3681,
+                "end_frame": 3682,
+                "rows": 2
+              },
+              {
+                "start_frame": 3685,
+                "end_frame": 4227,
+                "rows": 543
+              },
+              {
+                "start_frame": 4238,
+                "end_frame": 4439,
+                "rows": 202
+              },
+              {
+                "start_frame": 4448,
+                "end_frame": 4513,
+                "rows": 66
+              },
+              {
+                "start_frame": 4515,
+                "end_frame": 4740,
+                "rows": 226
+              },
+              {
+                "start_frame": 4745,
+                "end_frame": 4747,
+                "rows": 3
+              },
+              {
+                "start_frame": 4751,
+                "end_frame": 4954,
+                "rows": 204
+              },
+              {
+                "start_frame": 4970,
+                "end_frame": 5064,
+                "rows": 95
+              },
+              {
+                "start_frame": 5069,
+                "end_frame": 5472,
+                "rows": 404
+              },
+              {
+                "start_frame": 5493,
+                "end_frame": 8354,
+                "rows": 2862
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 48,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 48,
+                  "start_frame": 1,
+                  "end_frame": 8354,
+                  "rows": 8283,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 3676,
+                      "rows": 3676
+                    },
+                    {
+                      "start_frame": 3681,
+                      "end_frame": 3682,
+                      "rows": 2
+                    },
+                    {
+                      "start_frame": 3685,
+                      "end_frame": 4227,
+                      "rows": 543
+                    },
+                    {
+                      "start_frame": 4238,
+                      "end_frame": 4439,
+                      "rows": 202
+                    },
+                    {
+                      "start_frame": 4448,
+                      "end_frame": 4513,
+                      "rows": 66
+                    },
+                    {
+                      "start_frame": 4515,
+                      "end_frame": 4740,
+                      "rows": 226
+                    },
+                    {
+                      "start_frame": 4745,
+                      "end_frame": 4747,
+                      "rows": 3
+                    },
+                    {
+                      "start_frame": 4751,
+                      "end_frame": 4954,
+                      "rows": 204
+                    },
+                    {
+                      "start_frame": 4970,
+                      "end_frame": 5064,
+                      "rows": 95
+                    },
+                    {
+                      "start_frame": 5069,
+                      "end_frame": 5472,
+                      "rows": 404
+                    },
+                    {
+                      "start_frame": 5493,
+                      "end_frame": 8354,
+                      "rows": 2862
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 8354,
+                "rows": 8283,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 3676,
+                    "rows": 3676
+                  },
+                  {
+                    "start_frame": 3681,
+                    "end_frame": 3682,
+                    "rows": 2
+                  },
+                  {
+                    "start_frame": 3685,
+                    "end_frame": 4227,
+                    "rows": 543
+                  },
+                  {
+                    "start_frame": 4238,
+                    "end_frame": 4439,
+                    "rows": 202
+                  },
+                  {
+                    "start_frame": 4448,
+                    "end_frame": 4513,
+                    "rows": 66
+                  },
+                  {
+                    "start_frame": 4515,
+                    "end_frame": 4740,
+                    "rows": 226
+                  },
+                  {
+                    "start_frame": 4745,
+                    "end_frame": 4747,
+                    "rows": 3
+                  },
+                  {
+                    "start_frame": 4751,
+                    "end_frame": 4954,
+                    "rows": 204
+                  },
+                  {
+                    "start_frame": 4970,
+                    "end_frame": 5064,
+                    "rows": 95
+                  },
+                  {
+                    "start_frame": 5069,
+                    "end_frame": 5472,
+                    "rows": 404
+                  },
+                  {
+                    "start_frame": 5493,
+                    "end_frame": 8354,
+                    "rows": 2862
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 48,
+              "start_frame": 1,
+              "end_frame": 8354,
+              "rows": 8283
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 8283
+          },
+          "recovery_actions": {
+            "none": 8283
+          },
+          "future_selector": {
+            "segment": "G3-7-1",
+            "id": 48,
+            "start_frame": 1,
+            "end_frame": 8354,
+            "expected_rows": 8283
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 55,
+          "snapshot": {
+            "frame": 4177,
+            "display_label": "55",
+            "source_track_id": 55,
+            "final_ids": [
+              55
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            55
+          ],
+          "raw_inference_source_track_ids": [
+            55
+          ],
+          "whole_track": {
+            "start_frame": 3267,
+            "end_frame": 8354,
+            "expected_rows": 5088,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 5088
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 3267,
+                "end_frame": 8354,
+                "rows": 5088
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 55,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 55,
+                  "start_frame": 3267,
+                  "end_frame": 8354,
+                  "rows": 5088,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 3267,
+                      "end_frame": 8354,
+                      "rows": 5088
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 3267,
+                "end_frame": 8354,
+                "rows": 5088,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 3267,
+                    "end_frame": 8354,
+                    "rows": 5088
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 55,
+              "start_frame": 3267,
+              "end_frame": 8354,
+              "rows": 5088
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 5088
+          },
+          "recovery_actions": {
+            "none": 5088
+          },
+          "future_selector": {
+            "segment": "G3-7-1",
+            "id": 55,
+            "start_frame": 3267,
+            "end_frame": 8354,
+            "expected_rows": 5088
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-7-2",
+      "snapshot_frame": 1785,
+      "user_final_ids": [
+        40,
+        53,
+        54,
+        56
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-7-2\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "2d6b1f1b29e0a5542e9dff70fa171b6b811a1d3ee8cd9a6c74dd35a43e86f7d5",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-7-2\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "25eca2c507b9090614b38aaca7a9286ea03124bf65c67fcbef8ecc44b5146ae8",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\h_G3-7-1.mp4",
+        "sha256": "644FA0ADC11DA5ED97CD5E8ADCD79104709C2ABD2A14877211C282B38548CBCD",
+        "frames": 3570.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 183850,
+      "input_total_final_ids": 56,
+      "expected_removed_rows": 8830,
+      "expected_remaining_rows": 175020,
+      "tracks": [
+        {
+          "user_final_id": 40,
+          "snapshot": {
+            "frame": 1785,
+            "display_label": "40",
+            "source_track_id": 40,
+            "final_ids": [
+              40
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            40
+          ],
+          "raw_inference_source_track_ids": [
+            40
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 3570,
+            "expected_rows": 3569,
+            "missing_frames_inside_range": 1,
+            "classes": {
+              "0": 3569
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 2134,
+                "rows": 2134
+              },
+              {
+                "start_frame": 2136,
+                "end_frame": 3570,
+                "rows": 1435
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 40,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 40,
+                  "start_frame": 1,
+                  "end_frame": 3570,
+                  "rows": 3569,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 2134,
+                      "rows": 2134
+                    },
+                    {
+                      "start_frame": 2136,
+                      "end_frame": 3570,
+                      "rows": 1435
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 3570,
+                "rows": 3569,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 2134,
+                    "rows": 2134
+                  },
+                  {
+                    "start_frame": 2136,
+                    "end_frame": 3570,
+                    "rows": 1435
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 40,
+              "start_frame": 1,
+              "end_frame": 3570,
+              "rows": 3569
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 3569
+          },
+          "recovery_actions": {
+            "none": 3569
+          },
+          "future_selector": {
+            "segment": "G3-7-2",
+            "id": 40,
+            "start_frame": 1,
+            "end_frame": 3570,
+            "expected_rows": 3569
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 53,
+          "snapshot": {
+            "frame": 1785,
+            "display_label": "53",
+            "source_track_id": 53,
+            "final_ids": [
+              53
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            53
+          ],
+          "raw_inference_source_track_ids": [
+            53
+          ],
+          "whole_track": {
+            "start_frame": 85,
+            "end_frame": 3407,
+            "expected_rows": 3277,
+            "missing_frames_inside_range": 46,
+            "classes": {
+              "0": 3277
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 85,
+                "end_frame": 94,
+                "rows": 10
+              },
+              {
+                "start_frame": 108,
+                "end_frame": 2113,
+                "rows": 2006
+              },
+              {
+                "start_frame": 2132,
+                "end_frame": 2878,
+                "rows": 747
+              },
+              {
+                "start_frame": 2894,
+                "end_frame": 3407,
+                "rows": 514
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 53,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 53,
+                  "start_frame": 85,
+                  "end_frame": 3407,
+                  "rows": 3277,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 85,
+                      "end_frame": 94,
+                      "rows": 10
+                    },
+                    {
+                      "start_frame": 108,
+                      "end_frame": 2113,
+                      "rows": 2006
+                    },
+                    {
+                      "start_frame": 2132,
+                      "end_frame": 2878,
+                      "rows": 747
+                    },
+                    {
+                      "start_frame": 2894,
+                      "end_frame": 3407,
+                      "rows": 514
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 85,
+                "end_frame": 3407,
+                "rows": 3277,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 85,
+                    "end_frame": 94,
+                    "rows": 10
+                  },
+                  {
+                    "start_frame": 108,
+                    "end_frame": 2113,
+                    "rows": 2006
+                  },
+                  {
+                    "start_frame": 2132,
+                    "end_frame": 2878,
+                    "rows": 747
+                  },
+                  {
+                    "start_frame": 2894,
+                    "end_frame": 3407,
+                    "rows": 514
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 53,
+              "start_frame": 85,
+              "end_frame": 3407,
+              "rows": 3277
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 3277
+          },
+          "recovery_actions": {
+            "none": 3277
+          },
+          "future_selector": {
+            "segment": "G3-7-2",
+            "id": 53,
+            "start_frame": 85,
+            "end_frame": 3407,
+            "expected_rows": 3277
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 54,
+          "snapshot": {
+            "frame": 1785,
+            "display_label": "54",
+            "source_track_id": 54,
+            "final_ids": [
+              54
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            54
+          ],
+          "raw_inference_source_track_ids": [
+            54
+          ],
+          "whole_track": {
+            "start_frame": 1405,
+            "end_frame": 3570,
+            "expected_rows": 1971,
+            "missing_frames_inside_range": 195,
+            "classes": {
+              "0": 1971
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1405,
+                "end_frame": 2243,
+                "rows": 839
+              },
+              {
+                "start_frame": 2308,
+                "end_frame": 2341,
+                "rows": 34
+              },
+              {
+                "start_frame": 2364,
+                "end_frame": 2404,
+                "rows": 41
+              },
+              {
+                "start_frame": 2474,
+                "end_frame": 2728,
+                "rows": 255
+              },
+              {
+                "start_frame": 2738,
+                "end_frame": 2744,
+                "rows": 7
+              },
+              {
+                "start_frame": 2764,
+                "end_frame": 2789,
+                "rows": 26
+              },
+              {
+                "start_frame": 2791,
+                "end_frame": 2797,
+                "rows": 7
+              },
+              {
+                "start_frame": 2799,
+                "end_frame": 2800,
+                "rows": 2
+              },
+              {
+                "start_frame": 2802,
+                "end_frame": 2971,
+                "rows": 170
+              },
+              {
+                "start_frame": 2975,
+                "end_frame": 2997,
+                "rows": 23
+              },
+              {
+                "start_frame": 3004,
+                "end_frame": 3570,
+                "rows": 567
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 54,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 54,
+                  "start_frame": 1405,
+                  "end_frame": 3570,
+                  "rows": 1971,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1405,
+                      "end_frame": 2243,
+                      "rows": 839
+                    },
+                    {
+                      "start_frame": 2308,
+                      "end_frame": 2341,
+                      "rows": 34
+                    },
+                    {
+                      "start_frame": 2364,
+                      "end_frame": 2404,
+                      "rows": 41
+                    },
+                    {
+                      "start_frame": 2474,
+                      "end_frame": 2728,
+                      "rows": 255
+                    },
+                    {
+                      "start_frame": 2738,
+                      "end_frame": 2744,
+                      "rows": 7
+                    },
+                    {
+                      "start_frame": 2764,
+                      "end_frame": 2789,
+                      "rows": 26
+                    },
+                    {
+                      "start_frame": 2791,
+                      "end_frame": 2797,
+                      "rows": 7
+                    },
+                    {
+                      "start_frame": 2799,
+                      "end_frame": 2800,
+                      "rows": 2
+                    },
+                    {
+                      "start_frame": 2802,
+                      "end_frame": 2971,
+                      "rows": 170
+                    },
+                    {
+                      "start_frame": 2975,
+                      "end_frame": 2997,
+                      "rows": 23
+                    },
+                    {
+                      "start_frame": 3004,
+                      "end_frame": 3570,
+                      "rows": 567
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1405,
+                "end_frame": 3570,
+                "rows": 1971,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1405,
+                    "end_frame": 2243,
+                    "rows": 839
+                  },
+                  {
+                    "start_frame": 2308,
+                    "end_frame": 2341,
+                    "rows": 34
+                  },
+                  {
+                    "start_frame": 2364,
+                    "end_frame": 2404,
+                    "rows": 41
+                  },
+                  {
+                    "start_frame": 2474,
+                    "end_frame": 2728,
+                    "rows": 255
+                  },
+                  {
+                    "start_frame": 2738,
+                    "end_frame": 2744,
+                    "rows": 7
+                  },
+                  {
+                    "start_frame": 2764,
+                    "end_frame": 2789,
+                    "rows": 26
+                  },
+                  {
+                    "start_frame": 2791,
+                    "end_frame": 2797,
+                    "rows": 7
+                  },
+                  {
+                    "start_frame": 2799,
+                    "end_frame": 2800,
+                    "rows": 2
+                  },
+                  {
+                    "start_frame": 2802,
+                    "end_frame": 2971,
+                    "rows": 170
+                  },
+                  {
+                    "start_frame": 2975,
+                    "end_frame": 2997,
+                    "rows": 23
+                  },
+                  {
+                    "start_frame": 3004,
+                    "end_frame": 3570,
+                    "rows": 567
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 54,
+              "start_frame": 1405,
+              "end_frame": 3570,
+              "rows": 1971
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 1971
+          },
+          "recovery_actions": {
+            "none": 1971
+          },
+          "future_selector": {
+            "segment": "G3-7-2",
+            "id": 54,
+            "start_frame": 1405,
+            "end_frame": 3570,
+            "expected_rows": 1971
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 56,
+          "snapshot": {
+            "evidence_frames": [
+              3558,
+              3564,
+              3570
+            ],
+            "evidence_metadata": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\neutral_user_review_metadata.json",
+            "source_track_id": 56,
+            "final_ids": [
+              56
+            ],
+            "note": "Identified by user in supplemental tail-frame review; absent from midpoint snapshot. No person-box coordinates are supplied."
+          },
+          "source_track_ids": [
+            56
+          ],
+          "raw_inference_source_track_ids": [
+            56
+          ],
+          "whole_track": {
+            "start_frame": 3558,
+            "end_frame": 3570,
+            "expected_rows": 13,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "9": 13
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 3558,
+                "end_frame": 3570,
+                "rows": 13
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 56,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 56,
+                  "start_frame": 3558,
+                  "end_frame": 3570,
+                  "rows": 13,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 3558,
+                      "end_frame": 3570,
+                      "rows": 13
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 3558,
+                "end_frame": 3570,
+                "rows": 13,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 3558,
+                    "end_frame": 3570,
+                    "rows": 13
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 56,
+              "start_frame": 3558,
+              "end_frame": 3570,
+              "rows": 13
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 13
+          },
+          "recovery_actions": {
+            "none": 13
+          },
+          "future_selector": {
+            "segment": "G3-7-2",
+            "id": 56,
+            "start_frame": 3558,
+            "end_frame": 3570,
+            "expected_rows": 13
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW",
+          "approval_reference": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\remaining_user_judgment_20261006.json"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-8",
+      "snapshot_frame": 2505,
+      "user_final_ids": [
+        43,
+        50
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-8\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "67573e0dae2a52a471bc8210d96b003a2fc7b08156e12602cc7339767d07fd38",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-8\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "7bb85ca11c04193748d2927f28ab301bd4a20b9ab878dd8fefd09c21c5e2261d",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-8.mp4",
+        "sha256": "C6ED3841170C5BCAB9E67F3BCA3F28C41E67632612DA1AF593119229EC629025",
+        "frames": 5010.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 253825,
+      "input_total_final_ids": 57,
+      "expected_removed_rows": 9175,
+      "expected_remaining_rows": 244650,
+      "tracks": [
+        {
+          "user_final_id": 43,
+          "snapshot": {
+            "frame": 2505,
+            "display_label": "43",
+            "source_track_id": 43,
+            "final_ids": [
+              43
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            43
+          ],
+          "raw_inference_source_track_ids": [
+            43
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 5010,
+            "expected_rows": 5010,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 5010
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 5010,
+                "rows": 5010
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 43,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 43,
+                  "start_frame": 1,
+                  "end_frame": 5010,
+                  "rows": 5010,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 5010,
+                      "rows": 5010
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 5010,
+                "rows": 5010,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 5010,
+                    "rows": 5010
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 43,
+              "start_frame": 1,
+              "end_frame": 5010,
+              "rows": 5010
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 5010
+          },
+          "recovery_actions": {
+            "none": 5010
+          },
+          "future_selector": {
+            "segment": "G3-8",
+            "id": 43,
+            "start_frame": 1,
+            "end_frame": 5010,
+            "expected_rows": 5010
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 50,
+          "snapshot": {
+            "frame": 2505,
+            "display_label": "50",
+            "source_track_id": 50,
+            "final_ids": [
+              50
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            50
+          ],
+          "raw_inference_source_track_ids": [
+            50
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 4275,
+            "expected_rows": 4165,
+            "missing_frames_inside_range": 110,
+            "classes": {
+              "0": 4165
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 1029,
+                "rows": 1029
+              },
+              {
+                "start_frame": 1036,
+                "end_frame": 1484,
+                "rows": 449
+              },
+              {
+                "start_frame": 1532,
+                "end_frame": 2154,
+                "rows": 623
+              },
+              {
+                "start_frame": 2190,
+                "end_frame": 2232,
+                "rows": 43
+              },
+              {
+                "start_frame": 2241,
+                "end_frame": 3868,
+                "rows": 1628
+              },
+              {
+                "start_frame": 3883,
+                "end_frame": 4275,
+                "rows": 393
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 50,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 50,
+                  "start_frame": 1,
+                  "end_frame": 4275,
+                  "rows": 4165,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 1029,
+                      "rows": 1029
+                    },
+                    {
+                      "start_frame": 1036,
+                      "end_frame": 1484,
+                      "rows": 449
+                    },
+                    {
+                      "start_frame": 1532,
+                      "end_frame": 2154,
+                      "rows": 623
+                    },
+                    {
+                      "start_frame": 2190,
+                      "end_frame": 2232,
+                      "rows": 43
+                    },
+                    {
+                      "start_frame": 2241,
+                      "end_frame": 3868,
+                      "rows": 1628
+                    },
+                    {
+                      "start_frame": 3883,
+                      "end_frame": 4275,
+                      "rows": 393
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 4275,
+                "rows": 4165,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 1029,
+                    "rows": 1029
+                  },
+                  {
+                    "start_frame": 1036,
+                    "end_frame": 1484,
+                    "rows": 449
+                  },
+                  {
+                    "start_frame": 1532,
+                    "end_frame": 2154,
+                    "rows": 623
+                  },
+                  {
+                    "start_frame": 2190,
+                    "end_frame": 2232,
+                    "rows": 43
+                  },
+                  {
+                    "start_frame": 2241,
+                    "end_frame": 3868,
+                    "rows": 1628
+                  },
+                  {
+                    "start_frame": 3883,
+                    "end_frame": 4275,
+                    "rows": 393
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 50,
+              "start_frame": 1,
+              "end_frame": 4275,
+              "rows": 4165
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 4165
+          },
+          "recovery_actions": {
+            "none": 4165
+          },
+          "future_selector": {
+            "segment": "G3-8",
+            "id": 50,
+            "start_frame": 1,
+            "end_frame": 4275,
+            "expected_rows": 4165
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-9",
+      "snapshot_frame": 2229,
+      "user_final_ids": [
+        48,
+        41
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-9\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "d1269d098d091bb0c0302ad17c24a8d93181734343d01f61cb6298e971b1aa5d",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-9\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "8edda309734b316f1258ba6924c547c4c0c03901bb592258670588cf58ac5174",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-9.mp4",
+        "sha256": "4E16979606173887771B7F2D08455675A89ABD3C649BFACF5481C45B469F233E",
+        "frames": 4458.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 226866,
+      "input_total_final_ids": 60,
+      "expected_removed_rows": 7450,
+      "expected_remaining_rows": 219416,
+      "tracks": [
+        {
+          "user_final_id": 48,
+          "snapshot": {
+            "frame": 2229,
+            "display_label": "48",
+            "source_track_id": 48,
+            "final_ids": [
+              48
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            48
+          ],
+          "raw_inference_source_track_ids": [
+            48
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 4458,
+            "expected_rows": 4458,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 4458
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 4458,
+                "rows": 4458
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 48,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 48,
+                  "start_frame": 1,
+                  "end_frame": 4458,
+                  "rows": 4458,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 4458,
+                      "rows": 4458
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 4458,
+                "rows": 4458,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 4458,
+                    "rows": 4458
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 48,
+              "start_frame": 1,
+              "end_frame": 4458,
+              "rows": 4458
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 4458
+          },
+          "recovery_actions": {
+            "none": 4458
+          },
+          "future_selector": {
+            "segment": "G3-9",
+            "id": 48,
+            "start_frame": 1,
+            "end_frame": 4458,
+            "expected_rows": 4458
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 41,
+          "snapshot": {
+            "frame": 2229,
+            "display_label": "41",
+            "source_track_id": 41,
+            "final_ids": [
+              41
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            41
+          ],
+          "raw_inference_source_track_ids": [
+            41
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 2992,
+            "expected_rows": 2992,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 2992
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 2992,
+                "rows": 2992
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 41,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 41,
+                  "start_frame": 1,
+                  "end_frame": 2992,
+                  "rows": 2992,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 2992,
+                      "rows": 2992
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 2992,
+                "rows": 2992,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 2992,
+                    "rows": 2992
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 41,
+              "start_frame": 1,
+              "end_frame": 2992,
+              "rows": 2992
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 2992
+          },
+          "recovery_actions": {
+            "none": 2992
+          },
+          "future_selector": {
+            "segment": "G3-9",
+            "id": 41,
+            "start_frame": 1,
+            "end_frame": 2992,
+            "expected_rows": 2992
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-10",
+      "snapshot_frame": 2374,
+      "user_final_ids": [
+        30,
+        54
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-10\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "09b6fed8a9b5810f748d6c4623c33b99bf2e389d5eb80e74ba65e51f22d6521a",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-10\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "58983146225536ae0df84823821c75ec67a0baeaba05da76b3e40c97913e2434",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-10.mp4",
+        "sha256": "86F8B2857A8B436DEAB1CEEE42F858DA2F03E925B4EA877D0B2D377270E63826",
+        "frames": 4748.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 241589,
+      "input_total_final_ids": 56,
+      "expected_removed_rows": 7829,
+      "expected_remaining_rows": 233760,
+      "tracks": [
+        {
+          "user_final_id": 30,
+          "snapshot": {
+            "frame": 2374,
+            "display_label": "30",
+            "source_track_id": 30,
+            "final_ids": [
+              30
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            30
+          ],
+          "raw_inference_source_track_ids": [
+            30
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 4748,
+            "expected_rows": 4741,
+            "missing_frames_inside_range": 7,
+            "classes": {
+              "0": 4741
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 2814,
+                "rows": 2814
+              },
+              {
+                "start_frame": 2822,
+                "end_frame": 4748,
+                "rows": 1927
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 30,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 30,
+                  "start_frame": 1,
+                  "end_frame": 4748,
+                  "rows": 4741,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 2814,
+                      "rows": 2814
+                    },
+                    {
+                      "start_frame": 2822,
+                      "end_frame": 4748,
+                      "rows": 1927
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 4748,
+                "rows": 4741,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 2814,
+                    "rows": 2814
+                  },
+                  {
+                    "start_frame": 2822,
+                    "end_frame": 4748,
+                    "rows": 1927
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 30,
+              "start_frame": 1,
+              "end_frame": 4748,
+              "rows": 4741
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 4741
+          },
+          "recovery_actions": {
+            "none": 4741
+          },
+          "future_selector": {
+            "segment": "G3-10",
+            "id": 30,
+            "start_frame": 1,
+            "end_frame": 4748,
+            "expected_rows": 4741
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 54,
+          "snapshot": {
+            "frame": 2374,
+            "display_label": "54",
+            "source_track_id": 54,
+            "final_ids": [
+              54
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            54
+          ],
+          "raw_inference_source_track_ids": [
+            54
+          ],
+          "whole_track": {
+            "start_frame": 1661,
+            "end_frame": 4748,
+            "expected_rows": 3088,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 3088
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1661,
+                "end_frame": 4748,
+                "rows": 3088
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 54,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 54,
+                  "start_frame": 1661,
+                  "end_frame": 4748,
+                  "rows": 3088,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1661,
+                      "end_frame": 4748,
+                      "rows": 3088
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1661,
+                "end_frame": 4748,
+                "rows": 3088,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1661,
+                    "end_frame": 4748,
+                    "rows": 3088
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 54,
+              "start_frame": 1661,
+              "end_frame": 4748,
+              "rows": 3088
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 3088
+          },
+          "recovery_actions": {
+            "none": 3088
+          },
+          "future_selector": {
+            "segment": "G3-10",
+            "id": 54,
+            "start_frame": 1661,
+            "end_frame": 4748,
+            "expected_rows": 3088
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-11",
+      "snapshot_frame": 5753,
+      "user_final_ids": [
+        43
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-11\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "c6b867323888ea9bc486cdf2d27f08fbd8a553589b4de7467b6e488e3db73a1b",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-11\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "c624431d27910f1bdf8e2a2ab9468f7672c9bae5b84387bd4dbccb8c7b176dad",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-11.mp4",
+        "sha256": "E36CEFF18A34257EAB68A8EAECF0157EFF9D648D8B69A7A5C7574204342498BE",
+        "frames": 11505.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 517197,
+      "input_total_final_ids": 56,
+      "expected_removed_rows": 11505,
+      "expected_remaining_rows": 505692,
+      "tracks": [
+        {
+          "user_final_id": 43,
+          "snapshot": {
+            "frame": 5753,
+            "display_label": "43",
+            "source_track_id": 43,
+            "final_ids": [
+              43
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            43
+          ],
+          "raw_inference_source_track_ids": [
+            43
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 11505,
+            "expected_rows": 11505,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 11505
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 11505,
+                "rows": 11505
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 43,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 43,
+                  "start_frame": 1,
+                  "end_frame": 11505,
+                  "rows": 11505,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 11505,
+                      "rows": 11505
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 11505,
+                "rows": 11505,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 11505,
+                    "rows": 11505
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 43,
+              "start_frame": 1,
+              "end_frame": 11505,
+              "rows": 11505
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 11505
+          },
+          "recovery_actions": {
+            "none": 11505
+          },
+          "future_selector": {
+            "segment": "G3-11",
+            "id": 43,
+            "start_frame": 1,
+            "end_frame": 11505,
+            "expected_rows": 11505
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-12",
+      "snapshot_frame": 2697,
+      "user_final_ids": [
+        44,
+        49
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-12\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "bccbf4ff1e6345d26f23ad52b18abee53bb0cb1199d46c79fcb7b14365b53e97",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-12\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "15370ede979d75f881570d939aefee4f641a2aa2d1760d4901d8f2c674c732ec",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-12.mp4",
+        "sha256": "BB784A94D5E80884D48DEEE0D29EA308938FF0A2D6E78AA2915DFE6A88EAD521",
+        "frames": 5393.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 241368,
+      "input_total_final_ids": 54,
+      "expected_removed_rows": 8400,
+      "expected_remaining_rows": 232968,
+      "tracks": [
+        {
+          "user_final_id": 44,
+          "snapshot": {
+            "frame": 2697,
+            "display_label": "44",
+            "source_track_id": 44,
+            "final_ids": [
+              44
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            44
+          ],
+          "raw_inference_source_track_ids": [
+            44
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 5393,
+            "expected_rows": 5392,
+            "missing_frames_inside_range": 1,
+            "classes": {
+              "0": 5392
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 4916,
+                "rows": 4916
+              },
+              {
+                "start_frame": 4918,
+                "end_frame": 5393,
+                "rows": 476
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 44,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 44,
+                  "start_frame": 1,
+                  "end_frame": 5393,
+                  "rows": 5392,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 4916,
+                      "rows": 4916
+                    },
+                    {
+                      "start_frame": 4918,
+                      "end_frame": 5393,
+                      "rows": 476
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 5393,
+                "rows": 5392,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 4916,
+                    "rows": 4916
+                  },
+                  {
+                    "start_frame": 4918,
+                    "end_frame": 5393,
+                    "rows": 476
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 44,
+              "start_frame": 1,
+              "end_frame": 5393,
+              "rows": 5392
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 5392
+          },
+          "recovery_actions": {
+            "none": 5392
+          },
+          "future_selector": {
+            "segment": "G3-12",
+            "id": 44,
+            "start_frame": 1,
+            "end_frame": 5393,
+            "expected_rows": 5392
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 49,
+          "snapshot": {
+            "frame": 2697,
+            "display_label": "49",
+            "source_track_id": 49,
+            "final_ids": [
+              49
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            49
+          ],
+          "raw_inference_source_track_ids": [
+            49
+          ],
+          "whole_track": {
+            "start_frame": 1775,
+            "end_frame": 4782,
+            "expected_rows": 3008,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 3008
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1775,
+                "end_frame": 4782,
+                "rows": 3008
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 49,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 49,
+                  "start_frame": 1775,
+                  "end_frame": 4782,
+                  "rows": 3008,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1775,
+                      "end_frame": 4782,
+                      "rows": 3008
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1775,
+                "end_frame": 4782,
+                "rows": 3008,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1775,
+                    "end_frame": 4782,
+                    "rows": 3008
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 49,
+              "start_frame": 1775,
+              "end_frame": 4782,
+              "rows": 3008
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 3008
+          },
+          "recovery_actions": {
+            "none": 3008
+          },
+          "future_selector": {
+            "segment": "G3-12",
+            "id": 49,
+            "start_frame": 1775,
+            "end_frame": 4782,
+            "expected_rows": 3008
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-13",
+      "snapshot_frame": 3411,
+      "user_final_ids": [
+        73,
+        68
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-13\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "359ce4e911adab0ede30d42d6cae8de72e00ef0fcdeb3f531d8d59a0bc90bb25",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-13\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "efd25c2c9cd9fb113ccab251597f578746b2026044908b008bfdfb7144aaf160",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-13.mp4",
+        "sha256": "21E17DE6C173A5FF612259047F33C1BC78759433B120F0D1F5F643EA7345E333",
+        "frames": 6822.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 504136,
+      "input_total_final_ids": 78,
+      "expected_removed_rows": 13644,
+      "expected_remaining_rows": 490492,
+      "tracks": [
+        {
+          "user_final_id": 73,
+          "snapshot": {
+            "frame": 3411,
+            "display_label": "73",
+            "source_track_id": 73,
+            "final_ids": [
+              73
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            73
+          ],
+          "raw_inference_source_track_ids": [
+            73
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 6822,
+            "expected_rows": 6822,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 6822
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 6822,
+                "rows": 6822
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 73,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 73,
+                  "start_frame": 1,
+                  "end_frame": 6822,
+                  "rows": 6822,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 6822,
+                      "rows": 6822
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 6822,
+                "rows": 6822,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 6822,
+                    "rows": 6822
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 73,
+              "start_frame": 1,
+              "end_frame": 6822,
+              "rows": 6822
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 6822
+          },
+          "recovery_actions": {
+            "none": 6822
+          },
+          "future_selector": {
+            "segment": "G3-13",
+            "id": 73,
+            "start_frame": 1,
+            "end_frame": 6822,
+            "expected_rows": 6822
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 68,
+          "snapshot": {
+            "frame": 3411,
+            "display_label": "68",
+            "source_track_id": 68,
+            "final_ids": [
+              68
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            68
+          ],
+          "raw_inference_source_track_ids": [
+            68
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 6822,
+            "expected_rows": 6822,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 6822
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 6822,
+                "rows": 6822
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 68,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 68,
+                  "start_frame": 1,
+                  "end_frame": 6822,
+                  "rows": 6822,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 6822,
+                      "rows": 6822
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 6822,
+                "rows": 6822,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 6822,
+                    "rows": 6822
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 68,
+              "start_frame": 1,
+              "end_frame": 6822,
+              "rows": 6822
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 6822
+          },
+          "recovery_actions": {
+            "none": 6822
+          },
+          "future_selector": {
+            "segment": "G3-13",
+            "id": 68,
+            "start_frame": 1,
+            "end_frame": 6822,
+            "expected_rows": 6822
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-14",
+      "snapshot_frame": 8100,
+      "user_final_ids": [
+        73,
+        80
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-14\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "1c90b900dbfe6f49a3f39306c48cc422ba632cde5b838ea833d854bf581a8ab9",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-14\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "51e6c11c0aa9796f0f245265d552e3680d535927efffdb31222ec511fd70f56c",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-14.mp4",
+        "sha256": "2253A2ACE2B6679A42703AEACAAEC71BDE17AE3C87A54F6FF90BB1E1CA6FD2A3",
+        "frames": 16200.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 1199088,
+      "input_total_final_ids": 103,
+      "expected_removed_rows": 26012,
+      "expected_remaining_rows": 1173076,
+      "tracks": [
+        {
+          "user_final_id": 73,
+          "snapshot": {
+            "frame": 8100,
+            "display_label": "73",
+            "source_track_id": 73,
+            "final_ids": [
+              73
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            73
+          ],
+          "raw_inference_source_track_ids": [
+            73
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 15801,
+            "expected_rows": 15801,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 15801
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 15801,
+                "rows": 15801
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 73,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 73,
+                  "start_frame": 1,
+                  "end_frame": 15801,
+                  "rows": 15801,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 15801,
+                      "rows": 15801
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 15801,
+                "rows": 15801,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 15801,
+                    "rows": 15801
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 73,
+              "start_frame": 1,
+              "end_frame": 15801,
+              "rows": 15801
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 15801
+          },
+          "recovery_actions": {
+            "none": 15801
+          },
+          "future_selector": {
+            "segment": "G3-14",
+            "id": 73,
+            "start_frame": 1,
+            "end_frame": 15801,
+            "expected_rows": 15801
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 80,
+          "snapshot": {
+            "frame": 8100,
+            "display_label": "80",
+            "source_track_id": 80,
+            "final_ids": [
+              80
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            80
+          ],
+          "raw_inference_source_track_ids": [
+            80
+          ],
+          "whole_track": {
+            "start_frame": 5990,
+            "end_frame": 16200,
+            "expected_rows": 10211,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 10211
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 5990,
+                "end_frame": 16200,
+                "rows": 10211
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 80,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 80,
+                  "start_frame": 5990,
+                  "end_frame": 16200,
+                  "rows": 10211,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 5990,
+                      "end_frame": 16200,
+                      "rows": 10211
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 5990,
+                "end_frame": 16200,
+                "rows": 10211,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 5990,
+                    "end_frame": 16200,
+                    "rows": 10211
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 80,
+              "start_frame": 5990,
+              "end_frame": 16200,
+              "rows": 10211
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 10211
+          },
+          "recovery_actions": {
+            "none": 10211
+          },
+          "future_selector": {
+            "segment": "G3-14",
+            "id": 80,
+            "start_frame": 5990,
+            "end_frame": 16200,
+            "expected_rows": 10211
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-15",
+      "snapshot_frame": 7305,
+      "user_final_ids": [
+        81,
+        74
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-15\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "ab80dd9a745c3f4829fe10be0ae21524155e969f9510e16d11a639da2e9d441f",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-15\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "c47db71c6b9bb7652316b3221c8174a140569f0963afc9e9fd39a02745638ea0",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-15.mp4",
+        "sha256": "867DC980C2256745CB05FF19DA80EDB883DD279914193494DE5592AF5E056A6B",
+        "frames": 14610.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 1094022,
+      "input_total_final_ids": 93,
+      "expected_removed_rows": 21369,
+      "expected_remaining_rows": 1072653,
+      "tracks": [
+        {
+          "user_final_id": 81,
+          "snapshot": {
+            "frame": 7305,
+            "display_label": "81",
+            "source_track_id": 81,
+            "final_ids": [
+              81
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            81
+          ],
+          "raw_inference_source_track_ids": [
+            81
+          ],
+          "whole_track": {
+            "start_frame": 4473,
+            "end_frame": 11314,
+            "expected_rows": 6766,
+            "missing_frames_inside_range": 76,
+            "classes": {
+              "0": 6766
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 4473,
+                "end_frame": 6691,
+                "rows": 2219
+              },
+              {
+                "start_frame": 6697,
+                "end_frame": 6713,
+                "rows": 17
+              },
+              {
+                "start_frame": 6717,
+                "end_frame": 6754,
+                "rows": 38
+              },
+              {
+                "start_frame": 6760,
+                "end_frame": 6780,
+                "rows": 21
+              },
+              {
+                "start_frame": 6844,
+                "end_frame": 11314,
+                "rows": 4471
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 81,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 81,
+                  "start_frame": 4473,
+                  "end_frame": 11314,
+                  "rows": 6766,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 4473,
+                      "end_frame": 6691,
+                      "rows": 2219
+                    },
+                    {
+                      "start_frame": 6697,
+                      "end_frame": 6713,
+                      "rows": 17
+                    },
+                    {
+                      "start_frame": 6717,
+                      "end_frame": 6754,
+                      "rows": 38
+                    },
+                    {
+                      "start_frame": 6760,
+                      "end_frame": 6780,
+                      "rows": 21
+                    },
+                    {
+                      "start_frame": 6844,
+                      "end_frame": 11314,
+                      "rows": 4471
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 4473,
+                "end_frame": 11314,
+                "rows": 6766,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 4473,
+                    "end_frame": 6691,
+                    "rows": 2219
+                  },
+                  {
+                    "start_frame": 6697,
+                    "end_frame": 6713,
+                    "rows": 17
+                  },
+                  {
+                    "start_frame": 6717,
+                    "end_frame": 6754,
+                    "rows": 38
+                  },
+                  {
+                    "start_frame": 6760,
+                    "end_frame": 6780,
+                    "rows": 21
+                  },
+                  {
+                    "start_frame": 6844,
+                    "end_frame": 11314,
+                    "rows": 4471
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 81,
+              "start_frame": 4473,
+              "end_frame": 11314,
+              "rows": 6766
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 6766
+          },
+          "recovery_actions": {
+            "none": 6766
+          },
+          "future_selector": {
+            "segment": "G3-15",
+            "id": 81,
+            "start_frame": 4473,
+            "end_frame": 11314,
+            "expected_rows": 6766
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 74,
+          "snapshot": {
+            "frame": 7305,
+            "display_label": "74",
+            "source_track_id": 74,
+            "final_ids": [
+              74
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            74
+          ],
+          "raw_inference_source_track_ids": [
+            74
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 14610,
+            "expected_rows": 14603,
+            "missing_frames_inside_range": 7,
+            "classes": {
+              "0": 14603
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 419,
+                "rows": 419
+              },
+              {
+                "start_frame": 425,
+                "end_frame": 459,
+                "rows": 35
+              },
+              {
+                "start_frame": 462,
+                "end_frame": 14610,
+                "rows": 14149
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 74,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 74,
+                  "start_frame": 1,
+                  "end_frame": 14610,
+                  "rows": 14603,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 419,
+                      "rows": 419
+                    },
+                    {
+                      "start_frame": 425,
+                      "end_frame": 459,
+                      "rows": 35
+                    },
+                    {
+                      "start_frame": 462,
+                      "end_frame": 14610,
+                      "rows": 14149
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 14610,
+                "rows": 14603,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 419,
+                    "rows": 419
+                  },
+                  {
+                    "start_frame": 425,
+                    "end_frame": 459,
+                    "rows": 35
+                  },
+                  {
+                    "start_frame": 462,
+                    "end_frame": 14610,
+                    "rows": 14149
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 74,
+              "start_frame": 1,
+              "end_frame": 14610,
+              "rows": 14603
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 14603
+          },
+          "recovery_actions": {
+            "none": 14603
+          },
+          "future_selector": {
+            "segment": "G3-15",
+            "id": 74,
+            "start_frame": 1,
+            "end_frame": 14610,
+            "expected_rows": 14603
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-16",
+      "snapshot_frame": 3629,
+      "user_final_ids": [
+        73,
+        71
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-16\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "0155ac8ab06e1f19891ea5cf6e80d7f60f316690f46d00212dd08209dd62e9eb",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-16\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "14a3d78c0beacd19a36d6499d0ffd6c6c9c335b30ee7f70a86d4590fdcc3f624",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-16.mp4",
+        "sha256": "76ABB6D62B400B1F4A3F685F0F17C1DDCC2D9C12FEFDEDA9E3D9EA0B4B6F32C8",
+        "frames": 7257.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 536366,
+      "input_total_final_ids": 86,
+      "expected_removed_rows": 14474,
+      "expected_remaining_rows": 521892,
+      "tracks": [
+        {
+          "user_final_id": 73,
+          "snapshot": {
+            "frame": 3629,
+            "display_label": "73",
+            "source_track_id": 73,
+            "final_ids": [
+              73
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            73
+          ],
+          "raw_inference_source_track_ids": [
+            73
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 7257,
+            "expected_rows": 7255,
+            "missing_frames_inside_range": 2,
+            "classes": {
+              "0": 7255
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 949,
+                "rows": 949
+              },
+              {
+                "start_frame": 952,
+                "end_frame": 7257,
+                "rows": 6306
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 73,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 73,
+                  "start_frame": 1,
+                  "end_frame": 7257,
+                  "rows": 7255,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 949,
+                      "rows": 949
+                    },
+                    {
+                      "start_frame": 952,
+                      "end_frame": 7257,
+                      "rows": 6306
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 7257,
+                "rows": 7255,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 949,
+                    "rows": 949
+                  },
+                  {
+                    "start_frame": 952,
+                    "end_frame": 7257,
+                    "rows": 6306
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 73,
+              "start_frame": 1,
+              "end_frame": 7257,
+              "rows": 7255
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 7255
+          },
+          "recovery_actions": {
+            "none": 7255
+          },
+          "future_selector": {
+            "segment": "G3-16",
+            "id": 73,
+            "start_frame": 1,
+            "end_frame": 7257,
+            "expected_rows": 7255
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 71,
+          "snapshot": {
+            "frame": 3629,
+            "display_label": "71",
+            "source_track_id": 71,
+            "final_ids": [
+              71
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            71
+          ],
+          "raw_inference_source_track_ids": [
+            71
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 7257,
+            "expected_rows": 7219,
+            "missing_frames_inside_range": 38,
+            "classes": {
+              "0": 7219
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 1122,
+                "rows": 1122
+              },
+              {
+                "start_frame": 1129,
+                "end_frame": 1317,
+                "rows": 189
+              },
+              {
+                "start_frame": 1345,
+                "end_frame": 2251,
+                "rows": 907
+              },
+              {
+                "start_frame": 2257,
+                "end_frame": 7257,
+                "rows": 5001
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 71,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 71,
+                  "start_frame": 1,
+                  "end_frame": 7257,
+                  "rows": 7219,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 1122,
+                      "rows": 1122
+                    },
+                    {
+                      "start_frame": 1129,
+                      "end_frame": 1317,
+                      "rows": 189
+                    },
+                    {
+                      "start_frame": 1345,
+                      "end_frame": 2251,
+                      "rows": 907
+                    },
+                    {
+                      "start_frame": 2257,
+                      "end_frame": 7257,
+                      "rows": 5001
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 7257,
+                "rows": 7219,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 1122,
+                    "rows": 1122
+                  },
+                  {
+                    "start_frame": 1129,
+                    "end_frame": 1317,
+                    "rows": 189
+                  },
+                  {
+                    "start_frame": 1345,
+                    "end_frame": 2251,
+                    "rows": 907
+                  },
+                  {
+                    "start_frame": 2257,
+                    "end_frame": 7257,
+                    "rows": 5001
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 71,
+              "start_frame": 1,
+              "end_frame": 7257,
+              "rows": 7219
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 7219
+          },
+          "recovery_actions": {
+            "none": 7219
+          },
+          "future_selector": {
+            "segment": "G3-16",
+            "id": 71,
+            "start_frame": 1,
+            "end_frame": 7257,
+            "expected_rows": 7219
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-17",
+      "snapshot_frame": 2749,
+      "user_final_ids": [
+        54
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-17\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "b38892379487e96a5e7a84086492d81a9474e756f27347c87d48bbf172ba033c",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-17\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "52bb7cb8199a160da52148f919c427d5431cbd49b92eaf061c2ceef4cb0ea5ee",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-17.mp4",
+        "sha256": "AA8F44D4A1C09761C9BB899C9C2CC763542FAFAFE20C33F994C64A69E9F09E47",
+        "frames": 5498.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 404624,
+      "input_total_final_ids": 80,
+      "expected_removed_rows": 5498,
+      "expected_remaining_rows": 399126,
+      "tracks": [
+        {
+          "user_final_id": 54,
+          "snapshot": {
+            "frame": 2749,
+            "display_label": "54",
+            "source_track_id": 54,
+            "final_ids": [
+              54
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            54
+          ],
+          "raw_inference_source_track_ids": [
+            54
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 5498,
+            "expected_rows": 5498,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 5498
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 5498,
+                "rows": 5498
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 54,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 54,
+                  "start_frame": 1,
+                  "end_frame": 5498,
+                  "rows": 5498,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 5498,
+                      "rows": 5498
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 5498,
+                "rows": 5498,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 5498,
+                    "rows": 5498
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 54,
+              "start_frame": 1,
+              "end_frame": 5498,
+              "rows": 5498
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 5498
+          },
+          "recovery_actions": {
+            "none": 5498
+          },
+          "future_selector": {
+            "segment": "G3-17",
+            "id": 54,
+            "start_frame": 1,
+            "end_frame": 5498,
+            "expected_rows": 5498
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    },
+    {
+      "segment": "G3-18",
+      "snapshot_frame": 2924,
+      "user_final_ids": [
+        63,
+        64
+      ],
+      "csv_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-18\\production_001\\trajectory\\trajectory.csv",
+      "csv_sha256": "6f058e1fb7a0681dffebeeb374776ac5b00404d99dede68930995bba153d6f98",
+      "lineage_path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_runs\\video_chain_20261004_repro19\\segments\\G3-18\\production_001\\trajectory\\lineage.csv.gz",
+      "lineage_sha256": "2a950952052833cbb92af53a06d68123bab7c2e8333a81316614230f6b8dc07d",
+      "source_video": {
+        "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-18.mp4",
+        "sha256": "6A882189746070DC9E8B3C9D6D33508EDE35E80FA24117BEF99D3DADD0F2FE77",
+        "frames": 5847.0,
+        "width": 3840.0,
+        "height": 2160.0,
+        "fps": 30.0
+      },
+      "input_total_rows": 435369,
+      "input_total_final_ids": 82,
+      "expected_removed_rows": 11649,
+      "expected_remaining_rows": 423720,
+      "tracks": [
+        {
+          "user_final_id": 63,
+          "snapshot": {
+            "frame": 2924,
+            "display_label": "63",
+            "source_track_id": 63,
+            "final_ids": [
+              63
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            63
+          ],
+          "raw_inference_source_track_ids": [
+            63
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 5847,
+            "expected_rows": 5847,
+            "missing_frames_inside_range": 0,
+            "classes": {
+              "0": 5847
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 5847,
+                "rows": 5847
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 63,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 63,
+                  "start_frame": 1,
+                  "end_frame": 5847,
+                  "rows": 5847,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 5847,
+                      "rows": 5847
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 5847,
+                "rows": 5847,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 5847,
+                    "rows": 5847
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 63,
+              "start_frame": 1,
+              "end_frame": 5847,
+              "rows": 5847
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 5847
+          },
+          "recovery_actions": {
+            "none": 5847
+          },
+          "future_selector": {
+            "segment": "G3-18",
+            "id": 63,
+            "start_frame": 1,
+            "end_frame": 5847,
+            "expected_rows": 5847
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        },
+        {
+          "user_final_id": 64,
+          "snapshot": {
+            "frame": 2924,
+            "display_label": "64",
+            "source_track_id": 64,
+            "final_ids": [
+              64
+            ],
+            "display_is_plain_final_id": true
+          },
+          "source_track_ids": [
+            64
+          ],
+          "raw_inference_source_track_ids": [
+            64
+          ],
+          "whole_track": {
+            "start_frame": 1,
+            "end_frame": 5847,
+            "expected_rows": 5802,
+            "missing_frames_inside_range": 45,
+            "classes": {
+              "0": 5802
+            },
+            "present_frame_intervals": [
+              {
+                "start_frame": 1,
+                "end_frame": 5499,
+                "rows": 5499
+              },
+              {
+                "start_frame": 5545,
+                "end_frame": 5847,
+                "rows": 303
+              }
+            ]
+          },
+          "final_id_to_source_assignment_constant": true,
+          "source_id_to_final_assignment_constant": true,
+          "source_assignments": [
+            {
+              "source_track_id": 64,
+              "source_id_other_final_ids": [],
+              "all_final_assignments_for_source": [
+                {
+                  "final_id": 64,
+                  "start_frame": 1,
+                  "end_frame": 5847,
+                  "rows": 5802,
+                  "present_frame_intervals": [
+                    {
+                      "start_frame": 1,
+                      "end_frame": 5499,
+                      "rows": 5499
+                    },
+                    {
+                      "start_frame": 5545,
+                      "end_frame": 5847,
+                      "rows": 303
+                    }
+                  ]
+                }
+              ],
+              "within_user_final_id": {
+                "start_frame": 1,
+                "end_frame": 5847,
+                "rows": 5802,
+                "present_frame_intervals": [
+                  {
+                    "start_frame": 1,
+                    "end_frame": 5499,
+                    "rows": 5499
+                  },
+                  {
+                    "start_frame": 5545,
+                    "end_frame": 5847,
+                    "rows": 303
+                  }
+                ]
+              }
+            }
+          ],
+          "source_assignment_chronological_runs": [
+            {
+              "source_track_id": 64,
+              "start_frame": 1,
+              "end_frame": 5847,
+              "rows": 5802
+            }
+          ],
+          "observations_without_raw_inference_key": 0,
+          "observation_origins": {
+            "detector_tracker": 5802
+          },
+          "recovery_actions": {
+            "none": 5802
+          },
+          "future_selector": {
+            "segment": "G3-18",
+            "id": 64,
+            "start_frame": 1,
+            "end_frame": 5847,
+            "expected_rows": 5802
+          },
+          "execution_status": "NOT_EXECUTED_WAIT_FOR_BATCH_REVIEW"
+        }
+      ],
+      "selected_csv_lineage_keys_exact": true
+    }
+  ],
+  "warnings": [],
+  "summary": {
+    "segments": 19,
+    "groups": 18,
+    "user_selected_tracks": 38,
+    "input_total_rows": 7143147,
+    "expected_removed_rows": 219700,
+    "expected_remaining_rows": 6923447,
+    "input_total_segment_scoped_final_ids": 1118,
+    "expected_remaining_segment_scoped_final_ids": 1080,
+    "snapshot_alias_ambiguities": 0,
+    "multi_source_or_split_final_id_tracks": 0,
+    "all_selected_csv_lineage_keys_exact": true,
+    "whole_track_rows_counted_from_current_csv": true,
+    "csv_changed": false,
+    "pending_manual_additional_rows_not_included": 11,
+    "manual_added_rows_applied": 0,
+    "new_staff_track_rows": 13
+  },
+  "multi_source_or_split_final_id_details": [],
+  "mapping_version": 2,
+  "supersedes_mapping": {
+    "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\staff_user_confirmed_mapping.json",
+    "sha256": "444bdb4df06c5e6b250b3763bd5765aa44fd85d4a28046f9726efb6b1513dce2",
+    "retained": true
+  },
+  "approval_references": [
+    {
+      "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\staff_user_judgment_20261006.json",
+      "sha256": "b9ac7f627d54a5cc77a8bf33bbdc90b487edb53eb70b51ad65c3d53519dadd30",
+      "tracks": 37
+    },
+    {
+      "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\remaining_user_judgment_20261006.json",
+      "tracks": 1,
+      "new_track": {
+        "segment": "G3-7-2",
+        "id": 56
+      }
+    }
+  ]
+}

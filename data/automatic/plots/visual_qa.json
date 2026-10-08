@@ -1,0 +1,58 @@
+{
+  "status": "PLOT_VISUAL_QA_PASSED",
+  "reviewed_china": "2026-10-06T13:34:31.385388+08:00",
+  "source_manifest_sha256": "0E6FC042253660B57F521B6A60BB3FF9A6489A28C3FAC77A2259AD2BBCE58F94",
+  "source_version": "automatic",
+  "source_version_manifest_sha256": "97BC33D7CB7B314A8EDD5B364CD32B6DE341A57C11BE6F51A027817E1E6B7FBB",
+  "segments": 19,
+  "total_rows": 7143147,
+  "rendered_vertices": 7143147,
+  "automatic_and_revised_share_union_axes_and_ticks": true,
+  "shared_plot_limits_m": [
+    [
+      -34.6889738947215,
+      17.2899814884215
+    ],
+    [
+      -8.020031099352,
+      9.347810376152
+    ]
+  ],
+  "shared_plot_ticks_m": [
+    [
+      -32.0,
+      -24.0,
+      -16.0,
+      -8.0,
+      0.0,
+      8.0,
+      16.0
+    ],
+    [
+      -7.5,
+      -5.0,
+      -2.5,
+      0.0,
+      2.5,
+      5.0,
+      7.5
+    ]
+  ],
+  "all_individual_png_dimensions": [
+    3664,
+    1633
+  ],
+  "reviewed_images": [
+    "automatic/plots/trajectory_overview_19_preview.jpg",
+    "automatic/plots/G1_trajectories.png",
+    "revised_trajectory_visualization_20261006_user04/G14_trajectories.png"
+  ],
+  "visual_review": {
+    "english_titles_legends_and_counts": true,
+    "title_and_count_do_not_overlap": true,
+    "complete_scene_extent_visible": true,
+    "common_coordinate_origin_preserved": true,
+    "nineteen_segment_overview_present": true
+  },
+  "csv_modified": false
+}

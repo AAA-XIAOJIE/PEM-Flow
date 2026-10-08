@@ -1,0 +1,18 @@
+PEM-Flow data licence
+
+Unless explicitly marked otherwise, the PEM-Flow dataset is licensed under
+the Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Legal code:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+This covers the trajectory and motion tables before and after recorded human
+processing, lineage and revision records, downstream data products, reviewed
+reference annotations and images, and the source videos distributed in the
+associated data archive. Cite the PEM-Flow dataset record when reusing the
+data, retain attribution, link the licence and indicate any changes.
+
+Software, third-party components and the train12 detector weight retain their
+own licences. See code/LICENSE, code/THIRD_PARTY_NOTICES.md and
+code/licenses/AGPL-3.0.txt. The data licence does not relicense those components.

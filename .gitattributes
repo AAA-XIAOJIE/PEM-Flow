@@ -1,0 +1,16 @@
+# Keep release-file bytes unchanged when cloning, including inventory hashes.
+* -text
+*.pt binary
+*.npz binary
+*.gz binary
+*.png binary
+*.jpg binary
+*.mp4 binary
+
+assets/model/**/*.pt filter=lfs diff=lfs merge=lfs -text
+code/validation/images/*.jpg filter=lfs diff=lfs merge=lfs -text
+data/**/*.csv filter=lfs diff=lfs merge=lfs -text
+data/**/*.gz filter=lfs diff=lfs merge=lfs -text
+data/**/*.npz filter=lfs diff=lfs merge=lfs -text
+data/**/*.png filter=lfs diff=lfs merge=lfs -text
+data/**/*.jsonl filter=lfs diff=lfs merge=lfs -text

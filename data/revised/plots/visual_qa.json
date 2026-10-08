@@ -1,0 +1,13 @@
+{
+  "status": "REVISED_PLOT_VISUAL_REVIEW_PASSED",
+  "recorded_china": "2026-10-06T13:51:47.331695+08:00",
+  "inspected_plots": [
+    "G1_preview.jpg",
+    "G3_preview.jpg"
+  ],
+  "all_19_figures_use_same_limits_and_ticks": true,
+  "english_titles_legends_axes": true,
+  "labels_and_counts_visible": true,
+  "total_rows": 6887738,
+  "csv_modified": false
+}

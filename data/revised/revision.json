@@ -1,0 +1,441 @@
+{
+  "status": "COMPLETE",
+  "batch_id": "PEMFlow_csv_revision_20261006_user05",
+  "rules_sha256": "5E9F241F08817C52AF8B9E72F65C1349BDB0B2D1CE4C9919D5B3F46F86F31250",
+  "input_dataset": "data/automatic",
+  "segments": [
+    {
+      "key": "G3-1",
+      "automatic_rows": 123874,
+      "revised_rows": 109896,
+      "rule_ids": [
+        "USER_STAFF_G3-1_20",
+        "USER_STAFF_G3-1_27",
+        "USER_G1_25_EXTERNAL_PERSON_DELETE",
+        "USER_PERSON_REVIEW_G3-1_29",
+        "USER_PERSON_REVIEW_G3-1_38",
+        "USER_PERSON_REVIEW_G3-1_30",
+        "USER_PERSON_REVIEW_G3-1_28",
+        "USER_PERSON_REVIEW_G3-1_32",
+        "USER_PERSON_REVIEW_G3-1_37",
+        "USER_PERSON_REVIEW_G3-1_35"
+      ],
+      "affected_rows": 13978,
+      "direct_rows": 13978,
+      "derived_only_rows": 0,
+      "deleted_rows": 13978,
+      "changed_rows": 13978,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 13513,
+        "external_person": 465
+      }
+    },
+    {
+      "key": "G3-2",
+      "automatic_rows": 125112,
+      "revised_rows": 110771,
+      "rule_ids": [
+        "USER_STAFF_G3-2_21",
+        "USER_STAFF_G3-2_22",
+        "USER_STAFF_G3-2_27",
+        "USER_PERSON_REVIEW_G3-2_32"
+      ],
+      "affected_rows": 14341,
+      "direct_rows": 14341,
+      "derived_only_rows": 0,
+      "deleted_rows": 14341,
+      "changed_rows": 14341,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 14341
+      }
+    },
+    {
+      "key": "G3-3",
+      "automatic_rows": 243559,
+      "revised_rows": 222370,
+      "rule_ids": [
+        "USER_STAFF_G3-3_23",
+        "USER_STAFF_G3-3_26",
+        "USER_PERSON_REVIEW_G3-3_24",
+        "USER_PERSON_REVIEW_G3-3_34",
+        "USER_PERSON_REVIEW_G3-3_38",
+        "USER_PERSON_REVIEW_G3-3_40",
+        "USER_PERSON_REVIEW_G3-3_35",
+        "USER_PERSON_REVIEW_G3-3_37",
+        "USER_PERSON_REVIEW_G3-3_41",
+        "USER_PERSON_REVIEW_G3-3_36",
+        "USER_PERSON_REVIEW_G3-3_31",
+        "USER_PERSON_REVIEW_G3-3_33",
+        "USER_PERSON_REVIEW_G3-3_28"
+      ],
+      "affected_rows": 21189,
+      "direct_rows": 21189,
+      "derived_only_rows": 0,
+      "deleted_rows": 21189,
+      "changed_rows": 21189,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 21189
+      }
+    },
+    {
+      "key": "G3-4",
+      "automatic_rows": 130330,
+      "revised_rows": 119783,
+      "rule_ids": [
+        "USER_STAFF_G3-4_23",
+        "USER_STAFF_G3-4_24"
+      ],
+      "affected_rows": 10547,
+      "direct_rows": 10547,
+      "derived_only_rows": 0,
+      "deleted_rows": 10547,
+      "changed_rows": 10547,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 10547
+      }
+    },
+    {
+      "key": "G3-5",
+      "automatic_rows": 110152,
+      "revised_rows": 102830,
+      "rule_ids": [
+        "USER_STAFF_G3-5_22",
+        "USER_STAFF_G3-5_24"
+      ],
+      "affected_rows": 7322,
+      "direct_rows": 7322,
+      "derived_only_rows": 0,
+      "deleted_rows": 7322,
+      "changed_rows": 7322,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 7322
+      }
+    },
+    {
+      "key": "G3-6",
+      "automatic_rows": 146761,
+      "revised_rows": 141191,
+      "rule_ids": [
+        "USER_STAFF_G3-6_22",
+        "USER_G6_21_DRAWN_BOXES",
+        "USER_G6_23_DRAWN_INSERTIONS",
+        "USER_G6_21_23_IDENTITY_RECONNECT"
+      ],
+      "affected_rows": 16734,
+      "direct_rows": 14615,
+      "derived_only_rows": 2119,
+      "deleted_rows": 5581,
+      "changed_rows": 16734,
+      "recomputed_rows": 11153,
+      "inserted_rows": 11,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 5581
+      }
+    },
+    {
+      "key": "G3-7-1",
+      "automatic_rows": 425059,
+      "revised_rows": 408736,
+      "rule_ids": [
+        "USER_STAFF_G3-7-1_48",
+        "USER_STAFF_G3-7-1_55",
+        "USER_PERSON_REVIEW_G3-7-1_50"
+      ],
+      "affected_rows": 16323,
+      "direct_rows": 16323,
+      "derived_only_rows": 0,
+      "deleted_rows": 16323,
+      "changed_rows": 16323,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 16323
+      }
+    },
+    {
+      "key": "G3-7-2",
+      "automatic_rows": 183850,
+      "revised_rows": 175020,
+      "rule_ids": [
+        "USER_STAFF_G3-7-2_40",
+        "USER_STAFF_G3-7-2_53",
+        "USER_STAFF_G3-7-2_54",
+        "USER_STAFF_G3-7-2_56"
+      ],
+      "affected_rows": 8830,
+      "direct_rows": 8830,
+      "derived_only_rows": 0,
+      "deleted_rows": 8830,
+      "changed_rows": 8830,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 8830
+      }
+    },
+    {
+      "key": "G3-8",
+      "automatic_rows": 253825,
+      "revised_rows": 244243,
+      "rule_ids": [
+        "USER_STAFF_G3-8_43",
+        "USER_STAFF_G3-8_50",
+        "USER_PERSON_REVIEW_G3-8_56",
+        "USER_PERSON_REVIEW_G3-8_57"
+      ],
+      "affected_rows": 9582,
+      "direct_rows": 9582,
+      "derived_only_rows": 0,
+      "deleted_rows": 9582,
+      "changed_rows": 9582,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 9582
+      }
+    },
+    {
+      "key": "G3-9",
+      "automatic_rows": 226866,
+      "revised_rows": 218052,
+      "rule_ids": [
+        "USER_STAFF_G3-9_48",
+        "USER_STAFF_G3-9_41",
+        "USER_PERSON_REVIEW_G3-9_57"
+      ],
+      "affected_rows": 8814,
+      "direct_rows": 8814,
+      "derived_only_rows": 0,
+      "deleted_rows": 8814,
+      "changed_rows": 8814,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 8814
+      }
+    },
+    {
+      "key": "G3-10",
+      "automatic_rows": 241589,
+      "revised_rows": 233760,
+      "rule_ids": [
+        "USER_STAFF_G3-10_30",
+        "USER_STAFF_G3-10_54"
+      ],
+      "affected_rows": 7829,
+      "direct_rows": 7829,
+      "derived_only_rows": 0,
+      "deleted_rows": 7829,
+      "changed_rows": 7829,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 7829
+      }
+    },
+    {
+      "key": "G3-11",
+      "automatic_rows": 517197,
+      "revised_rows": 505692,
+      "rule_ids": [
+        "USER_STAFF_G3-11_43"
+      ],
+      "affected_rows": 11505,
+      "direct_rows": 11505,
+      "derived_only_rows": 0,
+      "deleted_rows": 11505,
+      "changed_rows": 11505,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 11505
+      }
+    },
+    {
+      "key": "G3-12",
+      "automatic_rows": 241368,
+      "revised_rows": 231937,
+      "rule_ids": [
+        "USER_STAFF_G3-12_44",
+        "USER_STAFF_G3-12_49",
+        "USER_PERSON_REVIEW_G3-12_46",
+        "USER_PERSON_REVIEW_G3-12_43"
+      ],
+      "affected_rows": 9431,
+      "direct_rows": 9431,
+      "derived_only_rows": 0,
+      "deleted_rows": 9431,
+      "changed_rows": 9431,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 9431
+      }
+    },
+    {
+      "key": "G3-13",
+      "automatic_rows": 504136,
+      "revised_rows": 490492,
+      "rule_ids": [
+        "USER_STAFF_G3-13_73",
+        "USER_STAFF_G3-13_68"
+      ],
+      "affected_rows": 13644,
+      "direct_rows": 13644,
+      "derived_only_rows": 0,
+      "deleted_rows": 13644,
+      "changed_rows": 13644,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 13644
+      }
+    },
+    {
+      "key": "G3-14",
+      "automatic_rows": 1199088,
+      "revised_rows": 1165496,
+      "rule_ids": [
+        "USER_STAFF_G3-14_73",
+        "USER_STAFF_G3-14_80",
+        "USER_PERSON_REVIEW_G3-14_98",
+        "USER_PERSON_REVIEW_G3-14_97",
+        "USER_PERSON_REVIEW_G3-14_60",
+        "USER_PERSON_REVIEW_G3-14_103"
+      ],
+      "affected_rows": 33592,
+      "direct_rows": 33592,
+      "derived_only_rows": 0,
+      "deleted_rows": 33592,
+      "changed_rows": 33592,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 33592
+      }
+    },
+    {
+      "key": "G3-15",
+      "automatic_rows": 1094022,
+      "revised_rows": 1065373,
+      "rule_ids": [
+        "USER_STAFF_G3-15_81",
+        "USER_STAFF_G3-15_74",
+        "USER_PERSON_REVIEW_G3-15_89",
+        "USER_PERSON_REVIEW_G3-15_80",
+        "USER_PERSON_REVIEW_G3-15_65"
+      ],
+      "affected_rows": 28649,
+      "direct_rows": 28649,
+      "derived_only_rows": 0,
+      "deleted_rows": 28649,
+      "changed_rows": 28649,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 28649
+      }
+    },
+    {
+      "key": "G3-16",
+      "automatic_rows": 536366,
+      "revised_rows": 521892,
+      "rule_ids": [
+        "USER_STAFF_G3-16_73",
+        "USER_STAFF_G3-16_71"
+      ],
+      "affected_rows": 14474,
+      "direct_rows": 14474,
+      "derived_only_rows": 0,
+      "deleted_rows": 14474,
+      "changed_rows": 14474,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 14474
+      }
+    },
+    {
+      "key": "G3-17",
+      "automatic_rows": 404624,
+      "revised_rows": 396484,
+      "rule_ids": [
+        "USER_STAFF_G3-17_54",
+        "USER_PERSON_REVIEW_G3-17_14",
+        "USER_PERSON_REVIEW_G3-17_80",
+        "USER_PERSON_REVIEW_G3-17_79"
+      ],
+      "affected_rows": 8140,
+      "direct_rows": 8140,
+      "derived_only_rows": 0,
+      "deleted_rows": 8140,
+      "changed_rows": 8140,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 8140
+      }
+    },
+    {
+      "key": "G3-18",
+      "automatic_rows": 435369,
+      "revised_rows": 423720,
+      "rule_ids": [
+        "USER_STAFF_G3-18_63",
+        "USER_STAFF_G3-18_64"
+      ],
+      "affected_rows": 11649,
+      "direct_rows": 11649,
+      "derived_only_rows": 0,
+      "deleted_rows": 11649,
+      "changed_rows": 11649,
+      "recomputed_rows": 0,
+      "inserted_rows": 0,
+      "role_marked_rows": 0,
+      "deleted_rows_by_category": {
+        "confirmed_staff": 11649
+      }
+    }
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scipy": "1.15.3",
+      "shapely": "2.1.1",
+      "opencv-python-headless": "4.12.0.88"
+    }
+  },
+  "elapsed_seconds": 539.1089999999385,
+  "method": "Explicit human source IDs, frame ranges and boxes; affected identities use the production projection and motion functions; other field tokens are retained."
+}

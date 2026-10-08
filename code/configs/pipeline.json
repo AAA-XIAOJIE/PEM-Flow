@@ -1,0 +1,58 @@
+{
+  "image_width_px": 3840,
+  "image_height_px": 2160,
+  "fps": 30.0,
+  "class_reference_height_m": {
+    "0": 0.9,
+    "3": 0.6,
+    "9": 0.2
+  },
+  "released_classes": {
+    "0": "pedestrian",
+    "3": "motor_vehicle_probe",
+    "9": "e_bike"
+  },
+  "smoothing": {
+    "method": "savitzky_golay",
+    "window_frames": 31,
+    "polynomial_order": 2,
+    "minimum_window_frames": 25,
+    "position_velocity_acceleration": "same quadratic fit within true continuous segments"
+  },
+  "roi_polygon_m": [
+    [
+      -23.7286,
+      0.0112
+    ],
+    [
+      -23.8047,
+      -3.7178
+    ],
+    [
+      5.2066,
+      -3.795
+    ],
+    [
+      5.1941,
+      0.1973
+    ]
+  ],
+  "roi_area_m2": 111.83,
+  "voronoi": {
+    "grid_resolution_m": 0.1,
+    "longitudinal_margin_m": 3.0,
+    "lateral_margin_m": 0.0,
+    "pedestrian_radius_m": 0.3,
+    "e_bike_length_m": 1.6,
+    "e_bike_width_m": 0.65,
+    "motor_vehicle_length_m": 5.0,
+    "motor_vehicle_width_m": 2.0,
+    "minimum_cell_area_m2": {
+      "0": 0.3,
+      "9": 0.5,
+      "3": 2.0
+    },
+    "individual_density_area": "full_cell_area",
+    "frame_weight_area": "roi_clipped_cell_area"
+  }
+}

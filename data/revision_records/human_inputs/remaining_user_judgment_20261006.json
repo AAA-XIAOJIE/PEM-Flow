@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "status": "HUMAN_DECISIONS_RECORDED_PENDING_INTERACTIVE_BOXES_AND_COMBINED_APPLICATION",
+  "recorded_china": "2026-10-06T11:10:05.734857+08:00",
+  "actor": "human_user",
+  "approval_source": "Exact direct user message supplied by root in this conversation; recorded verbatim below.",
+  "user_message_verbatim": "G1 编号25是突然闯入的，可以标记为实验外人员；G6 编号21/23确实接反了，21对应黑衣服，23对应白衣服；G7第二段 编号56是工作人员；能看清两人的边界，需要补丁两人的框，但是我怎么补丁呢，就和21，23接反一样，我建议你不要写判断条件了，你直接给我交互工具，我把这些帧里谁是谁标给你，你改",
+  "prior_staff_approval": {
+    "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\staff_user_judgment_20261006.json",
+    "sha256": "b9ac7f627d54a5cc77a8bf33bbdc90b487edb53eb70b51ad65c3d53519dadd30",
+    "approved_tracks": 37
+  },
+  "new_staff_mapping": {
+    "path": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\staff_user_confirmed_mapping_v2.json",
+    "sha256": "befe1679ede69bff6b752394beafbd8a1694ef0ea31125788d0e847ae66af691",
+    "approved_tracks": 38,
+    "expected_removed_rows": 219700,
+    "expected_remaining_rows_before_manual_insertions": 6923447
+  },
+  "approved_decisions": [
+    {
+      "decision_id": "USER_G1_25_EXTERNAL_PERSON",
+      "segment": "G3-1",
+      "current_final_id": 25,
+      "source_track_id": 25,
+      "user_approved_role": "external_person",
+      "scope": {
+        "start_frame": 1,
+        "end_frame": 122,
+        "expected_rows": 122
+      },
+      "semantics": "Retain the existing track and existing class values; record role=external_person in role/lineage side data. User has not approved deletion or class recoding.",
+      "delete_approved": false,
+      "class_change_approved": false,
+      "identity_change_approved": false,
+      "current_classes": {
+        "0": 122
+      },
+      "application_status": "NOT_APPLIED"
+    },
+    {
+      "decision_id": "USER_G6_21_23_IDENTITY_AND_BOXES",
+      "segment": "G3-6",
+      "user_identity_assignment": {
+        "21": "black clothing",
+        "23": "white clothing"
+      },
+      "tail_id_reversal_confirmed_by_user": true,
+      "identity_correction_approved": true,
+      "application_status": "WAITING_FOR_USER_INTERACTIVE_IDENTIFICATION_AND_BOX_DRAWING",
+      "manual_annotation_frames": [
+        1065,
+        1066,
+        1067,
+        1068,
+        1069,
+        1070,
+        1071,
+        1072,
+        1073,
+        1074,
+        1075
+      ],
+      "manual_annotation_target_ids": [
+        21,
+        23
+      ],
+      "user_drawn_boxes_received": false,
+      "person_boxes": [],
+      "box_coordinates_inferred_by_assistant": false,
+      "existing_rows_for_two_ids_in_requested_frames": 11,
+      "expected_missing_rows_if_two_person_boxes_per_frame": 11,
+      "new_rows_applied": 0,
+      "exact_tail_change_ranges": "To be specified by the interactive human identity decisions; no automatic judgment conditions added."
+    },
+    {
+      "decision_id": "USER_G7_2_56_STAFF",
+      "segment": "G3-7-2",
+      "current_final_id": 56,
+      "source_track_id": 56,
+      "role": "staff",
+      "delete_approved": true,
+      "deletion_scope": {
+        "start_frame": 3558,
+        "end_frame": 3570,
+        "expected_rows": 13
+      },
+      "current_csv_class": 9,
+      "class_recode_approved": false,
+      "application_status": "PENDING_COMBINED_APPLICATION"
+    }
+  ],
+  "interactive_frame_verification": {
+    "metadata": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\extraction_metadata.json",
+    "metadata_sha256": "650e35165f3fa42aebaba3d393f0caf713e4dbb749c32c1db5c61f85ffdbfb0d",
+    "source_video": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\9.28移动\\G3-6.mp4",
+    "source_video_size": [
+      3840,
+      2160
+    ],
+    "source_frame_convention": "one-based frame f maps to video index f-1",
+    "native_crop_size": [
+      250,
+      160
+    ],
+    "native_crop_origin": [
+      680,
+      1130
+    ],
+    "native_scale": 1,
+    "native_padding": [
+      0,
+      0
+    ],
+    "native_to_source_formula": "x_source=680+x_native; y_source=1130+y_native",
+    "coordinate_review_scale": 4,
+    "coordinate_review_padding_left_top": [
+      64,
+      80
+    ],
+    "verification_method": "Independently decoded only source video frames1065..1075 and compared native PNG pixels to the declared source crop with numpy.array_equal; all11 exact.",
+    "frames": [
+      {
+        "frame": 1065,
+        "image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1065_native.png",
+        "sha256": "5569bb7f772e20a815cb176d57e42f32a333cad10e1c6658bb580c41f17805ff",
+        "native_size": [
+          250,
+          160
+        ],
+        "source_crop_pixel_exact_verified": true
+      },
+      {
+        "frame": 1066,
+        "image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1066_native.png",
+        "sha256": "fe519578c0e192432d8458d67fe2a39b303fc4e9f8a4a079dbe9bfee2ca8ccbd",
+        "native_size": [
+          250,
+          160
+        ],
+        "source_crop_pixel_exact_verified": true
+      },
+      {
+        "frame": 1067,
+        "image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1067_native.png",
+        "sha256": "039bfc2822730aed169aac473e49e9bb473047f3ea34cc60517f33ed2f608440",
+        "native_size": [
+          250,
+          160
+        ],
+        "source_crop_pixel_exact_verified": true
+      },
+      {
+        "frame": 1068,
+        "image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1068_native.png",
+        "sha256": "835d96846b0aadc596cd5e9da7260f4b31bf726a6efc3742721d64b383dd3e08",
+        "native_size": [
+          250,
+          160
+        ],
+        "source_crop_pixel_exact_verified": true
+      },
+      {
+        "frame": 1069,
+        "image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1069_native.png",
+        "sha256": "ccc594f6cccb97abfc59b56d9814a046f592da6f48c018f34941e82df51139c2",
+        "native_size": [
+          250,
+          160
+        ],
+        "source_crop_pixel_exact_verified": true
+      },
+      {
+        "frame": 1070,
+        "image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1070_native.png",
+        "sha256": "7a24f6375cabab20bcf4d71426995dc624d10a866b32c2a065a4ccbc5b1b71ff",
+        "native_size": [
+          250,
+          160
+        ],
+        "source_crop_pixel_exact_verified": true
+      },
+      {
+        "frame": 1071,
+        "image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1071_native.png",
+        "sha256": "e898157b5c82d5897260260e6864d2cf2fd1f2d76b65acb6c6601cf3957dc2fc",
+        "native_size": [
+          250,
+          160
+        ],
+        "source_crop_pixel_exact_verified": true
+      },
+      {
+        "frame": 1072,
+        "image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1072_native.png",
+        "sha256": "5f9f1e4209470e67df4b8691dde8013a5d45776af537bb41fd885d96ef8f3556",
+        "native_size": [
+          250,
+          160
+        ],
+        "source_crop_pixel_exact_verified": true
+      },
+      {
+        "frame": 1073,
+        "image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1073_native.png",
+        "sha256": "2d99ed3d51d00cbf162f681b9d40ef776a643492b9082d25d14e10c584b23847",
+        "native_size": [
+          250,
+          160
+        ],
+        "source_crop_pixel_exact_verified": true
+      },
+      {
+        "frame": 1074,
+        "image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1074_native.png",
+        "sha256": "ac3f9d4840d387d874721b837223549860899e5402ccd1a3e3816d01230bc009",
+        "native_size": [
+          250,
+          160
+        ],
+        "source_crop_pixel_exact_verified": true
+      },
+      {
+        "frame": 1075,
+        "image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1075_native.png",
+        "sha256": "2993431656d19723f3b744b52abded4a8b6e433f1be07ef5e65e4458072f872f",
+        "native_size": [
+          250,
+          160
+        ],
+        "source_crop_pixel_exact_verified": true
+      }
+    ],
+    "person_boxes_generated": false
+  },
+  "execution_guard": {
+    "csv_modified": false,
+    "ids_modified": false,
+    "rows_deleted": 0,
+    "rows_added": 0,
+    "class_values_modified": false,
+    "all_real_application_deferred": true,
+    "original_automatic_csv_must_be_retained": true
+  }
+}

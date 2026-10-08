@@ -1,0 +1,852 @@
+{
+  "schema_version": 1,
+  "task_id": "G3-6-identities-21-23-frames-1065-1075",
+  "segment": "G3-6",
+  "submission_key": "6210910f-e076-4916-83e6-a1048ed4be75",
+  "submitted_utc": "2026-10-06T03:28:22.634936+00:00",
+  "status": "USER_SUBMITTED_BOX_ANNOTATIONS_NOT_APPLIED_TO_CSV",
+  "request_sha256": "36174b4646cc6a29bb068d48f4c3c612730ca61f4d1849910afbcd1370c3b1d3",
+  "approval": {
+    "user_approved": true,
+    "approval_reference": "用户在交互工具中点击“提交这11帧标注”：21黑衣、23白衣，确认逐帧框选",
+    "scope": "User-drawn boxes and user-confirmed identities in these eleven source frames"
+  },
+  "annotation_source": "user_drawn",
+  "identities": {
+    "21": "black",
+    "23": "white"
+  },
+  "crop_xyxy": [
+    680,
+    1130,
+    930,
+    1290
+  ],
+  "full_frame_wh": [
+    3840,
+    2160
+  ],
+  "frame_evidence": [
+    {
+      "frame": 1065,
+      "image_url": "/frames/1065.png",
+      "width": 250,
+      "height": 160,
+      "crop_xyxy": [
+        680,
+        1130,
+        930,
+        1290
+      ],
+      "full_frame_wh": [
+        3840,
+        2160
+      ],
+      "source_image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1065_native.png",
+      "image_sha256": "5569bb7f772e20a815cb176d57e42f32a333cad10e1c6658bb580c41f17805ff",
+      "pixel_sha256": "bf946250b2aa8b57ba94629e92065c4b814b840c20f9763430635c5ded69556e",
+      "pixel_hash_format": "uint8 BGR,160x250x3,row-major,OpenCV PNG decode"
+    },
+    {
+      "frame": 1066,
+      "image_url": "/frames/1066.png",
+      "width": 250,
+      "height": 160,
+      "crop_xyxy": [
+        680,
+        1130,
+        930,
+        1290
+      ],
+      "full_frame_wh": [
+        3840,
+        2160
+      ],
+      "source_image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1066_native.png",
+      "image_sha256": "fe519578c0e192432d8458d67fe2a39b303fc4e9f8a4a079dbe9bfee2ca8ccbd",
+      "pixel_sha256": "201216f05eff5612013bc07b3fa26cf49a62c38804dff5d2dd354cfafb4e7c7d",
+      "pixel_hash_format": "uint8 BGR,160x250x3,row-major,OpenCV PNG decode"
+    },
+    {
+      "frame": 1067,
+      "image_url": "/frames/1067.png",
+      "width": 250,
+      "height": 160,
+      "crop_xyxy": [
+        680,
+        1130,
+        930,
+        1290
+      ],
+      "full_frame_wh": [
+        3840,
+        2160
+      ],
+      "source_image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1067_native.png",
+      "image_sha256": "039bfc2822730aed169aac473e49e9bb473047f3ea34cc60517f33ed2f608440",
+      "pixel_sha256": "faccdcc7bb95066ddb30a6887604d9c5962b7cd4fe3667db0b6176e390d845b8",
+      "pixel_hash_format": "uint8 BGR,160x250x3,row-major,OpenCV PNG decode"
+    },
+    {
+      "frame": 1068,
+      "image_url": "/frames/1068.png",
+      "width": 250,
+      "height": 160,
+      "crop_xyxy": [
+        680,
+        1130,
+        930,
+        1290
+      ],
+      "full_frame_wh": [
+        3840,
+        2160
+      ],
+      "source_image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1068_native.png",
+      "image_sha256": "835d96846b0aadc596cd5e9da7260f4b31bf726a6efc3742721d64b383dd3e08",
+      "pixel_sha256": "7a522b854f87da87e4d79156fd382715797144d0aa8f20566e3d6868da204bca",
+      "pixel_hash_format": "uint8 BGR,160x250x3,row-major,OpenCV PNG decode"
+    },
+    {
+      "frame": 1069,
+      "image_url": "/frames/1069.png",
+      "width": 250,
+      "height": 160,
+      "crop_xyxy": [
+        680,
+        1130,
+        930,
+        1290
+      ],
+      "full_frame_wh": [
+        3840,
+        2160
+      ],
+      "source_image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1069_native.png",
+      "image_sha256": "ccc594f6cccb97abfc59b56d9814a046f592da6f48c018f34941e82df51139c2",
+      "pixel_sha256": "fc2d6f1d44d8216700d9366fc3c1cf3aebed69c4790f2b8a1f2451ee4146500e",
+      "pixel_hash_format": "uint8 BGR,160x250x3,row-major,OpenCV PNG decode"
+    },
+    {
+      "frame": 1070,
+      "image_url": "/frames/1070.png",
+      "width": 250,
+      "height": 160,
+      "crop_xyxy": [
+        680,
+        1130,
+        930,
+        1290
+      ],
+      "full_frame_wh": [
+        3840,
+        2160
+      ],
+      "source_image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1070_native.png",
+      "image_sha256": "7a24f6375cabab20bcf4d71426995dc624d10a866b32c2a065a4ccbc5b1b71ff",
+      "pixel_sha256": "f58afabae0497780e34380116c5e378643f13407fccbd0370d92c94ad4bf7a73",
+      "pixel_hash_format": "uint8 BGR,160x250x3,row-major,OpenCV PNG decode"
+    },
+    {
+      "frame": 1071,
+      "image_url": "/frames/1071.png",
+      "width": 250,
+      "height": 160,
+      "crop_xyxy": [
+        680,
+        1130,
+        930,
+        1290
+      ],
+      "full_frame_wh": [
+        3840,
+        2160
+      ],
+      "source_image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1071_native.png",
+      "image_sha256": "e898157b5c82d5897260260e6864d2cf2fd1f2d76b65acb6c6601cf3957dc2fc",
+      "pixel_sha256": "a6543c30b3dc4e7cb3e992210ba5a69ed7572a585e0581756b7853aee9d7682c",
+      "pixel_hash_format": "uint8 BGR,160x250x3,row-major,OpenCV PNG decode"
+    },
+    {
+      "frame": 1072,
+      "image_url": "/frames/1072.png",
+      "width": 250,
+      "height": 160,
+      "crop_xyxy": [
+        680,
+        1130,
+        930,
+        1290
+      ],
+      "full_frame_wh": [
+        3840,
+        2160
+      ],
+      "source_image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1072_native.png",
+      "image_sha256": "5f9f1e4209470e67df4b8691dde8013a5d45776af537bb41fd885d96ef8f3556",
+      "pixel_sha256": "7f785cba14d28a28550ee0c9ac2d2603c18387777b78b2b9e0775faf2de285fd",
+      "pixel_hash_format": "uint8 BGR,160x250x3,row-major,OpenCV PNG decode"
+    },
+    {
+      "frame": 1073,
+      "image_url": "/frames/1073.png",
+      "width": 250,
+      "height": 160,
+      "crop_xyxy": [
+        680,
+        1130,
+        930,
+        1290
+      ],
+      "full_frame_wh": [
+        3840,
+        2160
+      ],
+      "source_image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1073_native.png",
+      "image_sha256": "2d99ed3d51d00cbf162f681b9d40ef776a643492b9082d25d14e10c584b23847",
+      "pixel_sha256": "8e45f6d609c97c2923f875008afa3b949654d6b0195d173dfdcc2d0f3e34f31c",
+      "pixel_hash_format": "uint8 BGR,160x250x3,row-major,OpenCV PNG decode"
+    },
+    {
+      "frame": 1074,
+      "image_url": "/frames/1074.png",
+      "width": 250,
+      "height": 160,
+      "crop_xyxy": [
+        680,
+        1130,
+        930,
+        1290
+      ],
+      "full_frame_wh": [
+        3840,
+        2160
+      ],
+      "source_image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1074_native.png",
+      "image_sha256": "ac3f9d4840d387d874721b837223549860899e5402ccd1a3e3816d01230bc009",
+      "pixel_sha256": "a9bf726c4eef7feaad7938a0930751cae4bfc9739ad8ea811bd4b21014d78e36",
+      "pixel_hash_format": "uint8 BGR,160x250x3,row-major,OpenCV PNG decode"
+    },
+    {
+      "frame": 1075,
+      "image_url": "/frames/1075.png",
+      "width": 250,
+      "height": 160,
+      "crop_xyxy": [
+        680,
+        1130,
+        930,
+        1290
+      ],
+      "full_frame_wh": [
+        3840,
+        2160
+      ],
+      "source_image": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\evidence_frames\\G3-6_frame1075_native.png",
+      "image_sha256": "2993431656d19723f3b744b52abded4a8b6e433f1be07ef5e65e4458072f872f",
+      "pixel_sha256": "0e3315e4ad1c86280a7f081f08d66d27bc9e947b25d9c9001083f3e7fb5ec605",
+      "pixel_hash_format": "uint8 BGR,160x250x3,row-major,OpenCV PNG decode"
+    }
+  ],
+  "coordinate_unit": "original image pixels; xyxy edges; cxcywh centre,width,height",
+  "identity_fields_note": "id/source_track_id/class express the user-confirmed21-black/23-white identity continuation; they do not assert that an automatic source row exists",
+  "annotations": [
+    {
+      "frame": 1065,
+      "identity_id": 21,
+      "bbox_local_xyxy": [
+        55.0,
+        47.354,
+        106.333,
+        122.021
+      ],
+      "user_drawn": true,
+      "id": 21,
+      "source_track_id": 21,
+      "class": 0,
+      "identity_label": "black",
+      "bbox_global_xyxy": [
+        735.0,
+        1177.354,
+        786.333,
+        1252.021
+      ],
+      "bbox_global_cxcywh": [
+        760.6665,
+        1214.6875,
+        51.333,
+        74.667
+      ]
+    },
+    {
+      "frame": 1065,
+      "identity_id": 23,
+      "bbox_local_xyxy": [
+        111.0,
+        78.021,
+        175.0,
+        128.688
+      ],
+      "user_drawn": true,
+      "id": 23,
+      "source_track_id": 23,
+      "class": 0,
+      "identity_label": "white",
+      "bbox_global_xyxy": [
+        791.0,
+        1208.021,
+        855.0,
+        1258.688
+      ],
+      "bbox_global_cxcywh": [
+        823.0,
+        1233.3545,
+        64.0,
+        50.66699999999999
+      ]
+    },
+    {
+      "frame": 1066,
+      "identity_id": 21,
+      "bbox_local_xyxy": [
+        56.0,
+        47.021,
+        110.0,
+        117.354
+      ],
+      "user_drawn": true,
+      "id": 21,
+      "source_track_id": 21,
+      "class": 0,
+      "identity_label": "black",
+      "bbox_global_xyxy": [
+        736.0,
+        1177.021,
+        790.0,
+        1247.354
+      ],
+      "bbox_global_cxcywh": [
+        763.0,
+        1212.1875,
+        54.0,
+        70.333
+      ]
+    },
+    {
+      "frame": 1066,
+      "identity_id": 23,
+      "bbox_local_xyxy": [
+        112.0,
+        80.021,
+        179.667,
+        128.688
+      ],
+      "user_drawn": true,
+      "id": 23,
+      "source_track_id": 23,
+      "class": 0,
+      "identity_label": "white",
+      "bbox_global_xyxy": [
+        792.0,
+        1210.021,
+        859.667,
+        1258.688
+      ],
+      "bbox_global_cxcywh": [
+        825.8335,
+        1234.3545,
+        67.667,
+        48.66699999999999
+      ]
+    },
+    {
+      "frame": 1067,
+      "identity_id": 21,
+      "bbox_local_xyxy": [
+        60.333,
+        54.354,
+        115.333,
+        121.688
+      ],
+      "user_drawn": true,
+      "id": 21,
+      "source_track_id": 21,
+      "class": 0,
+      "identity_label": "black",
+      "bbox_global_xyxy": [
+        740.333,
+        1184.354,
+        795.333,
+        1251.688
+      ],
+      "bbox_global_cxcywh": [
+        767.833,
+        1218.0210000000002,
+        55.0,
+        67.334
+      ]
+    },
+    {
+      "frame": 1067,
+      "identity_id": 23,
+      "bbox_local_xyxy": [
+        118.667,
+        82.354,
+        188.0,
+        133.021
+      ],
+      "user_drawn": true,
+      "id": 23,
+      "source_track_id": 23,
+      "class": 0,
+      "identity_label": "white",
+      "bbox_global_xyxy": [
+        798.667,
+        1212.354,
+        868.0,
+        1263.021
+      ],
+      "bbox_global_cxcywh": [
+        833.3335,
+        1237.6875,
+        69.333,
+        50.66699999999999
+      ]
+    },
+    {
+      "frame": 1068,
+      "identity_id": 21,
+      "bbox_local_xyxy": [
+        62.667,
+        61.688,
+        118.667,
+        125.354
+      ],
+      "user_drawn": true,
+      "id": 21,
+      "source_track_id": 21,
+      "class": 0,
+      "identity_label": "black",
+      "bbox_global_xyxy": [
+        742.667,
+        1191.688,
+        798.667,
+        1255.354
+      ],
+      "bbox_global_cxcywh": [
+        770.667,
+        1223.5210000000002,
+        56.0,
+        63.666
+      ]
+    },
+    {
+      "frame": 1068,
+      "identity_id": 23,
+      "bbox_local_xyxy": [
+        120.333,
+        81.354,
+        194.667,
+        136.688
+      ],
+      "user_drawn": true,
+      "id": 23,
+      "source_track_id": 23,
+      "class": 0,
+      "identity_label": "white",
+      "bbox_global_xyxy": [
+        800.333,
+        1211.354,
+        874.667,
+        1266.688
+      ],
+      "bbox_global_cxcywh": [
+        837.5,
+        1239.0210000000002,
+        74.334,
+        55.33399999999999
+      ]
+    },
+    {
+      "frame": 1069,
+      "identity_id": 21,
+      "bbox_local_xyxy": [
+        58.667,
+        70.354,
+        119.667,
+        126.688
+      ],
+      "user_drawn": true,
+      "id": 21,
+      "source_track_id": 21,
+      "class": 0,
+      "identity_label": "black",
+      "bbox_global_xyxy": [
+        738.667,
+        1200.354,
+        799.667,
+        1256.688
+      ],
+      "bbox_global_cxcywh": [
+        769.167,
+        1228.5210000000002,
+        61.0,
+        56.334
+      ]
+    },
+    {
+      "frame": 1069,
+      "identity_id": 23,
+      "bbox_local_xyxy": [
+        120.0,
+        82.021,
+        202.0,
+        140.688
+      ],
+      "user_drawn": true,
+      "id": 23,
+      "source_track_id": 23,
+      "class": 0,
+      "identity_label": "white",
+      "bbox_global_xyxy": [
+        800.0,
+        1212.021,
+        882.0,
+        1270.688
+      ],
+      "bbox_global_cxcywh": [
+        841.0,
+        1241.3545,
+        82.0,
+        58.66699999999999
+      ]
+    },
+    {
+      "frame": 1070,
+      "identity_id": 21,
+      "bbox_local_xyxy": [
+        64.0,
+        78.688,
+        116.0,
+        130.354
+      ],
+      "user_drawn": true,
+      "id": 21,
+      "source_track_id": 21,
+      "class": 0,
+      "identity_label": "black",
+      "bbox_global_xyxy": [
+        744.0,
+        1208.688,
+        796.0,
+        1260.354
+      ],
+      "bbox_global_cxcywh": [
+        770.0,
+        1234.5210000000002,
+        52.0,
+        51.66600000000001
+      ]
+    },
+    {
+      "frame": 1070,
+      "identity_id": 23,
+      "bbox_local_xyxy": [
+        116.0,
+        83.021,
+        205.0,
+        137.354
+      ],
+      "user_drawn": true,
+      "id": 23,
+      "source_track_id": 23,
+      "class": 0,
+      "identity_label": "white",
+      "bbox_global_xyxy": [
+        796.0,
+        1213.021,
+        885.0,
+        1267.354
+      ],
+      "bbox_global_cxcywh": [
+        840.5,
+        1240.1875,
+        89.0,
+        54.33300000000001
+      ]
+    },
+    {
+      "frame": 1071,
+      "identity_id": 21,
+      "bbox_local_xyxy": [
+        64.333,
+        83.688,
+        119.0,
+        134.021
+      ],
+      "user_drawn": true,
+      "id": 21,
+      "source_track_id": 21,
+      "class": 0,
+      "identity_label": "black",
+      "bbox_global_xyxy": [
+        744.333,
+        1213.688,
+        799.0,
+        1264.021
+      ],
+      "bbox_global_cxcywh": [
+        771.6665,
+        1238.8545,
+        54.667,
+        50.332999999999984
+      ]
+    },
+    {
+      "frame": 1071,
+      "identity_id": 23,
+      "bbox_local_xyxy": [
+        116.0,
+        85.688,
+        209.0,
+        137.688
+      ],
+      "user_drawn": true,
+      "id": 23,
+      "source_track_id": 23,
+      "class": 0,
+      "identity_label": "white",
+      "bbox_global_xyxy": [
+        796.0,
+        1215.688,
+        889.0,
+        1267.688
+      ],
+      "bbox_global_cxcywh": [
+        842.5,
+        1241.688,
+        93.0,
+        51.999999999999986
+      ]
+    },
+    {
+      "frame": 1072,
+      "identity_id": 21,
+      "bbox_local_xyxy": [
+        66.667,
+        87.354,
+        123.667,
+        137.354
+      ],
+      "user_drawn": true,
+      "id": 21,
+      "source_track_id": 21,
+      "class": 0,
+      "identity_label": "black",
+      "bbox_global_xyxy": [
+        746.667,
+        1217.354,
+        803.667,
+        1267.354
+      ],
+      "bbox_global_cxcywh": [
+        775.167,
+        1242.354,
+        57.0,
+        50.000000000000014
+      ]
+    },
+    {
+      "frame": 1072,
+      "identity_id": 23,
+      "bbox_local_xyxy": [
+        119.667,
+        86.354,
+        208.667,
+        140.688
+      ],
+      "user_drawn": true,
+      "id": 23,
+      "source_track_id": 23,
+      "class": 0,
+      "identity_label": "white",
+      "bbox_global_xyxy": [
+        799.667,
+        1216.354,
+        888.667,
+        1270.688
+      ],
+      "bbox_global_cxcywh": [
+        844.167,
+        1243.5210000000002,
+        89.0,
+        54.33399999999999
+      ]
+    },
+    {
+      "frame": 1073,
+      "identity_id": 21,
+      "bbox_local_xyxy": [
+        70.333,
+        90.354,
+        127.333,
+        141.021
+      ],
+      "user_drawn": true,
+      "id": 21,
+      "source_track_id": 21,
+      "class": 0,
+      "identity_label": "black",
+      "bbox_global_xyxy": [
+        750.333,
+        1220.354,
+        807.333,
+        1271.021
+      ],
+      "bbox_global_cxcywh": [
+        778.833,
+        1245.6875,
+        57.0,
+        50.66699999999999
+      ]
+    },
+    {
+      "frame": 1073,
+      "identity_id": 23,
+      "bbox_local_xyxy": [
+        128.333,
+        87.021,
+        210.0,
+        139.021
+      ],
+      "user_drawn": true,
+      "id": 23,
+      "source_track_id": 23,
+      "class": 0,
+      "identity_label": "white",
+      "bbox_global_xyxy": [
+        808.333,
+        1217.021,
+        890.0,
+        1269.021
+      ],
+      "bbox_global_cxcywh": [
+        849.1665,
+        1243.021,
+        81.667,
+        51.999999999999986
+      ]
+    },
+    {
+      "frame": 1074,
+      "identity_id": 21,
+      "bbox_local_xyxy": [
+        76.667,
+        94.688,
+        127.333,
+        142.021
+      ],
+      "user_drawn": true,
+      "id": 21,
+      "source_track_id": 21,
+      "class": 0,
+      "identity_label": "black",
+      "bbox_global_xyxy": [
+        756.667,
+        1224.688,
+        807.333,
+        1272.021
+      ],
+      "bbox_global_cxcywh": [
+        782.0,
+        1248.3545,
+        50.666,
+        47.332999999999984
+      ]
+    },
+    {
+      "frame": 1074,
+      "identity_id": 23,
+      "bbox_local_xyxy": [
+        126.333,
+        87.354,
+        209.333,
+        141.688
+      ],
+      "user_drawn": true,
+      "id": 23,
+      "source_track_id": 23,
+      "class": 0,
+      "identity_label": "white",
+      "bbox_global_xyxy": [
+        806.333,
+        1217.354,
+        889.333,
+        1271.688
+      ],
+      "bbox_global_cxcywh": [
+        847.833,
+        1244.5210000000002,
+        83.0,
+        54.33399999999999
+      ]
+    },
+    {
+      "frame": 1075,
+      "identity_id": 21,
+      "bbox_local_xyxy": [
+        75.333,
+        96.354,
+        130.667,
+        144.688
+      ],
+      "user_drawn": true,
+      "id": 21,
+      "source_track_id": 21,
+      "class": 0,
+      "identity_label": "black",
+      "bbox_global_xyxy": [
+        755.333,
+        1226.354,
+        810.667,
+        1274.688
+      ],
+      "bbox_global_cxcywh": [
+        783.0,
+        1250.5210000000002,
+        55.334,
+        48.33399999999999
+      ]
+    },
+    {
+      "frame": 1075,
+      "identity_id": 23,
+      "bbox_local_xyxy": [
+        130.0,
+        87.021,
+        210.0,
+        139.688
+      ],
+      "user_drawn": true,
+      "id": 23,
+      "source_track_id": 23,
+      "class": 0,
+      "identity_label": "white",
+      "bbox_global_xyxy": [
+        810.0,
+        1217.021,
+        890.0,
+        1269.688
+      ],
+      "bbox_global_cxcywh": [
+        850.0,
+        1243.3545,
+        80.0,
+        52.66699999999999
+      ]
+    }
+  ],
+  "automatic_fill": false,
+  "old_bbox_reused": false,
+  "csv_changes_applied": false
+}

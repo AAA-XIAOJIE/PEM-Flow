@@ -1,0 +1,7 @@
+# Tested installation profile for trajectory processing, revisions and metrics.
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+shapely==2.1.1
+opencv-python-headless==4.12.0.88
+tqdm==4.67.1

@@ -1,0 +1,490 @@
+{
+  "decisions": [
+    {
+      "segment": "G3-1",
+      "id": 29,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 1475,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-1",
+      "id": 38,
+      "role": "external_person",
+      "reason": "用户查看原视频截图后确认该整条轨迹为闯入人员",
+      "evidence_frame": 4100,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-1",
+      "id": 30,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 787,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-2",
+      "id": 32,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 3274,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-3",
+      "id": 24,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 117,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-3",
+      "id": 34,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 6593,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-3",
+      "id": 38,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 8333,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-3",
+      "id": 40,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 8600,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-3",
+      "id": 35,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 7256,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-7-1",
+      "id": 50,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 375,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-8",
+      "id": 56,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 4815,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-8",
+      "id": 57,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 4944,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-9",
+      "id": 57,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 4115,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-12",
+      "id": 46,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 1619,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-12",
+      "id": 43,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 50,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-14",
+      "id": 98,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 15258,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-14",
+      "id": 97,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 15382,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-14",
+      "id": 60,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 4877,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-14",
+      "id": 103,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 16092,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-15",
+      "id": 89,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 11730,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-15",
+      "id": 80,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 4294,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-15",
+      "id": 65,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 70,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-17",
+      "id": 14,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 300,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-17",
+      "id": 80,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 5333,
+      "user_confirmed": true
+    },
+    {
+      "segment": "G3-17",
+      "id": 79,
+      "role": "staff",
+      "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
+      "evidence_frame": 4094,
+      "user_confirmed": true
+    }
+  ],
+  "submitted": true,
+  "actor": "human_user",
+  "recorded_utc": "2026-10-06T05:21:01.909787+00:00",
+  "manifest_sha256": "52ca3ed828c0b3bf2e82a52f0461a89496653f89979d99b6e5f31e74a614840e",
+  "source_manifest": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\manifest.json",
+  "evidence": [
+    {
+      "segment": "G3-1",
+      "id": 29,
+      "evidence_frame": 1475,
+      "source_csv_sha256": "8e6d6194c2121bf2815e6360b4f5a25e02021ab28dc31d5f0019857fa77302ba",
+      "source_lineage_sha256": "19258c77619b2a63f1d01883e3b9ed2646a12542b3c2d941b2aa01747a9ec8fd",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-1-id29-frame1475-0a9a47375095e2de.jpg",
+      "image_sha256": "a72f7bde0c9bf8a7c0e3df86d872ff659a2d5047f92364ba827862bc162b693f",
+      "observation_id": 43084,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-1",
+      "id": 38,
+      "evidence_frame": 4100,
+      "source_csv_sha256": "8e6d6194c2121bf2815e6360b4f5a25e02021ab28dc31d5f0019857fa77302ba",
+      "source_lineage_sha256": "19258c77619b2a63f1d01883e3b9ed2646a12542b3c2d941b2aa01747a9ec8fd",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-1-id38-frame4100-cc85f2eb454e2dcb.jpg",
+      "image_sha256": "4baf75317b889b6fb8c9633cc3f7face69ec257b07ce649bdbc3d12d2d137162",
+      "observation_id": 115197,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-1",
+      "id": 30,
+      "evidence_frame": 787,
+      "source_csv_sha256": "8e6d6194c2121bf2815e6360b4f5a25e02021ab28dc31d5f0019857fa77302ba",
+      "source_lineage_sha256": "19258c77619b2a63f1d01883e3b9ed2646a12542b3c2d941b2aa01747a9ec8fd",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-1-id30-frame787-5bdf09fde7f74615.jpg",
+      "image_sha256": "69c802acf81b7d5093e8623ad2ee38bcf864d13b250a47a161051060a791853c",
+      "observation_id": 23161,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-2",
+      "id": 32,
+      "evidence_frame": 3274,
+      "source_csv_sha256": "f3c86f5acb79d697253e42001ca623c3b2c0af549fe7df1d0e9a553b5fb399f5",
+      "source_lineage_sha256": "b16fefbf8f58be0f9642fca8f6555115ea61f249ce8d16de7307f1931fd138af",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-2-id32-frame3274-a60eb9f3f762b874.jpg",
+      "image_sha256": "f0b874ae3a5c44b98098cc08c4e9c4294fe3dd3e7826a909b4d9b07a376a9732",
+      "observation_id": 92888,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-3",
+      "id": 24,
+      "evidence_frame": 117,
+      "source_csv_sha256": "92991ee58de3b4922c7b075af630b5a769d10d899446c87a214ec9d262864e0d",
+      "source_lineage_sha256": "6f649ca0dd4a13b296c6d099e97278737b48aa5fac6accb260cffa9e24810e85",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-3-id24-frame117-88bc78ccd223d30a.jpg",
+      "image_sha256": "2b54df6b2408bd8c5c660dee17052ad6384403076244baf91fb98e9c143e2fc4",
+      "observation_id": 2826,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-3",
+      "id": 34,
+      "evidence_frame": 6593,
+      "source_csv_sha256": "92991ee58de3b4922c7b075af630b5a769d10d899446c87a214ec9d262864e0d",
+      "source_lineage_sha256": "6f649ca0dd4a13b296c6d099e97278737b48aa5fac6accb260cffa9e24810e85",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-3-id34-frame6593-0cc8d05df46e6c2a.jpg",
+      "image_sha256": "ed89429c91d0d48238ba911aaae8b322d2064ff056442373214ec80e738a429b",
+      "observation_id": 165487,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-3",
+      "id": 38,
+      "evidence_frame": 8333,
+      "source_csv_sha256": "92991ee58de3b4922c7b075af630b5a769d10d899446c87a214ec9d262864e0d",
+      "source_lineage_sha256": "6f649ca0dd4a13b296c6d099e97278737b48aa5fac6accb260cffa9e24810e85",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-3-id38-frame8333-767291646739216e.jpg",
+      "image_sha256": "b937fee5b17ed944a1565f51669bc12dd939b5c7d9f243b8fd7c1e9a9fbc51fe",
+      "observation_id": 211744,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-3",
+      "id": 40,
+      "evidence_frame": 8600,
+      "source_csv_sha256": "92991ee58de3b4922c7b075af630b5a769d10d899446c87a214ec9d262864e0d",
+      "source_lineage_sha256": "6f649ca0dd4a13b296c6d099e97278737b48aa5fac6accb260cffa9e24810e85",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-3-id40-frame8600-7e52c56f0a06adf6.jpg",
+      "image_sha256": "90c54544b8c56d11d7ce26f1365739c41d46a6e5bc238f15454c63a79c1ff256",
+      "observation_id": 218769,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-3",
+      "id": 35,
+      "evidence_frame": 7256,
+      "source_csv_sha256": "92991ee58de3b4922c7b075af630b5a769d10d899446c87a214ec9d262864e0d",
+      "source_lineage_sha256": "6f649ca0dd4a13b296c6d099e97278737b48aa5fac6accb260cffa9e24810e85",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-3-id35-frame7256-786f3cb263c2d4c4.jpg",
+      "image_sha256": "71ee6183930cc6beb023fd0a134138d95d1079ba69a72a0fd96f46e86a4ca095",
+      "observation_id": 182755,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-7-1",
+      "id": 50,
+      "evidence_frame": 375,
+      "source_csv_sha256": "a29dc7c271fb4b8706da900ca5beaf8438f662b3e1965edc420709b9f194aa37",
+      "source_lineage_sha256": "3c1934a5e683580c356a23a6ccc519a6c48214d64fdff69536b8fc8f14b4445b",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-7-1-id50-frame375-b20617baa29107ef.jpg",
+      "image_sha256": "47fc700791f614d824991ffa5da24b90c2c9f9d7bd41e750392477c4f37e6956",
+      "observation_id": 18764,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-8",
+      "id": 56,
+      "evidence_frame": 4815,
+      "source_csv_sha256": "ce24be1fc7904abb0d509bfc7752af277f394682e81a4915e6d1b576aa98a95d",
+      "source_lineage_sha256": "795e705f3c7af3dbe09c2dc2e29496635c7bd0df007114454dd0263790c2cdbf",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-8-id56-frame4815-e6ae944a91a0528a.jpg",
+      "image_sha256": "c49ca0b3f1ee5c71619bef93b7c8e510d7e4945dc17b99fcf08fdd6a582dfe6b",
+      "observation_id": 243802,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-8",
+      "id": 57,
+      "evidence_frame": 4944,
+      "source_csv_sha256": "ce24be1fc7904abb0d509bfc7752af277f394682e81a4915e6d1b576aa98a95d",
+      "source_lineage_sha256": "795e705f3c7af3dbe09c2dc2e29496635c7bd0df007114454dd0263790c2cdbf",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-8-id57-frame4944-77dbd7a39246f5e9.jpg",
+      "image_sha256": "b7579ce45695bedbf26df8c0b4782b1840aba2c29c02a1f9d99792520d0082b2",
+      "observation_id": 250420,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-9",
+      "id": 57,
+      "evidence_frame": 4115,
+      "source_csv_sha256": "1d58274f8601d3d2ef99961adb296e358801364cbb3ae72b3d4f153fe316905f",
+      "source_lineage_sha256": "95e73db2702684504311cf4ebbabf26ffc275d3ae0b1c724d98a6af1913b18fc",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-9-id57-frame4115-f68d9fdbf825c50c.jpg",
+      "image_sha256": "b39f2747da7e31f162f48e387175088ebce0bd483a23ee614c3b44c2973b3ba3",
+      "observation_id": 209382,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-12",
+      "id": 46,
+      "evidence_frame": 1619,
+      "source_csv_sha256": "0b85f226144ed967b409d560966bb36a7b54d01f7fab8e923d5ea6d951ff9e5a",
+      "source_lineage_sha256": "2c847e8ec52b1605838f1f8c74c1ea019785bb5a3f5cdb91ca091d99d2fea044",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-12-id46-frame1619-24ef78116c556ef9.jpg",
+      "image_sha256": "ef63c2af8e4ab49451b76b2c48ee45448486d02e4f77ed8e4285c5e066b9335d",
+      "observation_id": 71402,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-12",
+      "id": 43,
+      "evidence_frame": 50,
+      "source_csv_sha256": "0b85f226144ed967b409d560966bb36a7b54d01f7fab8e923d5ea6d951ff9e5a",
+      "source_lineage_sha256": "2c847e8ec52b1605838f1f8c74c1ea019785bb5a3f5cdb91ca091d99d2fea044",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-12-id43-frame50-4d8e940321534b53.jpg",
+      "image_sha256": "6fb83f82d5b9aaa302c00a5a7b20a2cfe6d1a9a2ccb75d1d338d88e8b13039a6",
+      "observation_id": 2199,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-14",
+      "id": 98,
+      "evidence_frame": 15258,
+      "source_csv_sha256": "57d3a0df921eb720fb12c348e6d5f353e973fcc4d276e7d8fb068503038ac85f",
+      "source_lineage_sha256": "59fa03c36f738d69ccf3d38036af821606eb86c46884a2ac4c19776ff7e94c47",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-14-id98-frame15258-00caba722180b507.jpg",
+      "image_sha256": "cbe81081c3c8e7824299eb6d09f077f044c3a831f81c0f16de9de8a65b032d1b",
+      "observation_id": 1129328,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-14",
+      "id": 97,
+      "evidence_frame": 15382,
+      "source_csv_sha256": "57d3a0df921eb720fb12c348e6d5f353e973fcc4d276e7d8fb068503038ac85f",
+      "source_lineage_sha256": "59fa03c36f738d69ccf3d38036af821606eb86c46884a2ac4c19776ff7e94c47",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-14-id97-frame15382-077297898b37aa4f.jpg",
+      "image_sha256": "6eb2c1cb7f8e0395f49db8f1ae33c63d35815fda46e7b74f53123f23fcec83cd",
+      "observation_id": 1138686,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-14",
+      "id": 60,
+      "evidence_frame": 4877,
+      "source_csv_sha256": "57d3a0df921eb720fb12c348e6d5f353e973fcc4d276e7d8fb068503038ac85f",
+      "source_lineage_sha256": "59fa03c36f738d69ccf3d38036af821606eb86c46884a2ac4c19776ff7e94c47",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-14-id60-frame4877-827e0aa738f29423.jpg",
+      "image_sha256": "37ee1fad720febfdb83e496c5add8b80eb3e0187cbe8e1954d58ead480bc2539",
+      "observation_id": 360154,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-14",
+      "id": 103,
+      "evidence_frame": 16092,
+      "source_csv_sha256": "57d3a0df921eb720fb12c348e6d5f353e973fcc4d276e7d8fb068503038ac85f",
+      "source_lineage_sha256": "59fa03c36f738d69ccf3d38036af821606eb86c46884a2ac4c19776ff7e94c47",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-14-id103-frame16092-3f21d67b606ed556.jpg",
+      "image_sha256": "cf7f83617f08eac2ec8a2e70d1240633834b15ffe4be56bf78b5360d355ab364",
+      "observation_id": 1191156,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-15",
+      "id": 89,
+      "evidence_frame": 11730,
+      "source_csv_sha256": "060f6a9d4b16336796dd18368ffcd1b25d83ca9d2f2a66dd1410782fbd2154ab",
+      "source_lineage_sha256": "861a909995eda57defc29dc9eaaf26a3992d9449d0c88de65d7c5388f3e20562",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-15-id89-frame11730-e112a321a51cddec.jpg",
+      "image_sha256": "3dc0c215047720514986e1ee6dfb8f1e17dbf7fb51eee5f8eba4269a0b3a2891",
+      "observation_id": 877851,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-15",
+      "id": 80,
+      "evidence_frame": 4294,
+      "source_csv_sha256": "060f6a9d4b16336796dd18368ffcd1b25d83ca9d2f2a66dd1410782fbd2154ab",
+      "source_lineage_sha256": "861a909995eda57defc29dc9eaaf26a3992d9449d0c88de65d7c5388f3e20562",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-15-id80-frame4294-b70eb13a15da13de.jpg",
+      "image_sha256": "eed1659ba48267606f9f001c0b3a9789f57584586450f1484a6fe457bb3fde46",
+      "observation_id": 320710,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-15",
+      "id": 65,
+      "evidence_frame": 70,
+      "source_csv_sha256": "060f6a9d4b16336796dd18368ffcd1b25d83ca9d2f2a66dd1410782fbd2154ab",
+      "source_lineage_sha256": "861a909995eda57defc29dc9eaaf26a3992d9449d0c88de65d7c5388f3e20562",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-15-id65-frame70-5bb7cdd2713a5794.jpg",
+      "image_sha256": "4c64c9a7d84901a8319cb476bdb41ec682a8300287f9d195596f9c452aeb0495",
+      "observation_id": 5240,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-17",
+      "id": 14,
+      "evidence_frame": 300,
+      "source_csv_sha256": "30fa043b7c032c304399f88487c825957353aa1747edb22a5ef12c6b2cf4fda3",
+      "source_lineage_sha256": "63d44e07680061ee8d5f6ea8ac3afa11791710842b51f19023c944fed557d04b",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-17-id14-frame300-a9667a265d0a75a4.jpg",
+      "image_sha256": "a4924d61c5d0747b221fe01191d05f8de84e03f80c3f10e5acae845d8215fb10",
+      "observation_id": 22011,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-17",
+      "id": 80,
+      "evidence_frame": 5333,
+      "source_csv_sha256": "30fa043b7c032c304399f88487c825957353aa1747edb22a5ef12c6b2cf4fda3",
+      "source_lineage_sha256": "63d44e07680061ee8d5f6ea8ac3afa11791710842b51f19023c944fed557d04b",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-17-id80-frame5333-9c17b50ecf2f14ee.jpg",
+      "image_sha256": "2e908fa49bfe9606ce38d9541a225bd44ac437add3f550dee46d4bcc9a201ab1",
+      "observation_id": 392459,
+      "bbox_source": "automatic_observations"
+    },
+    {
+      "segment": "G3-17",
+      "id": 79,
+      "evidence_frame": 4094,
+      "source_csv_sha256": "30fa043b7c032c304399f88487c825957353aa1747edb22a5ef12c6b2cf4fda3",
+      "source_lineage_sha256": "63d44e07680061ee8d5f6ea8ac3afa11791710842b51f19023c944fed557d04b",
+      "image_file": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\trajectory_identity_picker_20261006\\user_decisions\\evidence_images\\G3-17-id79-frame4094-6b6717866ba686af.jpg",
+      "image_sha256": "73e5790d123f67c4b5d22d5a497bce7251778fe360c835435e27d760ee9e1f48",
+      "observation_id": 301590,
+      "bbox_source": "automatic_observations"
+    }
+  ],
+  "csv_changes_applied": false,
+  "user_approved": true,
+  "approval_reference": "用户在轨迹身份核验工具点击提交判断清单",
+  "submission_key": "c8322d87-7e23-42c3-abdf-06b57a72f677"
+}

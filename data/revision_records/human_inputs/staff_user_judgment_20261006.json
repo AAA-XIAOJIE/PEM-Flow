@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "status": "USER_CONFIRMED_STAFF_PENDING_COMBINED_APPLICATION",
+  "recorded_china": "2026-10-06T10:59:52.510491+08:00",
+  "actor": "human_user",
+  "approval_source": "Direct human user message in this conversation on 2026-10-06",
+  "user_message_verbatim": "G1 编号20和27是工作人员；G2编号21，22，27是工作人员；G3工作人员是23，26；G4是23，24；G5 22,24;G6 22;G7-1 48 55;G7-2 40 53 54;G8 43 50;G9 48,41;G10 30 54; G11 43;G12 44 49;G13 73 68;G14 73 80;G15 81 74;G16 73 71;G17 54 G18 63 64;以上是工作人员；另外，你讲到的那几个你认为有问题的地方，给我看图，我看看是否真的有问题，然后你写代码一并更改",
+  "approved_staff_csv_ids_by_segment": {
+    "G3-1": [
+      20,
+      27
+    ],
+    "G3-2": [
+      21,
+      22,
+      27
+    ],
+    "G3-3": [
+      23,
+      26
+    ],
+    "G3-4": [
+      23,
+      24
+    ],
+    "G3-5": [
+      22,
+      24
+    ],
+    "G3-6": [
+      22
+    ],
+    "G3-7-1": [
+      48,
+      55
+    ],
+    "G3-7-2": [
+      40,
+      53,
+      54
+    ],
+    "G3-8": [
+      43,
+      50
+    ],
+    "G3-9": [
+      48,
+      41
+    ],
+    "G3-10": [
+      30,
+      54
+    ],
+    "G3-11": [
+      43
+    ],
+    "G3-12": [
+      44,
+      49
+    ],
+    "G3-13": [
+      73,
+      68
+    ],
+    "G3-14": [
+      73,
+      80
+    ],
+    "G3-15": [
+      81,
+      74
+    ],
+    "G3-16": [
+      73,
+      71
+    ],
+    "G3-17": [
+      54
+    ],
+    "G3-18": [
+      63,
+      64
+    ]
+  },
+  "segments": 19,
+  "identified_csv_tracks": 37,
+  "screenshot_manifest": "C:\\Users\\Admin\\Documents\\ChatGPT\\数据集论文工作\\workspace_audit\\end_correction_20261006\\staff_video_snapshots\\manifest.json",
+  "screenshot_manifest_sha256": "8E9028065BD1188850F9C43A3F41D8421981FAA1016EB67A0F52E0DFC02C9A87",
+  "authorized_action": "Remove the identified staff trajectories from the additional revised CSV version",
+  "application_timing": "Combine with other issues after the user's image judgment",
+  "other_class_identity_position_corrections_approved": false,
+  "automatic_csv_modified": false,
+  "staff_deletion_applied": false,
+  "required_retention": "Submit both the original automatic CSV and the additional revised CSV"
+}
