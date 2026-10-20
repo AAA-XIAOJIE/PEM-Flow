@@ -2,17 +2,15 @@
 
 The processing sequence is:
 
-**Source video → YOLO11m + ByteTrack → background stabilization and image audit
-→ close-gap image recovery → world-coordinate projection → continuous-segment
-motion → automatic CSV.**
+**Video → YOLO11m and ByteTrack → background stabilization and image audit
+→ image recovery → world-coordinate projection → motion calculation → CSV.**
 
-Human review produces explicit rules applied by `revise`. The resulting CSV
-edition is used by `metrics` and `evaluate`.
+Recorded human decisions produce the reviewed dataset. Downstream commands
+calculate motion, density, flow and detection/tracking quality.
 
 ## Installation
 
-Use Python 3.11 or later; the release was tested with Python 3.12. From this
-`code/` directory, install the tested inference profile and the editable package:
+Use Python 3.11 or later. The tested environment uses Python 3.12. Run from `code/`:
 
 ```powershell
 python -m venv .venv
@@ -21,29 +19,66 @@ python -m venv .venv
 .venv\Scripts\python -m pip install -e . --no-deps
 ```
 
-The CUDA wheel above matches the validated machine. Choose a PyTorch wheel
-appropriate for your own device, or use `--device cpu`. Installation profiles
-record tested dependency versions. Execution records installed versions in the
-output metadata and proceeds with the available environment.
+Choose the PyTorch wheel appropriate for your device. CPU inference uses
+`--device cpu`; `requirements/cpu.txt` provides a CPU dependency profile.
+The program records installed versions in its output metadata.
 
-For a separate CPU environment, install `requirements/cpu.txt` followed by
-`pip install -e . --no-deps`. The full video command accepts separate
-`--inference-python` and `--cpu-python` interpreters. A single inference
-environment also contains all packages needed by the other commands.
+Merge the Zenodo data archive's `PEM-Flow/` directory into this repository.
+The train12 weight is in `../assets/model/train12/best.pt`.
 
-## Inputs
+## Demonstration videos
 
-Put the 19 original files listed in `../assets/video_manifest.csv` into
-`../assets/videos/`. The train12 weight is already in
-`../assets/model/train12/best.pt`. Camera intrinsics, surveyed control points,
-reference image indices and numerical parameters are in `configs/dataset.json`.
-ROI and shape parameters are in `configs/pipeline.json`.
+The three clips in `../assets/demos/` contain 24, 48 and 72 participants with
+50% e-bikes. Process them with:
 
-`G3-7-1` reads `G3-7.mp4` and writes `G3-7.csv`; `G3-7-2` reads
-`h_G3-7-1.mp4` and writes `G3-7_hmi.csv`. They are independent video segments
-with local frame numbers and identities; both aggregate into experiment G07.
+```powershell
+.venv\Scripts\python -m pemflow run --dataset configs/demo_dataset.json --video-root ../assets/demos --workers 2 --device 0 --output ../outputs/demo
+```
 
-## Commands
+The matching output tables are in `../data/demo/`. Each clip has its own
+one-based frame numbers and tracker IDs. `assets/demos/clip_manifest.json`
+records source frame ranges and encoding. Camera calibration is retained;
+G15's calibration reference is clip frame 151 (zero-based index 150).
+
+## Recalculate the dataset
+
+The archived observations and stabilization matrices in `../data/automatic/`
+are inputs to the production projection and motion functions:
+
+```powershell
+.venv\Scripts\python examples/reproject_cached.py --output ../outputs/reprojected
+.venv\Scripts\python -m pemflow revise --input ../outputs/reprojected --output ../outputs/revised
+.venv\Scripts\python -m pemflow metrics --input ../outputs/revised --output ../outputs/downstream --workers 2
+.venv\Scripts\python -m pemflow evaluate --input ../outputs/revised --automatic ../outputs/reprojected --output ../outputs/evaluation
+```
+
+This calculates all 19 trajectory segments, applies the recorded human
+decisions, and evaluates the resulting dataset. The reference results are
+`../data/automatic/`, `../data/revised/` and `../data/downstream/`.
+
+Recalculate detector AP from the 270 archived low-confidence prediction records
+and reviewed annotations:
+
+```powershell
+.venv\Scripts\python examples/score_archived_ap.py --output ../outputs/ap
+```
+
+Recalculate the reference-line height comparison:
+
+```powershell
+.venv\Scripts\python examples/reproduce_height_selection.py --output ../outputs/height_selection
+```
+
+Class heights are 0.72 m for pedestrians, 0.20 m for e-bikes and 0.60 m for
+motor vehicles. The first two minimize the mean of four single-pass RMSEs from
+two round trips, using motion-processed positions: 4.02225 cm and 4.16203 cm.
+The height experiment uses its own camera calibration and road elevation,
+stored in `../data/height_selection/`.
+
+## Process source videos
+
+Put the 19 files listed in `../assets/video_manifest.csv` in `../assets/videos/`.
+The manifest specifies filenames, sizes and SHA-256 hashes.
 
 ```powershell
 .venv\Scripts\python -m pemflow run --workers 2 --device 0 --output ../outputs/automatic
@@ -52,92 +87,65 @@ with local frame numbers and identities; both aggregate into experiment G07.
 .venv\Scripts\python -m pemflow evaluate --input ../outputs/revised --automatic ../outputs/automatic --output ../outputs/evaluation
 ```
 
-These commands use the environment created above and are run from `code/`.
-In an activated environment, `pemflow` and `python -m pemflow` provide the same
-commands. Default input paths are resolved from the installed editable package,
-so they also work from other working directories. Explicit relative arguments
-such as `--output` refer to your working directory.
+`configs/dataset.json` contains camera parameters, control points, reference
+indices and processing parameters. `configs/pipeline.json` specifies ROI and
+shape parameters.
 
-Two workers can run on the same GPU. Each video keeps sequential frame decoding,
-batch size 1 and its own tracker state. The console reports the video, current
-stage, processed frames and completed video count. `progress.json` and individual
-stage logs are written to the output folder.
+`G3-7-1` reads `G3-7.mp4` and produces `G3-7.csv`; `G3-7-2` reads
+`h_G3-7-1.mp4` and produces `G3-7_hmi.csv`. Each segment has local frame and
+identity keys; experiment statistics aggregate them as G07.
 
-To resume a stopped job, repeat the `run` command with `--resume`. Completed
-stages are retained. Interrupted tracking restarts that video because tracker
-state depends on preceding frames; completed stabilization and recovery stages
-can be resumed separately. Use a new output directory for a new scientific
-configuration or dataset.
+Two workers can share a GPU. Each video is decoded sequentially with batch
+size 1 and its own tracker state. Progress appears in the console and
+`progress.json`. Add `--resume` to continue an interrupted run.
+Use `--segments G3-1 G3-7-2` to select source segments.
+Separate environments can be specified with `--inference-python` and
+`--cpu-python`.
 
-To process selected source segments:
+The commands above run from `code/`. Default inputs resolve from the package;
+explicit relative arguments resolve from the working directory.
 
-```powershell
-.venv\Scripts\python -m pemflow run --segments G3-1 G3-7-2 --workers 2 --output ../outputs/selected
-```
+## Human revision and evaluation
 
-`revise` uses `corrections/final_rules.json`. It selects immutable source track
-IDs and one-based inclusive frame ranges. Deletions omit those rows. Explicit
-ID mappings are applied simultaneously. Submitted boxes are projected using
-the production matrices; affected complete identities are recalculated with the
-same motion functions. Other CSV field tokens are copied unchanged. Each revised
-row and its reason are recorded in an audit. Rules were supplied by human review
-of this automatic edition; they should be reviewed again when using different
-source observations.
+`corrections/final_rules.json` records 77 human decisions against the source
+IDs and inclusive frame ranges of `data/automatic/`. Deletions filter rows;
+ID mappings are applied simultaneously; submitted boxes are projected with
+the production matrices. Affected complete trajectories use the same motion
+calculation. Row-level records preserve each change and its reason.
 
-`metrics` reads the trajectory, motion and lineage tables. It outputs
-`trajectory_metrics.json`, summary CSVs, and ROI individual/frame tables.
-Trajectory summaries report speed, absolute SG tangential acceleration, SG
-acceleration magnitude and within-segment position increments.
-`evaluate` compares the fixed 270 detection frames and 600 tracking frames
-against reviewed GT and writes precision/recall/F1, MOTA, IDF1, ID switches,
-fragmentations and projected box-centre differences.
+`metrics` calculates motion summaries and ROI individual/frame density and
+flow. `evaluate` uses 270 detection frames and 600 tracking frames to calculate
+precision, recall, F1, MOTA, IDF1, ID switches, fragmentations and projected
+box-centre differences.
 
-Detector AP requires low-threshold predictions on native-resolution source
-images. Add `--ap` in the inference environment:
+To rerun detection on the source images for AP:
 
 ```powershell
 .venv\Scripts\python -m pemflow evaluate --ap --input ../data/revised --automatic ../data/automatic --output ../outputs/evaluation
 ```
 
-The AP entry decodes the fixed 270 sampled frames from the source videos,
-predicts at confidence 0.001, and scores IoU 0.50–0.95 using the 101-point
-precision envelope. CSV tracking predictions and image-recovered boxes are
-separate from this detector calculation.
+AP uses confidence 0.001 predictions, IoU 0.50–0.95 and the 101-point precision
+envelope. The 270 source images are decoded from the source videos.
 
-## Outputs and scientific definitions
+## Outputs and source layout
 
-An automatic dataset contains `dataset.json`, `trajectory/`, `motion/`,
-`lineage/`, `intermediates/`, `run.json` and progress/log files.
-Trajectory CSV columns are:
+Automatic output contains `trajectory/`, `motion/`, `lineage/`,
+`intermediates/`, `dataset.json`, `run.json` and progress logs.
 
 ```text
 frame,id,class,real_x,real_y,velocity,dist
 ```
 
-`frame` starts at 1 within each video, `real_x/real_y/dist` are metres and
-`velocity` is m/s. Class codes are 0 pedestrian, 9 e-bike and 3 motor-vehicle
-probe. The `motion/` table stores both velocity and acceleration components,
-tangential acceleration, actual window and segment status. Empty fields denote
-unavailable derivatives.
+Coordinates and distance use metres; speed uses m/s. Class codes are
+0 pedestrian, 9 e-bike and 3 motor vehicle. Position, velocity and acceleration
+use a quadratic Savitzky–Golay fit with a maximum 31-frame window.
+Continuous segments of 25–30 frames use the largest permitted odd window;
+shorter segments retain observed positions and missing derivatives.
 
-Position, velocity and acceleration use the same quadratic Savitzky–Golay fit.
-The maximum window is 31 frames. A continuous 25–30-frame segment uses its
-largest legal odd window; shorter segments retain measured positions and missing
-derivatives. Automatic source tracks use one majority class; actual missing
-frames, source identity changes and final ID changes split motion segments.
-Matrix index `f-1` projects label frame `f`, after the
-stabilization matrices are expressed in the calibration reference image.
+`src/pemflow/pipeline/` implements video processing; `revision/` applies human
+rules; `downstream/` calculates trajectory and ROI metrics; `evaluation/`
+scores reviewed annotations. `cli.py` provides commands, `execution.py`
+schedules workers, and `io.py` handles dataset paths.
 
-See [methods.md](docs/methods.md) for ROI and diagnostic definitions and
-[data dictionary](docs/data_dictionary.md) for file fields.
-
-## Source layout
-
-`src/pemflow/pipeline` implements video processing; `revision` applies explicit
-human rules; `downstream` computes trajectory/ROI metrics; `evaluation` scores
-reviewed GT. `cli.py` defines the four commands, `execution.py` schedules segment
-workers, and `io.py` defines dataset paths and file helpers.
-
-Original code uses the BSD 3-Clause license. Ultralytics, its derived tracker
-configuration and the detector weight retain AGPL component notices; see
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+See [methods](docs/methods.md), [field definitions](docs/data_dictionary.md)
+and [licences](THIRD_PARTY_NOTICES.md).

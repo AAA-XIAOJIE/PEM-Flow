@@ -5,8 +5,8 @@
 YOLO11m train12 and ByteTrack run on each video as one serial stream at
 confidence 0.3, NMS IoU 0.5, image size 1280, rectangular inference, FP32 and
 batch size 1. Original inference observations contain frame, source track ID,
-raw class, normalized centre/size and confidence. Serialization reproduces the
-producer's six-significant-digit text convention.
+raw class, normalized centre/size and confidence. Observation values are
+serialized with six significant digits.
 
 Background stabilization uses SIFT2000, the configured reference frame, ratio
 0.7, at least 21 matches and a 3-pixel RANSAC threshold. Diagnostics are generated
@@ -17,15 +17,15 @@ matrix requires the configured coverage, residual and improvement criteria;
 otherwise the measured base matrix is retained and its unresolved status is
 reported. `matrix_quality.py` defines the checks.
 
-The current matrices are rebased to the calibration reference image before
+Stabilization matrices are rebased to the calibration reference image before
 projection. The label frame `f` uses matrix index `f-1`. PnP uses the configured
 intrinsics, distortion and surveyed 3D control points. Reference heights are
-0.9 m for pedestrian centres, 0.2 m for e-bike centres and 0.6 m for the vehicle
+0.72 m for pedestrian centres, 0.20 m for e-bike centres and 0.60 m for the vehicle
 probe. The trajectory's majority class is established before height selection.
 
-Close-gap image recovery operates after matrix estimation, using the current
+Close-gap image recovery operates after matrix estimation, using the source
 video and raw observations. It uses optical flow and image patch checks around
-short gaps near another source track. It accepts only the current configured
+short gaps near another source track. Recovery acceptance follows the configured
 geometric and image-evidence criteria. Observations retain their source identity
 and record detector versus image-recovery provenance. Detector AP uses independent
 low-threshold image predictions.
@@ -81,10 +81,10 @@ Manual insertions have negative observation IDs and explicit manual provenance;
 detector confidences remain unavailable. Affected full identities are projected
 and fitted again with the production functions; unchanged tokens are retained.
 
-Quality evaluation uses the unchanged full-roadway 870 reviewed frames:
+Quality evaluation uses 870 reviewed full-roadway frames:
 270 for detection operating metrics/AP and 600 for tracking. Reviewed staff and
 other ignore regions retain their GT status. CSV-based P/R use class-aware
 IoU 0.5 matching; tracking uses one-to-one assignments and task-local GT IDs.
 AP predicts at confidence 0.001 and integrates the confidence-ranked 101-point
 precision envelope at IoU 0.50:0.05:0.95. Projected box-centre differences are
-same-camera consistency measurements, rather than surveyed absolute accuracy.
+measurements of consistency under the same camera model.

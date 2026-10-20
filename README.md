@@ -1,49 +1,55 @@
 # PEM-Flow
 
-PEM-Flow processes 19 source videos from 18 experiments into trajectories,
-applies the recorded human CSV revisions, and calculates motion, density, flow
-and detection/tracking quality metrics.
+PEM-Flow converts videos of pedestrian–e-bike interactions into trajectories,
+applies recorded human revisions, and calculates motion, density, flow and
+detection/tracking quality metrics.
+
+## Package
+
+| Location | Contents |
+| --- | --- |
+| GitHub | Processing code, configurations, train12 model, human revision rules and annotation records |
+| Zenodo | Demonstration videos, trajectory datasets, downstream results and calculation inputs |
+
+Merge the data archive's `PEM-Flow/` directory into the cloned repository.
 
 | Directory | Contents |
 | --- | --- |
-| `assets/videos/` | Place the source videos here, using `assets/video_manifest.csv`. |
-| `assets/model/train12/best.pt` | The train12 detector weight used by the processing chain. |
-| `code/` | Python package, scientific configurations, final human rules and reviewed GT. |
-| `data/automatic/` | Automatic CSVs, motion tables, row lineage, trajectory figures and projection inputs. |
-| `data/revised/` | Human-revised CSVs, motion tables, row lineage and trajectory figures. |
-| `data/downstream/` | Metrics calculated from the revised data. |
-| `data/revision_records/` | Final human decisions, submitted boxes and per-row revision audit. |
-| `manifest.json` | Package inventory and file hashes. |
+| `code/` | Python package, configurations, examples and reviewed annotations |
+| `assets/model/train12/` | Detector weight |
+| `assets/demos/` | Three 10-second videos: 24, 48 and 72 participants, each with 50% e-bikes |
+| `assets/videos/` | Input directory for the 19 source videos listed in `assets/video_manifest.csv` |
+| `data/demo/` | The demonstration clips' trajectory, motion and lineage tables |
+| `data/automatic/` | Automatic trajectories, matching figures and projection inputs |
+| `data/revised/` | Trajectories and figures after recorded human review |
+| `data/downstream/` | Motion, density, flow and quality metrics |
+| `data/revision_records/` | Human decisions, submitted boxes and row-level revision records |
+| `data/height_selection/` | Reference-line experiment inputs and height-comparison results |
 
-The automatic edition contains **7,143,147** scene records; the revised edition
-contains **6,887,738**. Both cover the same **132,663** source video frames.
-The revised ROI contains **2,820,289** records. CSVs and their matching figures
-are stored together in each edition. Figures use the same world-coordinate
-extent and English labels.
+The automatic dataset contains **7,143,147** trajectory records and the
+human-reviewed dataset **6,887,738**, covering **19 video segments** from
+**18 experiments** and **132,663 frames**. The reviewed ROI contains
+**2,819,547** records.
 
-Start with [the code instructions](code/README.md) or
-[中文使用说明](code/README_zh.md). Scientific definitions are described in
-[code/docs/methods.md](code/docs/methods.md).
+Install [Git LFS](https://git-lfs.com/), run `git lfs install`, and clone the
+repository. Use `git lfs pull` to retrieve the model in an existing clone.
+Follow [English instructions](code/README.md) or
+[中文使用说明](code/README_zh.md) to process the demos, recalculate the dataset
+from archived observations, or process source videos.
 
-Install [Git LFS](https://git-lfs.com/) before cloning this repository, then run
-`git lfs install` and clone normally. In an existing clone, run `git lfs pull`
-to download the model, reviewed images and dataset files. The source videos are
-placed separately in `assets/videos/` using the video manifest.
+## Projection heights
 
-## Source videos
+The class reference heights are **0.72 m for pedestrians**, **0.20 m for
+e-bikes**, and **0.60 m for motor vehicles**. The pedestrian and e-bike heights
+minimize the mean of four single-pass RMSEs from two round trips, using
+motion-processed positions. The respective mean lateral deviations from the
+reference line are **4.02225 cm** and **4.16203 cm**.
 
-The 19 source MP4 files are distributed through the Zenodo data archive. The
-Zenodo deposit is being prepared; its public download link will be added here
-when the record is published. The videos total 46.20 GB.
-
-Download the original MP4 files and place them directly in `assets/videos/`,
-keeping the names listed in `assets/video_manifest.csv`. Each file's byte count
-and SHA-256 are included in that manifest. Keep the original files without
-re-encoding. After placement, follow the installation and commands in
-[code/README.md](code/README.md) or [code/README_zh.md](code/README_zh.md).
+`code/examples/reproduce_height_selection.py` calculates these values from
+`data/height_selection/`. See [methods](code/docs/methods.md) and the
+[data dictionary](code/docs/data_dictionary.md) for definitions.
 
 ## Licences
 
-PEM-Flow data use CC BY 4.0; see [DATA_LICENSE.txt](DATA_LICENSE.txt).
-Software and model terms are described in
-[code/THIRD_PARTY_NOTICES.md](code/THIRD_PARTY_NOTICES.md).
+Data use [CC BY 4.0](DATA_LICENSE.txt). Software and model terms are listed in
+[THIRD_PARTY_NOTICES.md](code/THIRD_PARTY_NOTICES.md).

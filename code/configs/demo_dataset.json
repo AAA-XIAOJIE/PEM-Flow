@@ -1,0 +1,572 @@
+{
+  "segments": [
+    {
+      "key": "G3-6",
+      "run": "G06",
+      "segment": "segment01",
+      "source_video": {
+        "filename": "low_G6_24p_50pct_10s.mp4",
+        "frames": 300,
+        "bytes": 43261379,
+        "sha256": "0D60FBEA6B2A7DDFB12C257944E837818814034608B828CF4F062DB85671DC9C"
+      },
+      "profile": {
+        "camera_parameters": {
+          "airframe_label": "DJI_XIAO",
+          "matrix": [
+            [
+              3196.53714,
+              0,
+              1900.41152
+            ],
+            [
+              0,
+              3193.58569,
+              1052.68158
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "distortion": [
+            0.02206809,
+            0.01549096,
+            -0.00159113,
+            -0.00199774,
+            -0.00206784
+          ]
+        },
+        "world_points": [
+          [
+            -23.266000747680664,
+            -2.9000000953674316,
+            0
+          ],
+          [
+            -23.18899917602539,
+            3.109999895095825,
+            0
+          ],
+          [
+            4.840000152587891,
+            3.140000104904175,
+            0
+          ],
+          [
+            4.820000171661377,
+            -2.8499999046325684,
+            0
+          ],
+          [
+            -13.0600004196167,
+            0,
+            0
+          ],
+          [
+            0,
+            -4.260000228881836,
+            2.7300000190734863
+          ],
+          [
+            -28.56999969482422,
+            -4,
+            2.130000114440918
+          ],
+          [
+            1.6100000143051147,
+            4.295000076293945,
+            0.12999999523162842
+          ],
+          [
+            4.010000228881836,
+            4.295000076293945,
+            0.12999999523162842
+          ],
+          [
+            -29.03499984741211,
+            0,
+            0
+          ],
+          [
+            6.954999923706055,
+            0,
+            0
+          ]
+        ],
+        "image_points": [
+          [
+            822,
+            1449
+          ],
+          [
+            824,
+            929
+          ],
+          [
+            3264,
+            924
+          ],
+          [
+            3273,
+            1443
+          ],
+          [
+            1705,
+            1199
+          ],
+          [
+            2928,
+            1612
+          ],
+          [
+            255,
+            1582
+          ],
+          [
+            2986,
+            820
+          ],
+          [
+            3199,
+            822
+          ],
+          [
+            315,
+            1200
+          ],
+          [
+            3457,
+            1197
+          ]
+        ],
+        "frames": 300,
+        "fps": 30.0,
+        "image_width_px": 3840,
+        "image_height_px": 2160,
+        "reference_frame_index": 4,
+        "class_reference_height_m": {
+          "0": 0.72,
+          "3": 0.6,
+          "9": 0.2
+        }
+      },
+      "stabilization_reference_index": 4,
+      "csv_filename": "G3-6.csv"
+    },
+    {
+      "key": "G3-7-1",
+      "run": "G07",
+      "segment": "segment01",
+      "source_video": {
+        "filename": "medium_G7_48p_50pct_10s.mp4",
+        "frames": 300,
+        "bytes": 43573424,
+        "sha256": "82AAC568DA90004C3DA49C8E44FD22C4B847200C83710379131C44959550C9D9"
+      },
+      "profile": {
+        "camera_parameters": {
+          "airframe_label": "DJI_XIAO",
+          "matrix": [
+            [
+              3196.53714,
+              0,
+              1900.41152
+            ],
+            [
+              0,
+              3193.58569,
+              1052.68158
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "distortion": [
+            0.02206809,
+            0.01549096,
+            -0.00159113,
+            -0.00199774,
+            -0.00206784
+          ]
+        },
+        "world_points": [
+          [
+            -23.266000747680664,
+            -2.9000000953674316,
+            0
+          ],
+          [
+            -23.18899917602539,
+            3.109999895095825,
+            0
+          ],
+          [
+            4.840000152587891,
+            3.140000104904175,
+            0
+          ],
+          [
+            4.820000171661377,
+            -2.8499999046325684,
+            0
+          ],
+          [
+            -13.0600004196167,
+            0,
+            0
+          ],
+          [
+            0,
+            -4.260000228881836,
+            2.7300000190734863
+          ],
+          [
+            -28.56999969482422,
+            -4,
+            2.130000114440918
+          ],
+          [
+            1.6100000143051147,
+            4.295000076293945,
+            0.12999999523162842
+          ],
+          [
+            4.010000228881836,
+            4.295000076293945,
+            0.12999999523162842
+          ],
+          [
+            -29.03499984741211,
+            0,
+            0
+          ],
+          [
+            6.954999923706055,
+            0,
+            0
+          ]
+        ],
+        "image_points": [
+          [
+            709,
+            1473
+          ],
+          [
+            714,
+            949
+          ],
+          [
+            3170,
+            960
+          ],
+          [
+            3175,
+            1483
+          ],
+          [
+            1599,
+            1225
+          ],
+          [
+            2818,
+            1653
+          ],
+          [
+            130,
+            1606
+          ],
+          [
+            2892,
+            857
+          ],
+          [
+            3104,
+            856
+          ],
+          [
+            199,
+            1218
+          ],
+          [
+            3362,
+            1236
+          ]
+        ],
+        "frames": 300,
+        "fps": 30.0,
+        "image_width_px": 3840,
+        "image_height_px": 2160,
+        "reference_frame_index": 4,
+        "class_reference_height_m": {
+          "0": 0.72,
+          "3": 0.6,
+          "9": 0.2
+        }
+      },
+      "stabilization_reference_index": 4,
+      "csv_filename": "G3-7.csv"
+    },
+    {
+      "key": "G3-15",
+      "run": "G15",
+      "segment": "segment01",
+      "source_video": {
+        "filename": "high_G15_72p_50pct_10s.mp4",
+        "frames": 300,
+        "bytes": 46720845,
+        "sha256": "87408836FBE9E0A29D4B69A322A4255A50EE92136B7DD64633216C97D6C2EFB7"
+      },
+      "profile": {
+        "camera_parameters": {
+          "airframe_label": "DJI_XIAO",
+          "matrix": [
+            [
+              3196.53714,
+              0,
+              1900.41152
+            ],
+            [
+              0,
+              3193.58569,
+              1052.68158
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "distortion": [
+            0.02206809,
+            0.01549096,
+            -0.00159113,
+            -0.00199774,
+            -0.00206784
+          ]
+        },
+        "world_points": [
+          [
+            -23.266000747680664,
+            -2.9000000953674316,
+            0
+          ],
+          [
+            -23.18899917602539,
+            3.109999895095825,
+            0
+          ],
+          [
+            4.840000152587891,
+            3.140000104904175,
+            0
+          ],
+          [
+            4.820000171661377,
+            -2.8499999046325684,
+            0
+          ],
+          [
+            -13.0600004196167,
+            0,
+            0
+          ],
+          [
+            0,
+            -4.260000228881836,
+            2.7300000190734863
+          ],
+          [
+            -28.56999969482422,
+            -4,
+            2.130000114440918
+          ],
+          [
+            1.6100000143051147,
+            4.295000076293945,
+            0.12999999523162842
+          ],
+          [
+            4.010000228881836,
+            4.295000076293945,
+            0.12999999523162842
+          ],
+          [
+            -29.03499984741211,
+            0,
+            0
+          ],
+          [
+            6.954999923706055,
+            0,
+            0
+          ]
+        ],
+        "image_points": [
+          [
+            792,
+            1493
+          ],
+          [
+            797,
+            985
+          ],
+          [
+            3177,
+            988
+          ],
+          [
+            3184,
+            1496
+          ],
+          [
+            1654,
+            1250
+          ],
+          [
+            2838,
+            1661
+          ],
+          [
+            240,
+            1623
+          ],
+          [
+            2905,
+            888
+          ],
+          [
+            3110,
+            887
+          ],
+          [
+            300,
+            1247
+          ],
+          [
+            3365,
+            1256
+          ]
+        ],
+        "frames": 300,
+        "fps": 30.0,
+        "image_width_px": 3840,
+        "image_height_px": 2160,
+        "reference_frame_index": 150,
+        "class_reference_height_m": {
+          "0": 0.72,
+          "3": 0.6,
+          "9": 0.2
+        }
+      },
+      "stabilization_reference_index": 4,
+      "csv_filename": "G3-15.csv"
+    }
+  ],
+  "label_columns": [
+    "frame",
+    "source_track_id",
+    "raw_class",
+    "cx_norm",
+    "cy_norm",
+    "width_norm",
+    "height_norm",
+    "confidence"
+  ],
+  "stabilization": {
+    "nfeatures": 2000,
+    "ratio_threshold": 0.7,
+    "minimum_matches": 21,
+    "ransac_threshold_px": 3.0,
+    "random_seed": 0
+  },
+  "automatic_matrix_repairs": {
+    "method": "automatic_held_out_background_stabilization",
+    "enabled": true,
+    "config": {
+      "seed": 20261003,
+      "nfeatures": 4000,
+      "correspondence_group_radius_px": 4.0,
+      "train_fraction": 0.5,
+      "validation_fraction": 0.25,
+      "grid_columns": 4,
+      "grid_rows": 4,
+      "screen_reference_cells_lt": 8,
+      "screen_corner_jump_gt_px": 10.0,
+      "screen_inlier_p95_gt_px": 3.0,
+      "trigger_global_median_gt_px": 1.0,
+      "trigger_global_p95_gt_px": 3.0,
+      "trigger_region_median_gt_px": 1.0,
+      "trigger_region_fraction_within3_lt": 0.8,
+      "region_min_points": 8,
+      "coverage_cell_min_points": 3,
+      "coverage_min_cells": 6,
+      "coverage_min_span_fraction": 0.5,
+      "validation_min_points": 40,
+      "train_inliers_min_points": 30,
+      "fit_ransac_threshold_px": 3.0,
+      "fit_max_iterations": 2000,
+      "fit_confidence": 0.995,
+      "candidate_median_max_px": 0.5,
+      "candidate_p95_max_px": 3.0,
+      "candidate_fraction_within3_min": 0.9,
+      "candidate_region_median_max_px": 1.0,
+      "candidate_region_fraction_within3_min": 0.8,
+      "improvement_factor_max": 0.5
+    }
+  },
+  "automatic_observations": {
+    "method": "selective_common_box_image_recovery",
+    "enabled": true,
+    "config": {
+      "max_gap_frames": 15,
+      "anchor_margin": 2,
+      "neighbor_diagonals": 1.5,
+      "min_features": 6,
+      "max_features": 80,
+      "feature_quality": 0.01,
+      "feature_spacing_px": 3.0,
+      "box_inset_fraction": 0.15,
+      "lk_window_px": 15,
+      "lk_levels": 3,
+      "max_forward_backward_px": 1.0,
+      "max_lk_error": 25.0,
+      "min_common_frames": 2,
+      "min_common_area_ratio": 1.5,
+      "max_direction_disagreement_height": 0.1,
+      "max_endpoint_error_height": 0.1,
+      "min_identity_margin_height": 0.3,
+      "max_pair_iou": 0.7,
+      "min_center_separation_height": 0.3,
+      "patch_size_fraction": 0.3,
+      "min_patch_ncc": 0.65,
+      "min_patch_peak_margin": 0.04,
+      "patch_search_radius_height": 0.35,
+      "max_reacquisition_center_error_height": 0.1
+    }
+  },
+  "inference": {
+    "parameters": {
+      "conf": 0.3,
+      "iou": 0.5,
+      "imgsz": 1280,
+      "agnostic_nms": true,
+      "half": false,
+      "rect": true,
+      "batch": 1,
+      "max_det": 300,
+      "vid_stride": 1,
+      "augment": false,
+      "classes": null,
+      "stream": true,
+      "persist": false,
+      "save": false,
+      "save_txt": false,
+      "verbose": false
+    },
+    "random_seed": 0
+  }
+}
