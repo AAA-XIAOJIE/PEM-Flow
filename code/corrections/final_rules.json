@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "batch_id": "PEMFlow_csv_revision_20261006_user05",
+  "batch_id": "PEMFlow_human_revision",
   "rules": [
     {
       "rule_id": "USER_STAFF_G3-1_20",
@@ -16,13 +16,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-1编号20为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-1_20",
         "data/revision_records/human_inputs/G3-1_frame_002205_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-1_20",
       "category": "confirmed_staff"
     },
     {
@@ -39,13 +37,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-1编号27为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-1_27",
         "data/revision_records/human_inputs/G3-1_frame_002205_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-1_27",
       "category": "confirmed_staff"
     },
     {
@@ -62,13 +58,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-2编号21为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-2_21",
         "data/revision_records/human_inputs/G3-2_frame_002206_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-2_21",
       "category": "confirmed_staff"
     },
     {
@@ -85,13 +79,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-2编号22为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-2_22",
         "data/revision_records/human_inputs/G3-2_frame_002206_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-2_22",
       "category": "confirmed_staff"
     },
     {
@@ -108,13 +100,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-2编号27为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-2_27",
         "data/revision_records/human_inputs/G3-2_frame_002206_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-2_27",
       "category": "confirmed_staff"
     },
     {
@@ -131,13 +121,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-3编号23为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-3_23",
         "data/revision_records/human_inputs/G3-3_frame_004786_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-3_23",
       "category": "confirmed_staff"
     },
     {
@@ -154,13 +142,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-3编号26为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-3_26",
         "data/revision_records/human_inputs/G3-3_frame_004786_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-3_26",
       "category": "confirmed_staff"
     },
     {
@@ -177,13 +163,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-4编号23为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-4_23",
         "data/revision_records/human_inputs/G3-4_frame_002639_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-4_23",
       "category": "confirmed_staff"
     },
     {
@@ -200,13 +184,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-4编号24为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-4_24",
         "data/revision_records/human_inputs/G3-4_frame_002639_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-4_24",
       "category": "confirmed_staff"
     },
     {
@@ -223,13 +205,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-5编号22为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-5_22",
         "data/revision_records/human_inputs/G3-5_frame_002070_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-5_22",
       "category": "confirmed_staff"
     },
     {
@@ -246,13 +226,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-5编号24为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-5_24",
         "data/revision_records/human_inputs/G3-5_frame_002070_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-5_24",
       "category": "confirmed_staff"
     },
     {
@@ -269,13 +247,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-6编号22为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-6_22",
         "data/revision_records/human_inputs/G3-6_frame_002791_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-6_22",
       "category": "confirmed_staff"
     },
     {
@@ -292,13 +268,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-7-1编号48为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-7-1_48",
         "data/revision_records/human_inputs/G3-7-1_frame_004177_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-7-1_48",
       "category": "confirmed_staff"
     },
     {
@@ -315,13 +289,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-7-1编号55为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-7-1_55",
         "data/revision_records/human_inputs/G3-7-1_frame_004177_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-7-1_55",
       "category": "confirmed_staff"
     },
     {
@@ -338,13 +310,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-7-2编号40为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-7-2_40",
         "data/revision_records/human_inputs/G3-7-2_frame_001785_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-7-2_40",
       "category": "confirmed_staff"
     },
     {
@@ -361,13 +331,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-7-2编号53为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-7-2_53",
         "data/revision_records/human_inputs/G3-7-2_frame_001785_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-7-2_53",
       "category": "confirmed_staff"
     },
     {
@@ -384,13 +352,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-7-2编号54为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-7-2_54",
         "data/revision_records/human_inputs/G3-7-2_frame_001785_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-7-2_54",
       "category": "confirmed_staff"
     },
     {
@@ -407,13 +373,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-7-2编号56为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/remaining_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-7-2_56",
         "data/revision_records/human_inputs/G3-7-2_frame_001785_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/remaining_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-7-2_56",
       "category": "confirmed_staff"
     },
     {
@@ -430,13 +394,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-8编号43为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-8_43",
         "data/revision_records/human_inputs/G3-8_frame_002505_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-8_43",
       "category": "confirmed_staff"
     },
     {
@@ -453,13 +415,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-8编号50为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-8_50",
         "data/revision_records/human_inputs/G3-8_frame_002505_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-8_50",
       "category": "confirmed_staff"
     },
     {
@@ -476,13 +436,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-9编号48为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-9_48",
         "data/revision_records/human_inputs/G3-9_frame_002229_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-9_48",
       "category": "confirmed_staff"
     },
     {
@@ -499,13 +457,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-9编号41为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-9_41",
         "data/revision_records/human_inputs/G3-9_frame_002229_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-9_41",
       "category": "confirmed_staff"
     },
     {
@@ -522,13 +478,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-10编号30为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-10_30",
         "data/revision_records/human_inputs/G3-10_frame_002374_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-10_30",
       "category": "confirmed_staff"
     },
     {
@@ -545,13 +499,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-10编号54为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-10_54",
         "data/revision_records/human_inputs/G3-10_frame_002374_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-10_54",
       "category": "confirmed_staff"
     },
     {
@@ -568,13 +520,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-11编号43为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-11_43",
         "data/revision_records/human_inputs/G3-11_frame_005753_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-11_43",
       "category": "confirmed_staff"
     },
     {
@@ -591,13 +541,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-12编号44为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-12_44",
         "data/revision_records/human_inputs/G3-12_frame_002697_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-12_44",
       "category": "confirmed_staff"
     },
     {
@@ -614,13 +562,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-12编号49为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-12_49",
         "data/revision_records/human_inputs/G3-12_frame_002697_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-12_49",
       "category": "confirmed_staff"
     },
     {
@@ -637,13 +583,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-13编号73为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-13_73",
         "data/revision_records/human_inputs/G3-13_frame_003411_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-13_73",
       "category": "confirmed_staff"
     },
     {
@@ -660,13 +604,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-13编号68为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-13_68",
         "data/revision_records/human_inputs/G3-13_frame_003411_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-13_68",
       "category": "confirmed_staff"
     },
     {
@@ -683,13 +625,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-14编号73为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-14_73",
         "data/revision_records/human_inputs/G3-14_frame_008100_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-14_73",
       "category": "confirmed_staff"
     },
     {
@@ -706,13 +646,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-14编号80为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-14_80",
         "data/revision_records/human_inputs/G3-14_frame_008100_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-14_80",
       "category": "confirmed_staff"
     },
     {
@@ -729,13 +667,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-15编号81为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-15_81",
         "data/revision_records/human_inputs/G3-15_frame_007305_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-15_81",
       "category": "confirmed_staff"
     },
     {
@@ -752,13 +688,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-15编号74为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-15_74",
         "data/revision_records/human_inputs/G3-15_frame_007305_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-15_74",
       "category": "confirmed_staff"
     },
     {
@@ -775,13 +709,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-16编号73为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-16_73",
         "data/revision_records/human_inputs/G3-16_frame_003629_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-16_73",
       "category": "confirmed_staff"
     },
     {
@@ -798,13 +730,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-16编号71为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-16_71",
         "data/revision_records/human_inputs/G3-16_frame_003629_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-16_71",
       "category": "confirmed_staff"
     },
     {
@@ -821,13 +751,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-17编号54为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-17_54",
         "data/revision_records/human_inputs/G3-17_frame_002749_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-17_54",
       "category": "confirmed_staff"
     },
     {
@@ -844,13 +772,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-18编号63为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-18_63",
         "data/revision_records/human_inputs/G3-18_frame_002924_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-18_63",
       "category": "confirmed_staff"
     },
     {
@@ -867,13 +793,11 @@
       "time": "2026-10-06T11:31:16.826409+08:00",
       "reason": "用户在视频截图中认定G3-18编号64为工作人员，删除该轨迹。",
       "evidence": [
-        "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/staff_user_confirmed_mapping_v2.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json",
+        "data/revision_records/decisions.json#USER_STAFF_G3-18_64",
         "data/revision_records/human_inputs/G3-18_frame_002924_annotated.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/staff_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_STAFF_G3-18_64",
       "category": "confirmed_staff"
     },
     {
@@ -890,24 +814,19 @@
       "time": "2026-10-06T11:41:27.106731+08:00",
       "reason": "用户认定G1编号25为实验外人员，并明确要求删除该轨迹及记录。",
       "evidence": [
-        "data/revision_records/human_inputs/g1_25_external_deletion_user_decision_20261006.json",
-        "data/revision_records/human_inputs/remaining_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/applied_revision_verification_user02_20261006.json"
+        "data/revision_records/decisions.json#USER_G1_25_EXTERNAL_PERSON_DELETE"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/g1_25_external_deletion_user_decision_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_G1_25_EXTERNAL_PERSON_DELETE",
       "category": "external_person"
     },
     {
       "actor": "human_user",
       "time": "2026-10-06T11:31:16.826409+08:00",
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/6210910f-e076-4916-83e6-a1048ed4be75.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_G6_21_DRAWN_BOXES",
       "evidence": [
-        "data/revision_records/human_inputs/6210910f-e076-4916-83e6-a1048ed4be75.json",
-        "data/revision_records/human_inputs/submission_verification_20261006.json",
-        "data/revision_records/human_inputs/remaining_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json"
+        "data/revision_records/decisions.json#USER_G6_21_DRAWN_BOXES"
       ],
       "rule_id": "USER_G6_21_DRAWN_BOXES",
       "segment": "G3-6",
@@ -1037,12 +956,9 @@
       "actor": "human_user",
       "time": "2026-10-06T11:31:16.826409+08:00",
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/6210910f-e076-4916-83e6-a1048ed4be75.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_G6_23_DRAWN_INSERTIONS",
       "evidence": [
-        "data/revision_records/human_inputs/6210910f-e076-4916-83e6-a1048ed4be75.json",
-        "data/revision_records/human_inputs/submission_verification_20261006.json",
-        "data/revision_records/human_inputs/remaining_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json"
+        "data/revision_records/decisions.json#USER_G6_23_DRAWN_INSERTIONS"
       ],
       "rule_id": "USER_G6_23_DRAWN_INSERTIONS",
       "segment": "G3-6",
@@ -1194,10 +1110,9 @@
       "actor": "human_user",
       "time": "2026-10-06T11:31:16.826409+08:00",
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/remaining_user_judgment_20261006.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_G6_21_23_IDENTITY_RECONNECT",
       "evidence": [
-        "data/revision_records/human_inputs/remaining_user_judgment_20261006.json",
-        "data/revision_records/human_inputs/combined_application_authorization_20261006.json"
+        "data/revision_records/decisions.json#USER_G6_21_23_IDENTITY_RECONNECT"
       ],
       "rule_id": "USER_G6_21_23_IDENTITY_RECONNECT",
       "segment": "G3-6",
@@ -1233,12 +1148,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-1-id29-frame1475-0a9a47375095e2de.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_29",
+        "data/revision_records/human_inputs/G3-1-id29-frame1475-0a9a47375095e2de.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_29",
       "category": "confirmed_staff"
     },
     {
@@ -1255,12 +1169,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为闯入人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-1-id38-frame4100-cc85f2eb454e2dcb.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_38",
+        "data/revision_records/human_inputs/G3-1-id38-frame4100-cc85f2eb454e2dcb.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_38",
       "category": "external_person"
     },
     {
@@ -1277,12 +1190,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-1-id30-frame787-5bdf09fde7f74615.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_30",
+        "data/revision_records/human_inputs/G3-1-id30-frame787-5bdf09fde7f74615.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_30",
       "category": "confirmed_staff"
     },
     {
@@ -1299,12 +1211,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-2-id32-frame3274-a60eb9f3f762b874.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-2_32",
+        "data/revision_records/human_inputs/G3-2-id32-frame3274-a60eb9f3f762b874.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-2_32",
       "category": "confirmed_staff"
     },
     {
@@ -1321,12 +1232,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-3-id24-frame117-88bc78ccd223d30a.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_24",
+        "data/revision_records/human_inputs/G3-3-id24-frame117-88bc78ccd223d30a.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_24",
       "category": "confirmed_staff"
     },
     {
@@ -1343,12 +1253,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-3-id34-frame6593-0cc8d05df46e6c2a.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_34",
+        "data/revision_records/human_inputs/G3-3-id34-frame6593-0cc8d05df46e6c2a.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_34",
       "category": "confirmed_staff"
     },
     {
@@ -1365,12 +1274,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-3-id38-frame8333-767291646739216e.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_38",
+        "data/revision_records/human_inputs/G3-3-id38-frame8333-767291646739216e.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_38",
       "category": "confirmed_staff"
     },
     {
@@ -1387,12 +1295,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-3-id40-frame8600-7e52c56f0a06adf6.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_40",
+        "data/revision_records/human_inputs/G3-3-id40-frame8600-7e52c56f0a06adf6.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_40",
       "category": "confirmed_staff"
     },
     {
@@ -1409,12 +1316,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-3-id35-frame7256-786f3cb263c2d4c4.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_35",
+        "data/revision_records/human_inputs/G3-3-id35-frame7256-786f3cb263c2d4c4.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_35",
       "category": "confirmed_staff"
     },
     {
@@ -1431,12 +1337,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-7-1-id50-frame375-b20617baa29107ef.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-7-1_50",
+        "data/revision_records/human_inputs/G3-7-1-id50-frame375-b20617baa29107ef.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-7-1_50",
       "category": "confirmed_staff"
     },
     {
@@ -1453,12 +1358,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-8-id56-frame4815-e6ae944a91a0528a.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-8_56",
+        "data/revision_records/human_inputs/G3-8-id56-frame4815-e6ae944a91a0528a.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-8_56",
       "category": "confirmed_staff"
     },
     {
@@ -1475,12 +1379,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-8-id57-frame4944-77dbd7a39246f5e9.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-8_57",
+        "data/revision_records/human_inputs/G3-8-id57-frame4944-77dbd7a39246f5e9.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-8_57",
       "category": "confirmed_staff"
     },
     {
@@ -1497,12 +1400,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-9-id57-frame4115-f68d9fdbf825c50c.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-9_57",
+        "data/revision_records/human_inputs/G3-9-id57-frame4115-f68d9fdbf825c50c.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-9_57",
       "category": "confirmed_staff"
     },
     {
@@ -1519,12 +1421,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-12-id46-frame1619-24ef78116c556ef9.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-12_46",
+        "data/revision_records/human_inputs/G3-12-id46-frame1619-24ef78116c556ef9.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-12_46",
       "category": "confirmed_staff"
     },
     {
@@ -1541,12 +1442,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-12-id43-frame50-4d8e940321534b53.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-12_43",
+        "data/revision_records/human_inputs/G3-12-id43-frame50-4d8e940321534b53.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-12_43",
       "category": "confirmed_staff"
     },
     {
@@ -1563,12 +1463,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-14-id98-frame15258-00caba722180b507.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-14_98",
+        "data/revision_records/human_inputs/G3-14-id98-frame15258-00caba722180b507.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-14_98",
       "category": "confirmed_staff"
     },
     {
@@ -1585,12 +1484,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-14-id97-frame15382-077297898b37aa4f.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-14_97",
+        "data/revision_records/human_inputs/G3-14-id97-frame15382-077297898b37aa4f.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-14_97",
       "category": "confirmed_staff"
     },
     {
@@ -1607,12 +1505,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-14-id60-frame4877-827e0aa738f29423.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-14_60",
+        "data/revision_records/human_inputs/G3-14-id60-frame4877-827e0aa738f29423.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-14_60",
       "category": "confirmed_staff"
     },
     {
@@ -1629,12 +1526,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-14-id103-frame16092-3f21d67b606ed556.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-14_103",
+        "data/revision_records/human_inputs/G3-14-id103-frame16092-3f21d67b606ed556.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-14_103",
       "category": "confirmed_staff"
     },
     {
@@ -1651,12 +1547,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-15-id89-frame11730-e112a321a51cddec.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-15_89",
+        "data/revision_records/human_inputs/G3-15-id89-frame11730-e112a321a51cddec.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-15_89",
       "category": "confirmed_staff"
     },
     {
@@ -1673,12 +1568,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-15-id80-frame4294-b70eb13a15da13de.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-15_80",
+        "data/revision_records/human_inputs/G3-15-id80-frame4294-b70eb13a15da13de.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-15_80",
       "category": "confirmed_staff"
     },
     {
@@ -1695,12 +1589,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-15-id65-frame70-5bb7cdd2713a5794.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-15_65",
+        "data/revision_records/human_inputs/G3-15-id65-frame70-5bb7cdd2713a5794.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-15_65",
       "category": "confirmed_staff"
     },
     {
@@ -1717,12 +1610,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-17-id14-frame300-a9667a265d0a75a4.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-17_14",
+        "data/revision_records/human_inputs/G3-17-id14-frame300-a9667a265d0a75a4.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-17_14",
       "category": "confirmed_staff"
     },
     {
@@ -1739,12 +1631,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-17-id80-frame5333-9c17b50ecf2f14ee.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-17_80",
+        "data/revision_records/human_inputs/G3-17-id80-frame5333-9c17b50ecf2f14ee.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-17_80",
       "category": "confirmed_staff"
     },
     {
@@ -1761,12 +1652,11 @@
       "time": "2026-10-06T05:21:01.909787+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
-        "data/revision_records/human_inputs/G3-17-id79-frame4094-6b6717866ba686af.jpg",
-        "data/revision_records/human_inputs/application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-17_79",
+        "data/revision_records/human_inputs/G3-17-id79-frame4094-6b6717866ba686af.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/c8322d87-7e23-42c3-abdf-06b57a72f677.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-17_79",
       "category": "confirmed_staff"
     },
     {
@@ -1783,12 +1673,11 @@
       "time": "2026-10-06T05:45:17.952091+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
-        "data/revision_records/human_inputs/G3-1-id28-frame578-61b2edf6a38e24f7.jpg",
-        "data/revision_records/human_inputs/459E7F83_application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_28",
+        "data/revision_records/human_inputs/G3-1-id28-frame578-61b2edf6a38e24f7.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_28",
       "category": "confirmed_staff"
     },
     {
@@ -1805,12 +1694,11 @@
       "time": "2026-10-06T05:45:17.952091+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
-        "data/revision_records/human_inputs/G3-1-id32-frame1089-989c948eb7742262.jpg",
-        "data/revision_records/human_inputs/459E7F83_application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_32",
+        "data/revision_records/human_inputs/G3-1-id32-frame1089-989c948eb7742262.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_32",
       "category": "confirmed_staff"
     },
     {
@@ -1827,12 +1715,11 @@
       "time": "2026-10-06T05:45:17.952091+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
-        "data/revision_records/human_inputs/G3-1-id37-frame4345-c8deeb0585090d76.jpg",
-        "data/revision_records/human_inputs/459E7F83_application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_37",
+        "data/revision_records/human_inputs/G3-1-id37-frame4345-c8deeb0585090d76.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_37",
       "category": "confirmed_staff"
     },
     {
@@ -1849,12 +1736,11 @@
       "time": "2026-10-06T05:45:17.952091+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
-        "data/revision_records/human_inputs/G3-1-id35-frame3486-3ed6cdc8f2ea0c9a.jpg",
-        "data/revision_records/human_inputs/459E7F83_application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_35",
+        "data/revision_records/human_inputs/G3-1-id35-frame3486-3ed6cdc8f2ea0c9a.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-1_35",
       "category": "confirmed_staff"
     },
     {
@@ -1871,12 +1757,11 @@
       "time": "2026-10-06T05:45:17.952091+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
-        "data/revision_records/human_inputs/G3-3-id37-frame8790-611529ece48efda3.jpg",
-        "data/revision_records/human_inputs/459E7F83_application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_37",
+        "data/revision_records/human_inputs/G3-3-id37-frame8790-611529ece48efda3.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_37",
       "category": "confirmed_staff"
     },
     {
@@ -1893,12 +1778,11 @@
       "time": "2026-10-06T05:45:17.952091+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
-        "data/revision_records/human_inputs/G3-3-id41-frame9559-1af3fdf80ba365dd.jpg",
-        "data/revision_records/human_inputs/459E7F83_application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_41",
+        "data/revision_records/human_inputs/G3-3-id41-frame9559-1af3fdf80ba365dd.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_41",
       "category": "confirmed_staff"
     },
     {
@@ -1915,12 +1799,11 @@
       "time": "2026-10-06T05:45:17.952091+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
-        "data/revision_records/human_inputs/G3-3-id36-frame7964-9b115c40761b363c.jpg",
-        "data/revision_records/human_inputs/459E7F83_application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_36",
+        "data/revision_records/human_inputs/G3-3-id36-frame7964-9b115c40761b363c.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_36",
       "category": "confirmed_staff"
     },
     {
@@ -1937,12 +1820,11 @@
       "time": "2026-10-06T05:45:17.952091+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
-        "data/revision_records/human_inputs/G3-3-id31-frame5937-9ac737f1636e4177.jpg",
-        "data/revision_records/human_inputs/459E7F83_application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_31",
+        "data/revision_records/human_inputs/G3-3-id31-frame5937-9ac737f1636e4177.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_31",
       "category": "confirmed_staff"
     },
     {
@@ -1959,12 +1841,11 @@
       "time": "2026-10-06T05:45:17.952091+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
-        "data/revision_records/human_inputs/G3-3-id33-frame6288-7aeeb6eaa57ad29c.jpg",
-        "data/revision_records/human_inputs/459E7F83_application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_33",
+        "data/revision_records/human_inputs/G3-3-id33-frame6288-7aeeb6eaa57ad29c.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_33",
       "category": "confirmed_staff"
     },
     {
@@ -1981,12 +1862,11 @@
       "time": "2026-10-06T05:45:17.952091+00:00",
       "reason": "用户查看原视频截图后确认该整条轨迹为工作人员",
       "evidence": [
-        "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
-        "data/revision_records/human_inputs/G3-3-id28-frame3103-21c529c8b04c52b9.jpg",
-        "data/revision_records/human_inputs/459E7F83_application_authorization.json"
+        "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_28",
+        "data/revision_records/human_inputs/G3-3-id28-frame3103-21c529c8b04c52b9.jpg"
       ],
       "user_approved": true,
-      "approval_reference": "data/revision_records/human_inputs/0e8c299a-e4d7-4351-96eb-63063b0eea87.json",
+      "approval_reference": "data/revision_records/decisions.json#USER_PERSON_REVIEW_G3-3_28",
       "category": "confirmed_staff"
     }
   ]

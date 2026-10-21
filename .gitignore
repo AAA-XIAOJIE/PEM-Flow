@@ -8,9 +8,6 @@ code/build/
 code/dist/
 code/src/*.egg-info/
 outputs/
-data/
+data/*
+!data/demo/
 code/validation/images/
-assets/videos/*
-!assets/videos/README.txt
-assets/demos/*
-!assets/demos/README.txt

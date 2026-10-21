@@ -1,43 +1,53 @@
 {
   "package": "PEM-Flow",
-  "contents": "Processing software, model, configurations and annotation records",
-  "file_count": 81,
-  "total_bytes": 56215168,
+  "contents": "Processing code, model, demonstrations, matching results and annotations",
+  "file_count": 96,
+  "total_bytes": 338420100,
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 149,
-      "sha256": "7e7f5a8acb87f7e59feb63cc19ebe064df025fd009ebdca72a139e053e8d6a70"
+      "bytes": 196,
+      "sha256": "76b4819dbc07a473e09b7a22134dd64bdbe0d4024d9911887f333f291864e432"
     },
     {
       "path": ".gitignore",
-      "bytes": 267,
-      "sha256": "a766167fe03694516b23d0c7549364c0901a33abf338a452b427805a2b9aa879"
+      "bytes": 182,
+      "sha256": "cefe027eb41114146eba93ad0d328b5fc74744f029896db10f34c033269456c6"
+    },
+    {
+      "path": "assets/demos/clip_manifest.json",
+      "bytes": 2806,
+      "sha256": "8ba391532eabc605097cddd93900a1cba43c1a17980a18898f6450a7a0b51c6a"
+    },
+    {
+      "path": "assets/demos/high_G15_72p_50pct_10s.mp4",
+      "bytes": 101114151,
+      "sha256": "25f22a9038ae65977e2496df0b3003422d3bcd92d5cd3a2d9320c1cbd874b3e2"
+    },
+    {
+      "path": "assets/demos/low_G6_24p_50pct_10s.mp4",
+      "bytes": 84862131,
+      "sha256": "010aeadb750f097b33826397b885b85d28641bd5e421acf53256e10f02beafbb"
+    },
+    {
+      "path": "assets/demos/medium_G7_48p_50pct_10s.mp4",
+      "bytes": 85227493,
+      "sha256": "55ce4bface11ebb0c126505ca68f0bfd14d12b8776da9a309de3bb295b02ae58"
     },
     {
       "path": "assets/demos/README.txt",
-      "bytes": 464,
-      "sha256": "12ea3b441bb5f2ddbdfdb5738be764f22748d1e80ef3a763b26f3ab0c78afa13"
+      "bytes": 290,
+      "sha256": "14e297beecb507a8fcd3deb5181826d34fac15f966a20f80fe6a61e622c11013"
     },
     {
       "path": "assets/model/MODEL.json",
-      "bytes": 184,
-      "sha256": "132263b201526695b9d11444916eaec91bb0acfa3ff142269a3111c72f65890f"
+      "bytes": 130,
+      "sha256": "4cddfc85507149e606d5d770e42a8e356bc2fe78d23c589472e61205ee764ae6"
     },
     {
       "path": "assets/model/train12/best.pt",
       "bytes": 40609324,
       "sha256": "e8766bc961929fd9fb27885c6a1b8b1f5fac632ee24f6f76d18ae0f6f9b140ca"
-    },
-    {
-      "path": "assets/video_manifest.csv",
-      "bytes": 2091,
-      "sha256": "e69d0fb2a917a102796299fbc3437098f28763822c85d8ba6b4a3452782e6b2b"
-    },
-    {
-      "path": "assets/videos/README.txt",
-      "bytes": 399,
-      "sha256": "8ceac7294b90c62a4aeef20624f5e231d9cd81f3817d595fb73f029fc5b8f08c"
     },
     {
       "path": "code/CITATION.cff",
@@ -56,8 +66,8 @@
     },
     {
       "path": "code/configs/demo_dataset.json",
-      "bytes": 12610,
-      "sha256": "52bd92414ab2ed06f34c769cadfe7b479f6da4f13e2cad8901929ed465455b46"
+      "bytes": 12039,
+      "sha256": "125d76f697b15194589e0c4afd57efba736e460024dea36eca4b8c59430e91b3"
     },
     {
       "path": "code/configs/inference.json",
@@ -71,8 +81,8 @@
     },
     {
       "path": "code/corrections/final_rules.json",
-      "bytes": 73957,
-      "sha256": "5e9f241f08817c52af8b9e72f65c1349bdb0b2d1ce4c9919d5b3f46f86f31250"
+      "bytes": 61676,
+      "sha256": "a8493ea73e13291a669d206ded28416098c474a29559afec26c6f05deadafd11"
     },
     {
       "path": "code/docs/data_dictionary.md",
@@ -116,13 +126,13 @@
     },
     {
       "path": "code/README.md",
-      "bytes": 6835,
-      "sha256": "067426c8369cc51fc23310c5654debda1bd1c4f7e5efed6ecc87dad507795d70"
+      "bytes": 4994,
+      "sha256": "875c0e43ca30da41cbe0a73bd2240338402d29dcc85faa69f140e8c72b0e5680"
     },
     {
       "path": "code/README_zh.md",
-      "bytes": 6238,
-      "sha256": "ff3c4950e75d6918d8f28443b7c6a5443ef277c85095b09e6bbd055a32bc7b5a"
+      "bytes": 4675,
+      "sha256": "b03208f08e53d7a9930b1655d6ebe5ba1630044fb45fa2e9be91db0286f3914d"
     },
     {
       "path": "code/requirements/cpu.txt",
@@ -146,8 +156,8 @@
     },
     {
       "path": "code/src/pemflow/cli.py",
-      "bytes": 5004,
-      "sha256": "970374c03c069b1996ce0203578452f4f3b57c639f1348b3cec2dc78c453b08b"
+      "bytes": 5003,
+      "sha256": "f4045470abe6ecfffe6ea09957ba8b13679ce131b69bffacd2e94f9f1ff55610"
     },
     {
       "path": "code/src/pemflow/downstream/__init__.py",
@@ -400,14 +410,79 @@
       "sha256": "35545e29fa945334ffb2486b4bc75254b46144f91a8ffeef057a4ae389faf3b8"
     },
     {
+      "path": "data/demo/dataset.json",
+      "bytes": 12039,
+      "sha256": "125d76f697b15194589e0c4afd57efba736e460024dea36eca4b8c59430e91b3"
+    },
+    {
+      "path": "data/demo/lineage/G3-15.csv.gz",
+      "bytes": 687874,
+      "sha256": "25276e32feaf16e3638d9080480db0b3084b460fd43982c26ad9f9825d9063af"
+    },
+    {
+      "path": "data/demo/lineage/G3-6.csv.gz",
+      "bytes": 240898,
+      "sha256": "d3773310c48d5b893f3fe1e1254d3e9ca609068b0ed9f8305ae95c225d3fc678"
+    },
+    {
+      "path": "data/demo/lineage/G3-7.csv.gz",
+      "bytes": 466408,
+      "sha256": "610844e6b8f0374a8a715b9f961944529e916a99b73a19f08adc4d0a3b7bca8b"
+    },
+    {
+      "path": "data/demo/manifest.json",
+      "bytes": 1994,
+      "sha256": "757f8cb01615ed00f5cee8d1ba43af33261f1f6d63ece9f1b1fd8380385a9993"
+    },
+    {
+      "path": "data/demo/motion/G3-15.csv",
+      "bytes": 3387008,
+      "sha256": "bdf00e1cf8475f14bab76215b3648c83cb0259efbff7f3db8c329a1071609710"
+    },
+    {
+      "path": "data/demo/motion/G3-6.csv",
+      "bytes": 1161529,
+      "sha256": "f49e2020c1dfa55a59eb5e6fa745fb13d140ec77e606c0c879db3b784c5668ae"
+    },
+    {
+      "path": "data/demo/motion/G3-7.csv",
+      "bytes": 2249772,
+      "sha256": "620d7d930428f59ab1641c90651e58763cc63c6e72905be4d6b99040c1db0d2a"
+    },
+    {
+      "path": "data/demo/README.md",
+      "bytes": 825,
+      "sha256": "43571092e817cda5d8e0701162815d70ad4f255746abd140c1d69f7e06603207"
+    },
+    {
+      "path": "data/demo/run.json",
+      "bytes": 630,
+      "sha256": "2a6754a1bee785e5ffd513fe0105fa7ea1d3c505289ef9bb2cba18ec2e8a1e8e"
+    },
+    {
+      "path": "data/demo/trajectory/G3-15.csv",
+      "bytes": 1403004,
+      "sha256": "8460c9c74863e90a98b3f57ae60d3446936de2369c346504e37a3b3ad55e7a38"
+    },
+    {
+      "path": "data/demo/trajectory/G3-6.csv",
+      "bytes": 480663,
+      "sha256": "72e3dc695b1711ef188f96ef2c5643c06f2042deeaa0a2f57dc0a8b6b2c9283c"
+    },
+    {
+      "path": "data/demo/trajectory/G3-7.csv",
+      "bytes": 924832,
+      "sha256": "0d77332eb5f7bb7d6be0ee05b8bf3afcb4584af80512d11cfbbb81c62829c68c"
+    },
+    {
       "path": "DATA_LICENSE.txt",
       "bytes": 881,
       "sha256": "402076ec27f696b3caf327c41f4e3ca2782435ae5a12dc87b2b5e2b03d3e9dbc"
     },
     {
       "path": "README.md",
-      "bytes": 2772,
-      "sha256": "2e87300c67b95014cc32d0521582f5a47d7b3024c6ee34d3a94a313f50ca7e14"
+      "bytes": 2660,
+      "sha256": "55c63e6d9d4c2de36c91abf0f2281b1f72ddbeffff27cf0c226af5054a895d2c"
     }
   ]
 }

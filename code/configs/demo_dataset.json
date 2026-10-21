@@ -7,8 +7,8 @@
       "source_video": {
         "filename": "low_G6_24p_50pct_10s.mp4",
         "frames": 300,
-        "bytes": 43261379,
-        "sha256": "0D60FBEA6B2A7DDFB12C257944E837818814034608B828CF4F062DB85671DC9C"
+        "bytes": 84862131,
+        "sha256": "010aeadb750f097b33826397b885b85d28641bd5e421acf53256e10f02beafbb"
       },
       "profile": {
         "camera_parameters": {
@@ -162,8 +162,8 @@
       "source_video": {
         "filename": "medium_G7_48p_50pct_10s.mp4",
         "frames": 300,
-        "bytes": 43573424,
-        "sha256": "82AAC568DA90004C3DA49C8E44FD22C4B847200C83710379131C44959550C9D9"
+        "bytes": 85227493,
+        "sha256": "55ce4bface11ebb0c126505ca68f0bfd14d12b8776da9a309de3bb295b02ae58"
       },
       "profile": {
         "camera_parameters": {
@@ -317,8 +317,8 @@
       "source_video": {
         "filename": "high_G15_72p_50pct_10s.mp4",
         "frames": 300,
-        "bytes": 46720845,
-        "sha256": "87408836FBE9E0A29D4B69A322A4255A50EE92136B7DD64633216C97D6C2EFB7"
+        "bytes": 101114151,
+        "sha256": "25f22a9038ae65977e2496df0b3003422d3bcd92d5cd3a2d9320c1cbd874b3e2"
       },
       "profile": {
         "camera_parameters": {
@@ -455,7 +455,7 @@
         "fps": 30.0,
         "image_width_px": 3840,
         "image_height_px": 2160,
-        "reference_frame_index": 150,
+        "reference_frame_index": 213,
         "class_reference_height_m": {
           "0": 0.72,
           "3": 0.6,
