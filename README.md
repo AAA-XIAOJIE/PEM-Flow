@@ -44,9 +44,16 @@ Use `--device cpu` with the CPU installation. The command reads
 
 ## Use the dataset
 
-Extract `PEMFlow_data.zip` from Zenodo. Copy its `PEM-Flow/assets/`,
-`PEM-Flow/code/` and `PEM-Flow/data/` directories into this repository,
-merging directories with the same names.
+The code, model, configurations, annotation XML, revision rules and three
+demonstrations with matching results are supplied in this GitHub repository.
+The complete experiment results and companion data are supplied as
+`PEMFlow_data.zip` on Zenodo.
+
+Extract the data archive, then copy its `PEM-Flow/code/` and `PEM-Flow/data/`
+directories into this repository, merging directories with the same names.
+This adds the annotation images and complete experiment data to the code and
+demonstrations already present here. Follow the commands in `code/README.md`
+or `code/README_zh.md` from the combined repository.
 
 | Location | Contents |
 | --- | --- |

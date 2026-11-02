@@ -66,8 +66,14 @@ and the output directory's `progress.json`.
 
 ## Use the dataset
 
-Extract `PEMFlow_data.zip`. Copy its `PEM-Flow/assets/`, `PEM-Flow/code/` and
-`PEM-Flow/data/` into the repository root, merging matching directories.
+The [GitHub repository](https://github.com/AAA-XIAOJIE/PEM-Flow) supplies
+the processing code, model, configurations, annotation XML, revision rules and
+demonstrations. The complete experiment results, annotation images, projection
+inputs and downstream results are supplied in `PEMFlow_data.zip` on Zenodo.
+
+Extract that archive, then copy its `PEM-Flow/code/` and `PEM-Flow/data/` into
+the cloned repository root, merging matching directories. Annotation images
+will be at `code/validation/images/`; complete results will be under `data/`.
 The following commands run from `code/`.
 
 | Task | Command |
