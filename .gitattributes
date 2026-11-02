@@ -1,0 +1,9 @@
+* -text
+*.pt binary
+*.npz binary
+*.gz binary
+*.png binary
+*.jpg binary
+*.mp4 binary
+assets/model/**/*.pt filter=lfs diff=lfs merge=lfs -text
+assets/demos/*.mp4 filter=lfs diff=lfs merge=lfs -text

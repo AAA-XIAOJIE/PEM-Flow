@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE",
+  "frames": 900,
+  "rows": 45167,
+  "segments": [
+    {
+      "key": "G3-6",
+      "frames": 300,
+      "rows": 7727,
+      "identities": 26,
+      "classes": {
+        "0": 4200,
+        "9": 3300,
+        "3": 227
+      }
+    },
+    {
+      "key": "G3-7-1",
+      "frames": 300,
+      "rows": 14940,
+      "identities": 51,
+      "classes": {
+        "0": 7968,
+        "9": 6900,
+        "3": 72
+      }
+    },
+    {
+      "key": "G3-15",
+      "frames": 300,
+      "rows": 22500,
+      "identities": 75,
+      "classes": {
+        "9": 11400,
+        "0": 10800,
+        "3": 300
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "package": "PEM-Flow",
+  "contents": "Demonstration trajectory, motion and lineage results",
+  "file_count": 12,
+  "total_bytes": 11015482,
+  "files": [
+    {
+      "path": "dataset.json",
+      "bytes": 12039,
+      "sha256": "125d76f697b15194589e0c4afd57efba736e460024dea36eca4b8c59430e91b3"
+    },
+    {
+      "path": "lineage/G3-15.csv.gz",
+      "bytes": 687874,
+      "sha256": "25276e32feaf16e3638d9080480db0b3084b460fd43982c26ad9f9825d9063af"
+    },
+    {
+      "path": "lineage/G3-6.csv.gz",
+      "bytes": 240898,
+      "sha256": "d3773310c48d5b893f3fe1e1254d3e9ca609068b0ed9f8305ae95c225d3fc678"
+    },
+    {
+      "path": "lineage/G3-7.csv.gz",
+      "bytes": 466408,
+      "sha256": "610844e6b8f0374a8a715b9f961944529e916a99b73a19f08adc4d0a3b7bca8b"
+    },
+    {
+      "path": "motion/G3-15.csv",
+      "bytes": 3387008,
+      "sha256": "bdf00e1cf8475f14bab76215b3648c83cb0259efbff7f3db8c329a1071609710"
+    },
+    {
+      "path": "motion/G3-6.csv",
+      "bytes": 1161529,
+      "sha256": "f49e2020c1dfa55a59eb5e6fa745fb13d140ec77e606c0c879db3b784c5668ae"
+    },
+    {
+      "path": "motion/G3-7.csv",
+      "bytes": 2249772,
+      "sha256": "620d7d930428f59ab1641c90651e58763cc63c6e72905be4d6b99040c1db0d2a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 825,
+      "sha256": "43571092e817cda5d8e0701162815d70ad4f255746abd140c1d69f7e06603207"
+    },
+    {
+      "path": "run.json",
+      "bytes": 630,
+      "sha256": "2a6754a1bee785e5ffd513fe0105fa7ea1d3c505289ef9bb2cba18ec2e8a1e8e"
+    },
+    {
+      "path": "trajectory/G3-15.csv",
+      "bytes": 1403004,
+      "sha256": "8460c9c74863e90a98b3f57ae60d3446936de2369c346504e37a3b3ad55e7a38"
+    },
+    {
+      "path": "trajectory/G3-6.csv",
+      "bytes": 480663,
+      "sha256": "72e3dc695b1711ef188f96ef2c5643c06f2042deeaa0a2f57dc0a8b6b2c9283c"
+    },
+    {
+      "path": "trajectory/G3-7.csv",
+      "bytes": 924832,
+      "sha256": "0d77332eb5f7bb7d6be0ee05b8bf3afcb4584af80512d11cfbbb81c62829c68c"
+    }
+  ]
+}

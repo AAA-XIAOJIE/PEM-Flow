@@ -1,0 +1,8 @@
+{
+  "model_architecture": "YOLO11m",
+  "image_size": 1280,
+  "confidence_threshold": 0.3,
+  "evaluation_detection_confidence_threshold": 0.001,
+  "nms_iou_threshold": 0.5,
+  "agnostic_nms": true
+}

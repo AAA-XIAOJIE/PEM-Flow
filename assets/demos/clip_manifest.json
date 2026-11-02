@@ -1,0 +1,104 @@
+{
+  "videos": [
+    {
+      "key": "G3-6",
+      "filename": "low_G6_24p_50pct_10s.mp4",
+      "participants": 24,
+      "e_bike_percent": 50,
+      "frames": 300,
+      "fps": 30,
+      "width": 3840,
+      "height": 2160,
+      "duration_s": 10,
+      "source_filename": "G3-6.mp4",
+      "source_start_frame_1based": 1,
+      "source_end_frame_1based": 300,
+      "calibration_reference_index_0based": 4,
+      "encoding": "Original H.264 video stream; stream-copy extraction",
+      "bytes": 84862131,
+      "sha256": "010aeadb750f097b33826397b885b85d28641bd5e421acf53256e10f02beafbb",
+      "pixel_identical_frames": 300
+    },
+    {
+      "key": "G3-7-1",
+      "filename": "medium_G7_48p_50pct_10s.mp4",
+      "participants": 48,
+      "e_bike_percent": 50,
+      "frames": 300,
+      "fps": 30,
+      "width": 3840,
+      "height": 2160,
+      "duration_s": 10,
+      "source_filename": "G3-7.mp4",
+      "source_start_frame_1based": 1,
+      "source_end_frame_1based": 300,
+      "calibration_reference_index_0based": 4,
+      "encoding": "Original H.264 video stream; stream-copy extraction",
+      "bytes": 85227493,
+      "sha256": "55ce4bface11ebb0c126505ca68f0bfd14d12b8776da9a309de3bb295b02ae58",
+      "pixel_identical_frames": 300
+    },
+    {
+      "key": "G3-15",
+      "filename": "high_G15_72p_50pct_10s.mp4",
+      "participants": 72,
+      "e_bike_percent": 50,
+      "frames": 300,
+      "fps": 30,
+      "width": 3840,
+      "height": 2160,
+      "duration_s": 10,
+      "source_filename": "G3-15.mp4",
+      "source_start_frame_1based": 4051,
+      "source_end_frame_1based": 4350,
+      "calibration_reference_index_0based": 213,
+      "encoding": "Original H.264 video stream; stream-copy extraction",
+      "bytes": 101114151,
+      "sha256": "25f22a9038ae65977e2496df0b3003422d3bcd92d5cd3a2d9320c1cbd874b3e2",
+      "pixel_identical_frames": 300
+    }
+  ],
+  "outputs": "data/demo/",
+  "processing": {
+    "configuration": "code/configs/demo_dataset.json",
+    "configuration_sha256": "125d76f697b15194589e0c4afd57efba736e460024dea36eca4b8c59430e91b3",
+    "outputs": "data/demo/",
+    "total_frames": 900,
+    "total_rows": 45167,
+    "segments": [
+      {
+        "key": "G3-6",
+        "frames": 300,
+        "rows": 7727,
+        "identities": 26,
+        "classes": {
+          "0": 4200,
+          "9": 3300,
+          "3": 227
+        }
+      },
+      {
+        "key": "G3-7-1",
+        "frames": 300,
+        "rows": 14940,
+        "identities": 51,
+        "classes": {
+          "0": 7968,
+          "9": 6900,
+          "3": 72
+        }
+      },
+      {
+        "key": "G3-15",
+        "frames": 300,
+        "rows": 22500,
+        "identities": 75,
+        "classes": {
+          "9": 11400,
+          "0": 10800,
+          "3": 300
+        }
+      }
+    ]
+  }
+}
