@@ -69,7 +69,8 @@ and the output directory's `progress.json`.
 The [GitHub repository](https://github.com/AAA-XIAOJIE/PEM-Flow) supplies
 the processing code, model, configurations, annotation XML, revision rules and
 demonstrations. The complete experiment results, annotation images, projection
-inputs and downstream results are supplied in `PEMFlow_data.zip` on Zenodo.
+inputs and downstream results are supplied in `PEMFlow_data.zip` on
+[Zenodo](https://doi.org/10.5281/zenodo.23501342).
 
 Extract that archive, then copy its `PEM-Flow/code/` and `PEM-Flow/data/` into
 the cloned repository root, merging matching directories. Annotation images

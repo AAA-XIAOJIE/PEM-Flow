@@ -63,7 +63,7 @@ python -m pemflow run --workers 2 --device 0 --output ../outputs/demo
 ## 使用数据集
 
 [GitHub 仓库](https://github.com/AAA-XIAOJIE/PEM-Flow)提供处理代码、模型、
-配置、人工标注 XML、人工修订规则，以及三段示例视频和对应结果。Zenodo 的
+配置、人工标注 XML、人工修订规则，以及三段示例视频和对应结果。[Zenodo](https://doi.org/10.5281/zenodo.23501342) 的
 `PEMFlow_data.zip` 提供全部实验的正式结果、标注图片、投影输入和下游结果。
 
 解压数据包，将其中 `PEM-Flow/code/` 和 `PEM-Flow/data/` 复制到已下载的
